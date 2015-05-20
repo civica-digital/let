@@ -140,7 +140,7 @@ aside {
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: darken(@theme-primary, 10%);
+                    color: darken($theme-primary, 10%);
                 }
             }
             .nav > li > a,

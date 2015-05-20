@@ -2,9 +2,8 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem 'jekyll', '1.1.2'
 gem 'coffee-script'
 gem 'therubyracer'
 gem 'guard'
 gem 'guard-livereload'
-gem 'github-pages'
+gem 'jekyll', '>= 2.0.0'
