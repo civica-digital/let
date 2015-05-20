@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  {% include start_head.html %}
 
+  <link rel="stylesheet" href="/css/creative.css" type="text/css">
+
+  {% include end_head.html %}
   <body id="page-top">
     {% include nav.html %}
-    {% include header.html %}
 
+    {% include header.html %}
     {{ content }}
 
     {% include footer.html %}
