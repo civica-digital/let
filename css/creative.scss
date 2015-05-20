@@ -227,6 +227,9 @@ header {
     p {
         margin-bottom: 0;
     }
+    h4 {
+      margin-top: 40px;
+    }
 }
 
 .portfolio-box {
@@ -365,4 +368,13 @@ body {
       content: "LET";
     }
   }
+}
+
+i {
+  margin-bottom: 30px;
+}
+
+.embed-responsive {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
