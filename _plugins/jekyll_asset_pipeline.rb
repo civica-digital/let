@@ -13,4 +13,14 @@ module JekyllAssetPipeline
       return parser.parse(@content).to_css
     end
   end
+
+  class CssTagTemplate < JekyllAssetPipeline::Template
+    def self.filetype
+      '.css'
+    end
+
+    def html
+      "<link href='#{@path}/#{@filename}' rel='stylesheet' type='text/css' media='screen' />\n"
+    end
+  end
 end
