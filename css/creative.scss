@@ -366,12 +366,7 @@ body {
 }
 
 .short-title:after {
-  content: "Laboratorio de Emprendimiento y Transformación";
-  @media (max-width: 1200px) {
-    & {
-      content: "LET";
-    }
-  }
+  background-image: url('../img/logos/let-itesm.png')
 }
 
 i {
@@ -386,4 +381,9 @@ i {
 
 .bg-grey {
   background-color: #F8F8F8;
+}
+
+
+#mainNav .container-fluid {
+  height: 65px;
 }
