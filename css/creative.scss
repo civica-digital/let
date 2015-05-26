@@ -365,10 +365,6 @@ body {
     webkit-tap-highlight-color: $theme-dark;
 }
 
-.short-title:after {
-  background-image: url('../img/logos/let-itesm.png')
-}
-
 i {
   margin-bottom: 30px;
 }
@@ -385,5 +381,9 @@ i {
 
 
 #mainNav .container-fluid {
-  height: 65px;
+  min-height: 65px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+   border-color: transparent; 
 }
