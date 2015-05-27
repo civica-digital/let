@@ -17,6 +17,15 @@ es:
     - content: Atraer al mejor talento a la Escuela, que incluye comunidad de emprendedores, pensadores académicos, desarrolladores y diseñadores.
       img: /img/icons/book.png
 
+  how_content:
+    - "La comunidad del LET funciona bajo un modelo de colaboración que fomenta la <strong>interacción transdisciplinaria</strong> con fines creativos y de innovación. Tiene como principio que
+       la unión bien llevada de la diversidad de ideas, culturas, habilidades y disciplinas de personas con metas comunes son un catalizador de productividad e innovación fundamental para
+       el futuro de cualquier organización y país."
+
+    - "El Laboratorio de Emprendimiento y Transformación  es una filosofía de trabajo <strong>flexible y adaptable</strong>."
+
+    -  En el LET la experimentación y el fracaso son celebrados. Ser audaz y pensar en grande es la mentalidad prevaleciente.
+
 en:
   who_content:
     - "In the Graduate School of Government and Public Transformation at Tecnológico de Monterrey, we believe that entrepreneurship is the way to unleash local, regional and global development through the creation of platforms that generate opportunities for better life conditions."
@@ -34,3 +43,10 @@ en:
 
     - content: Attract top talent groups and individuals to the School of Government, including a community of entrepreneurs, academics, thinkers, developers and designers.
       img: /img/icons/book.png
+
+  how_content:
+    - "The LET community operates under a collaborative model that encourages transdisciplinary interaction with creative and innovative purposes. Its principle is that the effective union of diverse ideas, cultures, skills and disciplines of people with a common goal is a catalyst for productivity and innovation, and it’s critical for the future of any country and organization."
+
+    - "LET is a <strong>flexible</strong> and <strong>adaptable</strong> work philosophy."
+
+    - Within LET, experimentation and failure are celebrated. To be bold and to think big is the prevailing mentality.

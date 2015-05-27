@@ -41,18 +41,13 @@ lang: en
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">¿Cómo trabajamos?</h2>
+                    <h2 class="section-heading">{{ menu.how }}</h2>
                     <hr class="light">
+                    {% for content in t.how_content %}
                     <p class="text-faded">
-                    La comunidad del LET funciona bajo un modelo de colaboración que fomenta la <strong>interacción transdisciplinaria</strong> con fines creativos y de innovación. Tiene como principio que
-                    la unión bien llevada de la diversidad de ideas, culturas, habilidades y disciplinas de personas con metas comunes son un catalizador de productividad e innovación fundamental para
-                    el futuro de cualquier organización y país.
+                      {{ content }}
                     </p>
-                    <p class="text-faded">
-                    El Laboratorio de Emprendimiento y Transformación  es una filosofía de trabajo <strong>flexible y adaptable</strong>.
-                    </p>
-
-                    <p class="text-faded">El Laboratorio de Emprendimiento y Transformación  es una filosofía de trabajo flexible y adaptable. En el LET la experimentación y el fracaso son celebrados. Ser audaz y pensar en grande es la mentalidad prevaleciente.</p>
+                    {% endfor %}
                 </div>
             </div>
         </div>
