@@ -1,0 +1,36 @@
+es:
+  who_content:
+    - "En la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey creemos que el emprendimiento es la vía para provocar el desarrollo local
+      y regional al construir plataformas que generan oportunidades de mejores condiciones de vida."
+
+    - Por eso, en abril del 2015, se creó LET, el Laboratorio de Emprendimiento y Transformación en el que los estudiantes y docentes disponen de orientación, apoyo, plataformas, servicios y conexiones para ayudarlos a construir y lanzar proyectos exitosos que impactan al mundo.
+
+    - "El LET tiene los siguientes objetivos:"
+
+  who_target:
+    - content: Propiciar un ecosistema de emprendimiento dedicado a la transformación pública y contribuir en la construcción de una economía basada en innovación.
+      img: /img/icons/collaboration.png
+
+    - content: Desarrollar iniciativas de alto impacto social que generen propiedad intelectual y transferencia de conocimiento, lideradas por la comunidad de la Escuela.
+      img: /img/icons/rocket.png
+
+    - content: Atraer al mejor talento a la Escuela, que incluye comunidad de emprendedores, pensadores académicos, desarrolladores y diseñadores.
+      img: /img/icons/book.png
+
+en:
+  who_content:
+    - "In the Graduate School of Government and Public Transformation at Tecnológico de Monterrey, we believe that entrepreneurship is the way to unleash local, regional and global development through the creation of platforms that generate opportunities for better life conditions."
+
+    - Therefore, on April 2015 we created LET, the Laboratory of Entrepreneurship and Transformation in which students and teachers get guidance, support, platforms, services and connections to help them build and launch successful projects that impact the world.
+
+    - "LET has the following objectives:"
+
+  who_target:
+    - content: To foster an entrepreneurial ecosystem dedicated to public transformation and to contribute in the building an innovation-based economy.
+      img: /img/icons/collaboration.png
+
+    - content: Develop initiatives that generate high social impact, intellectual property and knowledge transfer.
+      img: /img/icons/rocket.png
+
+    - content: Attract top talent groups and individuals to the School of Government, including a community of entrepreneurs, academics, thinkers, developers and designers.
+      img: /img/icons/book.png

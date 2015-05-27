@@ -2,52 +2,37 @@
 layout: default
 lang: es
 ---
+
+{% assign t = site.data.main_site[page.lang] %}
+{% assign menu = site.data.menu[page.lang] %}
+
 <section id="objetivos">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">¿Quiénes somos?</h2>
+        <h2 class="section-heading">{{ menu.who }}</h2>
         <hr class="primary">
-        <p class="section-main-text">
-        En la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey creemos que el emprendimiento es la vía para provocar el desarrollo local
-        y regional al construir plataformas que generan oportunidades de mejores condiciones de vida.
-        </p>
+          {% for content in t.who_content %}
+          <p class="section-main-text">
+            {{ content }}
+          </p>
+          {% endfor %}
 
-        <p>
-          Por eso, en abril del 2015, se creó LET, el Laboratorio de Emprendimiento y Transformación en el que los estudiantes y docentes disponen de orientación, apoyo, plataformas, servicios y conexiones para ayudarlos a construir y lanzar proyectos exitosos que impactan al mundo.
-        </p>
-
-        <p>
-          El LET tiene los siguientes objetivos:
-        </p>
       </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
+      {% for target in t.who_target %}
       <div class="col-lg-4 col-md-6 text-center">
         <div class="service-box">
           <i class="fa fa-4x wow bounceIn text-primary">
-            <img src="img/icons/collaboration.png" />
+            <img src="{{ target.img }}" />
           </i>
-          <p class="text-muted">Propiciar un ecosistema de emprendimiento dedicado a la transformación pública y contribuir en la construcción de una economía basada en innovación.</p>
+          <p class="text-muted">{{ target.content }}</p>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 text-center">
-        <div class="service-box">
-          <i class="fa fa-4x wow bounceIn text-primary" data-wow-delay=".1s">
-          <img src="img/icons/rocket.png"/> </i>
-          <p class="text-muted">Desarrollar iniciativas de alto impacto social que generen propiedad intelectual y transferencia de conocimiento, lideradas por la comunidad de la Escuela.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 text-center">
-        <div class="service-box">
-          <i class="fa fa-4x wow bounceIn text-primary" data-wow-delay=".2s">
-          <img  src="img/icons/book.png" />
-          </i>
-          <p class="text-muted">Atraer al mejor talento a la Escuela, que incluye comunidad de emprendedores, pensadores académicos, desarrolladores y diseñadores.</p>
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
