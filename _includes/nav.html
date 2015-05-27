@@ -1,3 +1,5 @@
+{% assign menu = site.data.menu[page.lang] %}
+
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -17,16 +19,16 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a class="page-scroll" href="#objetivos">¿Quiénes somos?</a>
+          <a class="page-scroll" href="#objetivos">{{ menu.who }}</a>
         </li>
         <li>
-          <a class="page-scroll" href="#metodologia">¿Cómo trabajamos?</a>
+          <a class="page-scroll" href="#metodologia">{{ menu.how }}</a>
         </li>
         <li>
-          <a class="page-scroll" href="#programas">Programas</a>
+          <a class="page-scroll" href="#programas">{{ menu.programs }}</a>
         </li>
         <li>
-          <a class="page-scroll" href="#contacto">Contacto</a>
+          <a class="page-scroll" href="#contacto">{{ menu.contact }}</a>
         </li>
       </ul>
     </div>
