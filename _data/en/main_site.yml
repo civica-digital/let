@@ -1,0 +1,55 @@
+who_content:
+  - "In the Graduate School of Government and Public Transformation at Tecnológico de Monterrey, we believe that entrepreneurship is the way to unleash local, regional and global development through the creation of platforms that generate opportunities for better life conditions."
+
+  - Therefore, on April 2015 we created LET, the Laboratory of Entrepreneurship and Transformation in which students and teachers get guidance, support, platforms, services and connections to help them build and launch successful projects that impact the world.
+
+  - "LET has the following objectives:"
+
+who_target:
+  - content: To foster an entrepreneurial ecosystem dedicated to public transformation and to contribute in the building an innovation-based economy.
+    img: /img/icons/collaboration.png
+
+  - content: Develop initiatives that generate high social impact, intellectual property and knowledge transfer.
+    img: /img/icons/rocket.png
+
+  - content: Attract top talent groups and individuals to the School of Government, including a community of entrepreneurs, academics, thinkers, developers and designers.
+    img: /img/icons/book.png
+
+how_content:
+  - "The LET community operates under a collaborative model that encourages transdisciplinary interaction with creative and innovative purposes. Its principle is that the effective union of diverse ideas, cultures, skills and disciplines of people with a common goal is a catalyst for productivity and innovation, and it’s critical for the future of any country and organization."
+
+  - "LET is a <strong>flexible</strong> and <strong>adaptable</strong> work philosophy."
+
+  - Within LET, experimentation and failure are celebrated. To be bold and to think big is the prevailing mentality.
+
+projects:
+  - title: "Public Entrepreneurship for<br/> Research Professors"
+    content: We contribute to the research projects of teachers in the School of Government and Public Transformation, developing tools for analysis, dissemination of knowledge, among others, that result in public enterprise.
+    img: /img/profesores.jpg
+    link:
+
+  - title: "Public Entrepreneurs<br/>Society"
+    content: We cultivate the ecosystem of public entrepreneurs and intrapreneurs. During a year, students receive continuous mentoring and work with a community of makers to develop prototypes, products, research tools, among others. They obtain guidance to execute pilot tests and carry on field experiments, and finally they’re linked with partners or clients to launch their project to the market.
+    img: /img/sociedad-emprendedores.jpg
+    link:
+
+  - title: "MECATE<br/>International Public Entrepreneurship Program"
+    content: We bring together outstanding graduate students from the best universities in the world, distinguished citizens and our students so that, within a week, they generate ideas and develop projects aimed at social transformation.
+    img: /img/logos/mecate-prog.png
+    link: /mecate/en
+
+contacts:
+  - name: Edgar Barroso Merino
+    title: Director
+    email: edgarbarroso@itesm.mx
+    photo: /img/perfil/eb.jpg
+
+  - name: Glenda Michel Gutiérrez
+    title: Coordinadora
+    email: glenda.michel@itesm.mx
+    photo: /img/perfil/gm.jpg
+
+home:
+  logo: /img/logos/let-logo-hor-white.png
+  content: "An active community focused on designing, building and implementing new solutions to transform people’s lives through social innovation and public entrepreneurship in key sectors."
+  button: Learn more
