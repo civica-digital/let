@@ -66,3 +66,14 @@ en:
       content: We bring together outstanding graduate students from the best universities in the world, distinguished citizens and our students so that, within a week, they generate ideas and develop projects aimed at social transformation.
       img: /img/logos/mecate-prog.png
       link: /mecate
+
+  contacts:
+    - name: Edgar Barroso Merino
+      title: Director
+      email: edgarbarroso@itesm.mx
+      photo: /img/perfil/eb.jpg
+
+    - name: Glenda Michel Gutiérrez
+      title: Coordinadora
+      email: glenda.michel@itesm.mx
+      photo: /img/perfil/gm.jpg

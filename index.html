@@ -95,28 +95,18 @@ lang: es
       </div>
       <div class="container">
         <div class="row">
+          {% for contact in t.contacts %}
           <div class="col-lg-6 col-md-6 col-sm-6 text-center">
             <div class="service-box">
-              <img class="img-responsive contact-circle" src="img/perfil/eb.jpg" alt="" />
-              <h4>Edgar Barroso Merino</h4>
+              <img class="img-responsive contact-circle" src="{{ contact.photo }}" alt="" />
+              <h4>{{ contact.name }}</h4>
                 <div class="info">
-                  <p>Director</p>
-                  <p> <a href="mailto:edgarbarroso@itesm.mx"><i class="fa fa-envelope-o wow bounceIn" data-wow-delay=".1s"></i></a> </p>
+                  <p>{{ contact.title }}</p>
+                  <p> <a href="mailto:{{ contact.email}}"><i class="fa fa-envelope-o wow bounceIn" data-wow-delay=".1s"></i></a> </p>
                 </div>
               </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 text-center">
-            <div class="service-box">
-                <img class="img-responsive contact-circle" src="img/perfil/gm.jpg" alt="" />
-                <h4>Glenda Michel Gutiérrez</h4>
-                <div class="info">
-                  <p>Coordinadora</p>
-                  <p>
-                    <p><a href="mailto:glenda.michel@itesm.mx"><i class="fa fa-envelope-o wow bounceIn" data-wow-delay=".1s"></i></a> </p>
-                  </p>
-                </div>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </section>
