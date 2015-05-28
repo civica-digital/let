@@ -6,23 +6,9 @@ lang: es
 {% assign t = site.data[page.lang].main_site %}
 {% assign menu = site.data.menu[page.lang] %}
 
-<section id="objetivos">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ menu[0].content }}</h2>
-        <hr class="primary">
-          {% for content in t.who_content %}
-          <p class="section-main-text">
-            {{ content }}
-          </p>
-          {% endfor %}
+{% assign title = menu[0].content %}
 
-      </div>
-    </div>
-  </div>
-  {% include snippets/icon_description.html elements=t.who_target size="4" %}
-</section>
+{% include snippets/title_content_elements.html title=title content=t.who_content elements=t.who_target id='objetivos' size='4' %}
 
     <section class="bg-primary" id="metodologia">
         <div class="container">
