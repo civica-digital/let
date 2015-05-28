@@ -1,10 +1,12 @@
+{% assign t = site.data.main_site[page.lang] %}
+
 <header class="bg-primary">
   <div class="header-content">
     <div class="header-content-inner">
-      <img src="img/logos/let-logo-hor-white.png" alt="let-logo" class="img-responsive main-logo">
+      <img src="{{ t.home.logo }}" alt="let-logo" class="img-responsive main-logo">
       <hr>
-      <p>Una comunidad activa enfocada en idear, construir e implementar nuevas soluciones que transformen la vida de las personas a través de innovación social y emprendimiento público en sectores clave.</p>
-      <a href="#objetivos" class="btn btn-primary btn-xl page-scroll">Conoce más</a>
+      <p>{{ t.home.content }}</p>
+      <a href="#objetivos" class="btn btn-primary btn-xl page-scroll">{{ t.home.button }}</a>
     </div>
   </div>
 </header>

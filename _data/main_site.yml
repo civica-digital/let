@@ -1,4 +1,9 @@
 es:
+  home:
+    - logo: /img/logos/let-logo-hor-white.png
+    - content: Una comunidad activa enfocada en idear, construir e implementar nuevas soluciones que transformen la vida de las personas a través de innovación social y emprendimiento público en sectores clave.
+    - button: Conoce más
+
   who_content:
     - "En la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey creemos que el emprendimiento es la vía para provocar el desarrollo local
       y regional al construir plataformas que generan oportunidades de mejores condiciones de vida."
@@ -77,3 +82,8 @@ en:
       title: Coordinadora
       email: glenda.michel@itesm.mx
       photo: /img/perfil/gm.jpg
+
+  home:
+    logo: /img/logos/let-logo-hor-white.png
+    content: "An active community focused on designing, building and implementing new solutions to transform people’s lives through social innovation and public entrepreneurship in key sectors."
+    button: Learn more
