@@ -31,6 +31,39 @@ es:
 
     -  En el LET la experimentación y el fracaso son celebrados. Ser audaz y pensar en grande es la mentalidad prevaleciente.
 
+  projects:
+    - title: "Emprendimiento Público<br/>para Profesores investigadores."
+      content: Contribuimos a los proyectos de investigación de los docentes de la Escuela de Gobierno y Transformación Pública, desarrollando herramientas de análisis, difusión del conocimiento, entre otros que deriven en emprendimiento público.
+      img: /img/profesores.jpg
+      link:
+
+    - title: "Sociedad de Emprendedores<br/>Públicos"
+      content: Impulsamos el ecosistema de emprendedores e intraemprendedores públicos. Durante un año los estudiantes recibirán mentoría continua, desarrollarán prototipos y productos, obtendrán guía para ejecutar pilotos y experimentar en campo, y se les vinculará con socios o clientes para lanzar el proyecto al mercado.
+      img: /img/sociedad-emprendedores.jpg
+      link:
+
+    - title: "MECATE<br/>International Public Entrepreneurship Program"
+      content: Convocamos a estudiantes excepcionales de posgrado de las mejores universidades del mundo, a ciudadanos distinguidos y a nuestros estudiantes para que, en el plazo de una semana, generen ideas y desarrollen proyectos encaminados a la transformación social.
+      img: /img/logos/mecate-prog.png
+      link: /mecate
+
+  contacts:
+    - name: Edgar Barroso Merino
+      title: Director
+      email: edgarbarroso@itesm.mx
+      photo: /img/perfil/eb.jpg
+
+    - name: Glenda Michel Gutiérrez
+      title: Coordinadora
+      email: glenda.michel@itesm.mx
+      photo: /img/perfil/gm.jpg
+
+  home:
+    logo: /img/logos/let-logo-hor-white.png
+    content: "Una comunidad activa enfocada en idear, construir e implementar nuevas soluciones que transformen la vida de las personas a través de innovación social y emprendimiento público en sectores clave."
+    button: Conoce más
+
+
 en:
   who_content:
     - "In the Graduate School of Government and Public Transformation at Tecnológico de Monterrey, we believe that entrepreneurship is the way to unleash local, regional and global development through the creation of platforms that generate opportunities for better life conditions."
@@ -70,7 +103,7 @@ en:
     - title: "MECATE<br/>International Public Entrepreneurship Program"
       content: We bring together outstanding graduate students from the best universities in the world, distinguished citizens and our students so that, within a week, they generate ideas and develop projects aimed at social transformation.
       img: /img/logos/mecate-prog.png
-      link: /mecate
+      link: /mecate/en
 
   contacts:
     - name: Edgar Barroso Merino
