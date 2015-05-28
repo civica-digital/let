@@ -58,50 +58,28 @@ lang: en
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Programas</h2>
+            <h2 class="section-heading">{{ menu.programs }}</h2>
             <hr class="primary">
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
+          {% for project in t.projects %}
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box">
               <div class="portfolio-box">
-                <img class="img-responsive" src="img/profesores.jpg" alt="" />
+                {% if project.link %} <a href="{{ project.link }}"> {% endif %}
+                <img class="img-responsive" src="{{ project.img }}" alt="" />
                 <div class="portfolio-box-caption">
-                  <p class="portfolio-box-caption-content">Contribuimos a los proyectos de investigación de los docentes de la Escuela de Gobierno y Transformación Pública, desarrollando herramientas de análisis, difusión del conocimiento, entre otros que deriven en emprendimiento público.</p>
+                  <p class="portfolio-box-caption-content">{{ project.content }}</p>
                 </div>
+                {% if project.link %} </a> {% endif %}
               </div>
-              <h4>Emprendimiento Público<br/> para Profesores investigadores.</h4>
+              <h4>{{ project.title }}</h4>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box">
-              <div class="portfolio-box">
-                <img class="img-responsive" src="img/sociedad-emprendedores.jpg" alt="" />
-                <div class="portfolio-box-caption">
-                  <p class="portfolio-box-caption-content">Impulsamos el ecosistema de emprendedores e intraemprendedores públicos. Durante un año los estudiantes recibirán mentoría continua, desarrollarán prototipos y productos, obtendrán guía para ejecutar pilotos y experimentar en campo, y se les vinculará con socios o clientes para lanzar el proyecto al mercado.</p>
-                </div>
-              </div>
-              <h4>Sociedad de Emprendedores<br/> Públicos</h4>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box">
-              <div class="portfolio-box">
-                <a href="mecate">
-
-                <img class="img-responsive" src="img/logos/mecate-prog.png" alt="" />
-                <div class="portfolio-box-caption">
-                  <p class="portfolio-box-caption-content">Convocamos a estudiantes excepcionales de posgrado de las mejores universidades del mundo, a ciudadanos distinguidos y a nuestros estudiantes para que, en el plazo de una semana, generen ideas y desarrollen proyectos encaminados a la transformación social.</p>
-                </div>
-              </a>
-
-              </div>
-              <h4>MECATE<br/>International Public Entrepreneurship Program</h4>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </section>

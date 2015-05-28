@@ -50,3 +50,19 @@ en:
     - "LET is a <strong>flexible</strong> and <strong>adaptable</strong> work philosophy."
 
     - Within LET, experimentation and failure are celebrated. To be bold and to think big is the prevailing mentality.
+
+  projects:
+    - title: "Public Entrepreneurship for<br/> Research Professors"
+      content: We contribute to the research projects of teachers in the School of Government and Public Transformation, developing tools for analysis, dissemination of knowledge, among others, that result in public enterprise.
+      img: /img/profesores.jpg
+      link:
+
+    - title: "Public Entrepreneurs<br/>Society"
+      content: We cultivate the ecosystem of public entrepreneurs and intrapreneurs. During a year, students receive continuous mentoring and work with a community of makers to develop prototypes, products, research tools, among others. They obtain guidance to execute pilot tests and carry on field experiments, and finally they’re linked with partners or clients to launch their project to the market.
+      img: /img/sociedad-emprendedores.jpg
+      link:
+
+    - title: "MECATE<br/>International Public Entrepreneurship Program"
+      content: We bring together outstanding graduate students from the best universities in the world, distinguished citizens and our students so that, within a week, they generate ideas and develop projects aimed at social transformation.
+      img: /img/logos/mecate-prog.png
+      link: /mecate
