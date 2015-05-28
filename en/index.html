@@ -10,13 +10,13 @@ lang: en
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ menu.who }}</h2>
+        <h2 class="section-heading">{{ menu[0].content }}</h2>
         <hr class="primary">
-          {% for content in t.who_content %}
-          <p class="section-main-text">
-            {{ content }}
-          </p>
-          {% endfor %}
+        {% for content in t.who_content %}
+        <p class="section-main-text">
+          {{ content }}
+        </p>
+        {% endfor %}
 
       </div>
     </div>
@@ -37,76 +37,76 @@ lang: en
   </div>
 </section>
 
-    <section class="bg-primary" id="metodologia">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">{{ menu.how }}</h2>
-                    <hr class="light">
-                    {% for content in t.how_content %}
-                    <p class="text-faded">
-                      {{ content }}
-                    </p>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="programas">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">{{ menu.programs }}</h2>
-            <hr class="primary">
-          </div>
-        </div>
+<section class="bg-primary" id="metodologia">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2 class="section-heading">{{ menu[1].content }}</h2>
+        <hr class="light">
+        {% for content in t.how_content %}
+        <p class="text-faded">
+          {{ content }}
+        </p>
+        {% endfor %}
       </div>
-      <div class="container">
-        <div class="row">
-          {% for project in t.projects %}
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box">
-              <div class="portfolio-box">
-                {% if project.link %} <a href="{{ project.link }}"> {% endif %}
-                <img class="img-responsive" src="{{ project.img }}" alt="" />
-                <div class="portfolio-box-caption">
-                  <p class="portfolio-box-caption-content">{{ project.content }}</p>
-                </div>
-                {% if project.link %} </a> {% endif %}
+    </div>
+  </div>
+</section>
+
+
+<section id="programas">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ menu[2].content }}</h2>
+        <hr class="primary">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      {% for project in t.projects %}
+      <div class="col-lg-4 col-md-6 text-center">
+        <div class="service-box">
+          <div class="portfolio-box">
+            {% if project.link %} <a href="{{ project.link }}"> {% endif %}
+              <img class="img-responsive" src="{{ project.img }}" alt="" />
+              <div class="portfolio-box-caption">
+                <p class="portfolio-box-caption-content">{{ project.content }}</p>
               </div>
-              <h4>{{ project.title }}</h4>
+              {% if project.link %} </a> {% endif %}
+            </div>
+            <h4>{{ project.title }}</h4>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-grey" id="contacto">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">{{ menu[3].content }}</h2>
+          <hr class="primary">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        {% for contact in t.contacts %}
+        <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+          <div class="service-box">
+            <img class="img-responsive contact-circle" src="{{ contact.photo }}" alt="" />
+            <h4>{{ contact.name }}</h4>
+            <div class="info">
+              <p>{{ contact.title }}</p>
+              <p> <a href="mailto:{{ contact.email}}"><i class="fa fa-envelope-o wow bounceIn" data-wow-delay=".1s"></i></a> </p>
             </div>
           </div>
-          {% endfor %}
         </div>
+        {% endfor %}
       </div>
-    </section>
-
-    <section class="bg-grey" id="contacto">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Contacto</h2>
-            <hr class="primary">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          {% for contact in t.contacts %}
-          <div class="col-lg-6 col-md-6 col-sm-6 text-center">
-            <div class="service-box">
-              <img class="img-responsive contact-circle" src="{{ contact.photo }}" alt="" />
-              <h4>{{ contact.name }}</h4>
-                <div class="info">
-                  <p>{{ contact.title }}</p>
-                  <p> <a href="mailto:{{ contact.email}}"><i class="fa fa-envelope-o wow bounceIn" data-wow-delay=".1s"></i></a> </p>
-                </div>
-              </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </section>
+    </div>
+  </section>

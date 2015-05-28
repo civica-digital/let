@@ -10,7 +10,7 @@ lang: es
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ menu.who }}</h2>
+        <h2 class="section-heading">{{ menu[0].content }}</h2>
         <hr class="primary">
           {% for content in t.who_content %}
           <p class="section-main-text">
@@ -41,7 +41,7 @@ lang: es
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">{{ menu.how }}</h2>
+                    <h2 class="section-heading">{{ menu[1].content }}</h2>
                     <hr class="light">
                     {% for content in t.how_content %}
                     <p class="text-faded">
@@ -58,7 +58,7 @@ lang: es
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">{{ menu.programs }}</h2>
+            <h2 class="section-heading">{{ menu[2].content }}</h2>
             <hr class="primary">
           </div>
         </div>
@@ -88,7 +88,7 @@ lang: es
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Contacto</h2>
+            <h2 class="section-heading">{{ menu[3].content }}</h2>
             <hr class="primary">
           </div>
         </div>

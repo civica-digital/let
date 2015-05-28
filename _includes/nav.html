@@ -1,4 +1,4 @@
-{% assign menu = site.data.menu[page.lang] %}
+{% assign t = site.data.menu[page.lang] %}
 
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
@@ -18,18 +18,11 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
+        {% for menu in t %}
         <li>
-          <a class="page-scroll" href="#objetivos">{{ menu.who }}</a>
+          <a class="page-scroll" href="{{ menu.link }}">{{ menu.content }}</a>
         </li>
-        <li>
-          <a class="page-scroll" href="#metodologia">{{ menu.how }}</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#programas">{{ menu.programs }}</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#contacto">{{ menu.contact }}</a>
-        </li>
+        {% endfor %}
       </ul>
     </div>
     <!-- /.navbar-collapse -->
