@@ -20,20 +20,7 @@ lang: en
           {{ t.home.objectives.msg }}
         </p>
       </div>
-      <div class="container">
-          <div class="row">
-            {% for obj in t.home.objectives.list %}
-            <div class="col-lg-3 col-md-6 text-center">
-              <div class="service-box">
-                <i class="fa fa-4x wow bounceIn text-primary">
-                  <img src="{{ obj.img }}" />
-                </i>
-                <p class="text-muted">{{ obj.content }}</p>
-              </div>
-            </div>
-            {% endfor %}
-          </div>
-      </div>
+      {% include snippets/icon_description.html elements=t.home.objectives.list size="3" %}
     </div>
   </div>
 </section>
