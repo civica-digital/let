@@ -1,3 +1,5 @@
+{% assign t = site.data[page.lang].mecate %}
+
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -16,16 +18,11 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
+        {% for menu in t.menu %}
         <li>
-          <a class="page-scroll" href="/">Inicio</a>
+          <a class="page-scroll" href="{{ menu.link }}">{{ menu.content }}</a>
         </li>
-        <li>
-          <a class="page-scroll" href="#inicio">Mecate</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#registro">Registro</a>
-        </li>
-
+        {% endfor %}
       </ul>
     </div>
     <!-- /.navbar-collapse -->
