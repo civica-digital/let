@@ -6,36 +6,35 @@ who_content:
   - "LET has the following objectives:"
 
 who_target:
-  - content: To foster an entrepreneurial ecosystem dedicated to public transformation and to contribute in the building an innovation-based economy.
+  - content: To foster an entrepreneurial ecosystem dedicated to public transformation and to contribute in the building of an innovation-based economy.
     img: /img/icons/collaboration.png
 
   - content: Develop initiatives that generate high social impact, intellectual property and knowledge transfer.
     img: /img/icons/rocket.png
 
-  - content: Attract top talent groups and individuals to the School of Government, including a community of entrepreneurs, academics, thinkers, developers and designers.
+  - content: Attract top talented groups and individuals to the Graduate School of Government, including a community of entrepreneurs, academics, thinkers, developers and designers.
     img: /img/icons/book.png
 
 how_content:
-  - "The LET community operates under a collaborative model that encourages transdisciplinary interaction with creative and innovative purposes. Its principle is that the effective union of diverse ideas, cultures, skills and disciplines of people with a common goal is a catalyst for productivity and innovation, and it’s critical for the future of any country and organization.
-     It believes that the effective union of diverse ideas, cultures, skills and disciplines of people with a common goal is a catalyst for productivity and innovation. It holds this as critical for the future of any country and organization."
+  - "The LET community operates under a collaborative model that encourages transdisciplinary interaction with creative and innovative purposes. It believes that the effective union of diverse ideas, cultures, skills and disciplines of people with a common goal is a catalyst for productivity and innovation. It holds this as critical for the future of any country and organization."
 
   - "LET has a <strong>flexible</strong> and <strong>adaptable</strong> work philosophy."
 
   - "In LET, we encourage experimentation and even failure. To be bold and to think big is the prevailing mentality."
 
-projects:
+programs:
   - title: "Public Entrepreneurship for<br/> Research Professors"
-    content: We contribute to the research projects of teachers in the School of Government and Public Transformation, developing tools for analysis and dissemination of knowledge that, among other things, result in public enterprise.
+    content: We contribute to the research projects of teachers in the School of Government and Public Transformation, developing tools for the analysis and dissemination of knowledge that, among other things, result in public enterprise.
     img: /img/profesores.jpg
     link:
 
   - title: "Public Entrepreneurs<br/>Society"
-    content: "We cultivate the ecosystem of public entrepreneurs and intrapreneurs. During a year, students work with a community of mentors and makers to develop prototypes, products, research tools, among others. They receive guidance to execute pilot tests and carry on field experiments, and they’re linked with partners or clients to launch their project to the market."
+    content: "We cultivate the ecosystem of public entrepreneurs and intrapreneurs. During a year, students work with a community of mentors and makers to develop prototypes, products, research tools, among others. They receive guidance to execute pilot tests and carry on field experiments, and they’re linked with partners or clients to launch their projects to the market."
     img: /img/sociedad-emprendedores.jpg
     link:
 
   - title: "MECATE<br/>International Public Entrepreneurship Program"
-    content: We bring together outstanding graduate students from the best universities in the world, distinguished citizens and our students so that, within a week, they generate ideas and develop projects aimed at social transformation.
+    content: We bring our students together with outstanding graduate students from the best universities in the world and distinguished citizens so that, within a week, they generate ideas and develop projects aimed at social transformation.
     img: /img/logos/mecate-prog.png
     link: /mecate/en
 
