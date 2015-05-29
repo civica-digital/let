@@ -14,7 +14,7 @@ logo:
 video: "https://www.youtube.com/embed/9EzDOHrVNyM"
 
 home:
-  description: Designed by the Entrepreneurship and Transformation Laboratory (LET) of the Graduate School of Government and Public Transformation, Mecate is an international program of public entrepreneurship that gathers postgraduate students from different universities in Mexico and the world, as well as exceptional citizens and entrepreneurs to make proposals with social impact in Mexico.
+  description: Designed by the Entrepreneurship and Transformation Laboratory (LET) of the Graduate School of Government and Public Transformation, Mecate is an international public entrepreneurship program that gathers postgraduate students from different universities in Mexico and the world, with exceptional citizens and entrepreneurs to make proposals with social impact in Mexico.
   objectives:
     msg: "Mecate will be a platform to:"
     list:
@@ -31,17 +31,18 @@ home:
         img: /img/icons/bulb.png
 
 origin:
-  content: ‘Mecatl’, comes from  Nahuatl, the mexican language. It is a rope made of multiple fibers  of the agave that is used to hold and unite various objects.  Thus, in Mecate we link and weave various ideas  to produce solutions.
+  content: ‘Mecatl’, comes from the mexican language Nahuatl. It is a rope, made of multiple fibers  that come from the agave plant and is used to tie and hold various objects.  In Mecate we link and weave several ideas  to produce solutions.
+
 
 registry:
-  title: Interested in becoming part?
+  title: Participate!
   content:
-    - "Date: July 26th - 31th, 2015."
-    - "Location: Santa Fe Campus of the Tecnológico de Monterrey, México City."
+    - "Date: July 26 to 31, 2015."
+    - "Location: Tecnológico de Monterrey, Santa Fe Campus (México City)."
     - "If you’re interested in becoming part of MECATE 2015:"
 
   buttons:
-    - content: Read the announcement
+    - content: Read the application guidelines
       link: /MECATE 2015 - International Public Entrepreneurship Program.pdf
 
     - content: Register here
