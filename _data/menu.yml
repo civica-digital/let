@@ -1,0 +1,25 @@
+es:
+  - content: ¿Quiénes somos?
+    link: "#objetivos"
+
+  - content: ¿Cómo trabajamos?
+    link: "#metodologia"
+
+  - content: Programas
+    link: "#programas"
+
+  - content: Contacto
+    link: "#contacto"
+
+en:
+    - content: Who are we?
+      link: "#objetivos"
+
+    - content: How do we work?
+      link: "#metodologia"
+
+    - content: Projects
+      link: "#programas"
+
+    - content: Contact
+      link: "#contacto"

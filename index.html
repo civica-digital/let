@@ -1,72 +1,26 @@
 ---
 layout: default
+lang: es
 ---
-<section id="objetivos">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">¿Quiénes somos?</h2>
-        <hr class="primary">
-        <p class="section-main-text">
-        En la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey creemos que el emprendimiento es la vía para provocar el desarrollo local
-        y regional al construir plataformas que generan oportunidades de mejores condiciones de vida.
-        </p>
 
-        <p>
-          Por eso, en abril del 2015, se creó LET, el Laboratorio de Emprendimiento y Transformación en el que los estudiantes y docentes disponen de orientación, apoyo, plataformas, servicios y conexiones para ayudarlos a construir y lanzar proyectos exitosos que impactan al mundo.
-        </p>
+{% assign t = site.data[page.lang].main_site %}
+{% assign menu = site.data.menu[page.lang] %}
 
-        <p>
-          El LET tiene los siguientes objetivos:
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-6 text-center">
-        <div class="service-box">
-          <i class="fa fa-4x wow bounceIn text-primary">
-            <img src="img/icons/collaboration.png" />
-          </i>
-          <p class="text-muted">Propiciar un ecosistema de emprendimiento dedicado a la transformación pública y contribuir en la construcción de una economía basada en innovación.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 text-center">
-        <div class="service-box">
-          <i class="fa fa-4x wow bounceIn text-primary" data-wow-delay=".1s">
-          <img src="img/icons/rocket.png"/> </i>
-          <p class="text-muted">Desarrollar iniciativas de alto impacto social que generen propiedad intelectual y transferencia de conocimiento, lideradas por la comunidad de la Escuela.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 text-center">
-        <div class="service-box">
-          <i class="fa fa-4x wow bounceIn text-primary" data-wow-delay=".2s">
-          <img  src="img/icons/book.png" />
-          </i>
-          <p class="text-muted">Atraer al mejor talento a la Escuela, que incluye comunidad de emprendedores, pensadores académicos, desarrolladores y diseñadores.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% assign title = menu[0].content %}
+
+{% include snippets/title_content_elements.html title=title content=t.who_content elements=t.who_target id='objetivos' size='4' %}
 
     <section class="bg-primary" id="metodologia">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">¿Cómo trabajamos?</h2>
+                    <h2 class="section-heading">{{ menu[1].content }}</h2>
                     <hr class="light">
+                    {% for content in t.how_content %}
                     <p class="text-faded">
-                    La comunidad del LET funciona bajo un modelo de colaboración que fomenta la <strong>interacción transdisciplinaria</strong> con fines creativos y de innovación. Tiene como principio que
-                    la unión bien llevada de la diversidad de ideas, culturas, habilidades y disciplinas de personas con metas comunes son un catalizador de productividad e innovación fundamental para
-                    el futuro de cualquier organización y país.
+                      {{ content }}
                     </p>
-                    <p class="text-faded">
-                    El Laboratorio de Emprendimiento y Transformación  es una filosofía de trabajo <strong>flexible y adaptable</strong>.
-                    </p>
-
-                    <p class="text-faded">El Laboratorio de Emprendimiento y Transformación  es una filosofía de trabajo flexible y adaptable. En el LET la experimentación y el fracaso son celebrados. Ser audaz y pensar en grande es la mentalidad prevaleciente.</p>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -77,50 +31,28 @@ layout: default
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Programas</h2>
+            <h2 class="section-heading">{{ menu[2].content }}</h2>
             <hr class="primary">
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
+          {% for project in t.projects %}
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box">
               <div class="portfolio-box">
-                <img class="img-responsive" src="img/profesores.jpg" alt="" />
+                {% if project.link %} <a href="{{ project.link }}"> {% endif %}
+                <img class="img-responsive" src="{{ project.img }}" alt="" />
                 <div class="portfolio-box-caption">
-                  <p class="portfolio-box-caption-content">Contribuimos a los proyectos de investigación de los docentes de la Escuela de Gobierno y Transformación Pública, desarrollando herramientas de análisis, difusión del conocimiento, entre otros que deriven en emprendimiento público.</p>
+                  <p class="portfolio-box-caption-content">{{ project.content }}</p>
                 </div>
+                {% if project.link %} </a> {% endif %}
               </div>
-              <h4>Emprendimiento Público<br/> para Profesores investigadores.</h4>
+              <h4>{{ project.title }}</h4>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box">
-              <div class="portfolio-box">
-                <img class="img-responsive" src="img/sociedad-emprendedores.jpg" alt="" />
-                <div class="portfolio-box-caption">
-                  <p class="portfolio-box-caption-content">Impulsamos el ecosistema de emprendedores e intraemprendedores públicos. Durante un año los estudiantes recibirán mentoría continua, desarrollarán prototipos y productos, obtendrán guía para ejecutar pilotos y experimentar en campo, y se les vinculará con socios o clientes para lanzar el proyecto al mercado.</p>
-                </div>
-              </div>
-              <h4>Sociedad de Emprendedores<br/> Públicos</h4>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box">
-              <div class="portfolio-box">
-                <a href="mecate">
-
-                <img class="img-responsive" src="img/logos/mecate-prog.png" alt="" />
-                <div class="portfolio-box-caption">
-                  <p class="portfolio-box-caption-content">Convocamos a estudiantes excepcionales de posgrado de las mejores universidades del mundo, a ciudadanos distinguidos y a nuestros estudiantes para que, en el plazo de una semana, generen ideas y desarrollen proyectos encaminados a la transformación social.</p>
-                </div>
-              </a>
-
-              </div>
-              <h4>MECATE<br/>International Public Entrepreneurship Program</h4>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </section>
@@ -129,35 +61,25 @@ layout: default
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Contacto</h2>
+            <h2 class="section-heading">{{ menu[3].content }}</h2>
             <hr class="primary">
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
+          {% for contact in t.contacts %}
           <div class="col-lg-6 col-md-6 col-sm-6 text-center">
             <div class="service-box">
-              <img class="img-responsive contact-circle" src="img/perfil/eb.jpg" alt="" />
-              <h4>Edgar Barroso Merino</h4>
+              <img class="img-responsive contact-circle" src="{{ contact.photo }}" alt="" />
+              <h4>{{ contact.name }}</h4>
                 <div class="info">
-                  <p>Director</p>
-                  <p> <a href="mailto:edgarbarroso@itesm.mx"><i class="fa fa-envelope-o wow bounceIn" data-wow-delay=".1s"></i></a> </p>
+                  <p>{{ contact.title }}</p>
+                  <p> <a href="mailto:{{ contact.email}}"><i class="fa fa-envelope-o wow bounceIn" data-wow-delay=".1s"></i></a> </p>
                 </div>
               </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 text-center">
-            <div class="service-box">
-                <img class="img-responsive contact-circle" src="img/perfil/gm.jpg" alt="" />
-                <h4>Glenda Michel Gutiérrez</h4>
-                <div class="info">
-                  <p>Coordinadora</p>
-                  <p>
-                    <p><a href="mailto:glenda.michel@itesm.mx"><i class="fa fa-envelope-o wow bounceIn" data-wow-delay=".1s"></i></a> </p>
-                  </p>
-                </div>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </section>

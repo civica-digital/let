@@ -1,0 +1,46 @@
+menu:
+  - content: Home
+    link: "/en"
+
+  - content: Mecate
+    link: "#inicio"
+
+  - content: Registry
+    link: "#registro"
+
+logo:
+  link: /img/logos/mecate-color.png
+
+home:
+  description: Designed by the Entrepreneurship and Transformation Laboratory (LET) of the Graduate School of Government and Public Transformation, Mecate is an international program of public entrepreneurship that gathers postgraduate students from different universities in Mexico and the world, as well as exceptional citizens and entrepreneurs to make proposals with social impact in Mexico.
+  objectives:
+    msg: "Mecate will be a platform to:"
+    list:
+      - content: Form a permanent international network of transdisciplinary collaboration.
+        img: /img/icons/collaboration.png
+
+      - content: Promote the exchange of knowledge and best practices on public entrepreneurship.
+        img: /img/icons/rocket.png
+
+      - content: Identify entrepreneurs that transform their communities.
+        img: /img/icons/search.png
+
+      - content: Develop innovative social impact proposals to be implemented and validated in Mexico
+        img: /img/icons/bulb.png
+
+origin:
+  content: ‘Mecatl’, comes from  Nahuatl, the mexican language. It is a rope made of multiple fibers  of the agave that is used to hold and unite various objects.  Thus, in Mecate we link and weave various ideas  to produce solutions.
+
+registry:
+  title: Interested in becoming part?
+  content:
+    - "Date: July 26th - 31th, 2015."
+    - "Location: Santa Fe Campus of the Tecnológico de Monterrey, México City."
+    - "If you’re interested in becoming part of MECATE 2015:"
+
+  buttons:
+    - content: Read the announcement
+      link: /MECATE 2015 - International Public Entrepreneurship Program.pdf
+
+    - content: Register here
+      link: /mecate/registro

@@ -1,3 +1,5 @@
+{% assign t = site.data.menu[page.lang] %}
+
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -9,25 +11,18 @@
         <span class="icon-bar"></span>
       </button>
       <a class="short-title navbar-brand page-scroll" href="#page-top">
-        <img src="img/logos/let_2x.png" class="img-responsive" alt="" />
+        <img src="/img/logos/let_2x.png" class="img-responsive" alt="" />
       </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
+        {% for menu in t %}
         <li>
-          <a class="page-scroll" href="#objetivos">¿Quiénes somos?</a>
+          <a class="page-scroll" href="{{ menu.link }}">{{ menu.content }}</a>
         </li>
-        <li>
-          <a class="page-scroll" href="#metodologia">¿Cómo trabajamos?</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#programas">Programas</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#contacto">Contacto</a>
-        </li>
+        {% endfor %}
       </ul>
     </div>
     <!-- /.navbar-collapse -->
