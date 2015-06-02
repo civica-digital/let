@@ -11,6 +11,9 @@ es:
   - content: Contacto
     link: "#contacto"
 
+  - content: Ingles
+    link: "/en"
+
 en:
     - content: Who are we?
       link: "#objetivos"
@@ -23,3 +26,6 @@ en:
 
     - content: Contact
       link: "#contacto"
+
+    - content: Spanish
+      link: "/"

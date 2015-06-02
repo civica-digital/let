@@ -8,6 +8,9 @@ menu:
   - content: Registration
     link: "#registro"
 
+  - content: Spanish
+    link: "/mecate"
+    
 logo:
   link: /img/logos/mecate-color.png
 
