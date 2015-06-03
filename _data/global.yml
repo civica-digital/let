@@ -1,3 +1,4 @@
 logo:
-  url: "/img/logos/let_2x.png"
+  url-white: "/img/logos/let_2x-white.png"
+  url-color: "/img/logos/let_2x.png"
   alt: Logo LET + ITESM

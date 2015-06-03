@@ -11,10 +11,26 @@
   color: $mecate-primary !important;
 }
 
+.navbar-default .navbar-header .navbar-brand  {
+  img.white {
+    display: block;
+  }
+  img.color {
+    display: none;
+  }
+}
+
 @media (min-width: 768px){
   .navbar-default.affix .navbar-header .navbar-brand {
     color: $mecate-primary;
     font-size: 14px;
+
+    img.white {
+      display: none;
+    }
+    img.color {
+      display: block;
+    }
   }
 
   .navbar-default.affix .nav>li>a:hover {

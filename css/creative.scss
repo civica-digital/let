@@ -91,6 +91,14 @@ aside {
         &:focus {
             color: darken($theme-primary, 10%);
         }
+        img {
+          &.color {
+            display: block;
+          }
+          &.white {
+            display: none;
+          }
+        }
     }
     .nav {
         > li {
@@ -125,6 +133,12 @@ aside {
             &:focus {
                 color: white;
             }
+            img.white {
+              display: block;
+            }
+            img.color {
+              display: none;
+            }
         }
         .nav > li > a,
         .nav > li > a:focus {
@@ -142,6 +156,12 @@ aside {
                 &:hover,
                 &:focus {
                     color: darken($theme-primary, .1);
+                }
+                img.white {
+                  display: none;
+                }
+                img.color {
+                  display: block;
                 }
             }
             .nav > li > a,
@@ -385,7 +405,7 @@ i {
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-   border-color: transparent; 
+   border-color: transparent;
 }
 
 .mini {
