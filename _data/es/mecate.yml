@@ -45,7 +45,7 @@ registry:
 
   buttons:
     - content: Lee la convocatoria
-      link: /MECATE 2015 - International Public Entrepreneurship Program.pdf
+      link: "https://docs.google.com/file/d/0B4MCJ4aDDhpTa2pGYWRSTWgtQTg/edit?usp=drivesdk"
 
     - content: Regístrate aquí
       link: /mecate/registro
