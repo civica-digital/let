@@ -17,7 +17,7 @@ logo:
 video: "https://www.youtube.com/embed/GWpeLCoQ_5k"
 
 home:
-  description: Designed by the Entrepreneurship and Transformation Laboratory (LET) of the Graduate School of Government and Public Transformation, Mecate is an international public entrepreneurship program that gathers postgraduate students from different universities in Mexico and the world, with exceptional citizens and entrepreneurs to make proposals with social impact in Mexico.
+  description: Designed by the Entrepreneurship and Transformation Laboratory (LET) of the Graduate School of Government and Public Transformation, Mecate is an international public entrepreneurship program that gathers talented graduate and postgraduate students from different universities in Mexico and the world, with exceptional citizens and entrepreneurs to make proposals with social impact.
   objectives:
     msg: "Mecate will be a platform to:"
     list:
@@ -41,7 +41,7 @@ registry:
   title: Participate!
   content:
     - "Date: July 26 to 31, 2015."
-    - "Location: Tecnológico de Monterrey, Santa Fe Campus (México City)."
+    - "Location: Tecnológico de Monterrey, Santa Fe Campus (Mexico City)."
     - "If you’re interested in becoming part of MECATE 2015:"
 
   buttons:
