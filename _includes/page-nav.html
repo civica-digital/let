@@ -1,4 +1,5 @@
 {% assign t = site.data[page.lang].mecate %}
+{% assign g = site.data.global %}
 
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
@@ -11,7 +12,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="short-title navbar-brand page-scroll" href="#page-top">
-        <img src="/img/logos/let-itesm.png" alt="" />
+        <img src="{{ g.logo.url }}" alt="{{ g.logo.alt }}" />
       </a>
     </div>
 
