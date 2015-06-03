@@ -4,13 +4,13 @@ menu:
 
   - content: Mecate
     link: "#inicio"
-    
+
   - content: Registro
     link: "#registro"
 
   - content: English
     link: "/mecate/en"
-    
+
 logo:
   link: /img/logos/mecate-color.png
 
