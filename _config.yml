@@ -6,7 +6,7 @@ description: > #
   nuevas soluciones que transformen la vida de las personas a través de
   innovación social y emprendimiento público en sectores clave.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://let-emprendimientopublico.mx/" # the base hostname & protocol for your site
+url: "http://abcsds.github.io/let" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
