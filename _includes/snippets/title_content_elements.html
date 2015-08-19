@@ -22,4 +22,12 @@
     </div>
   </div>
   {% include snippets/icon_description.html elements=include.elements size=include.size %}
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-{{ include.size_container }} text-center">
+        {% include snippets/list_paragraphs.html class="section-main-text" content=include.last %}
+      </div>
+    </div>
+  </div>
 </section>

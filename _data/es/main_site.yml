@@ -15,6 +15,9 @@ who_target:
   - content: Atraer al mejor talento a la Escuela, que incluye comunidad de emprendedores, pensadores académicos, desarrolladores y diseñadores.
     img: /img/icons/book.png
 
+who_last:
+  - "LET es una iniciativa de la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey. Nace el 16 de abril del 2015, con la visión de ser el hogar natural de todo emprendedor e innovador social, de México y el mundo, que está verdaderamente comprometido con generar impacto social."
+
 how_content:
   - "La comunidad del LET funciona bajo un modelo de colaboración que fomenta la <strong>interacción transdisciplinaria</strong> con fines creativos y de innovación. Tiene como principio que
        la unión bien llevada de la diversidad de ideas, culturas, habilidades y disciplinas de personas con metas comunes son un catalizador de productividad e innovación fundamental para
