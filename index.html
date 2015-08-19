@@ -16,9 +16,12 @@ lang: es
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">{{ menu[1].content }}</h2>
                     <hr class="light">
-                    {% for content in t.how_content %}
+                    {% for method in t.how_content %}
+                    <h4 class="section-heading">
+                      {{ method.title }}
+                    </h4>
                     <p class="text-faded">
-                      {{ content }}
+                      {{ method.content }}
                     </p>
                     {% endfor %}
                 </div>

@@ -19,13 +19,20 @@ who_last:
   - "LET es una iniciativa de la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey. Nace el 16 de abril del 2015, con la visión de ser el hogar natural de todo emprendedor e innovador social, de México y el mundo, que está verdaderamente comprometido con generar impacto social."
 
 how_content:
-  - "La comunidad del LET funciona bajo un modelo de colaboración que fomenta la <strong>interacción transdisciplinaria</strong> con fines creativos y de innovación. Tiene como principio que
-       la unión bien llevada de la diversidad de ideas, culturas, habilidades y disciplinas de personas con metas comunes son un catalizador de productividad e innovación fundamental para
-       el futuro de cualquier organización y país."
+  - title: "APOSTAMOS EN LAS PERSONAS"
+    content: "Reclutamos a las personas más comprometidas y dispuestas a transformar vidas. La innovación y el emprendimiento no son obra de metodologías o espacios físicos, sino de las personas. No criticamos ni juzgamos las ideas de los emprendedores. Los ayudamos a construirlas y es también nuestra responsabilidad que generen el impacto social significativo que buscamos."
 
-  - "El Laboratorio de Emprendimiento y Transformación  es una filosofía de trabajo <strong>flexible y adaptable</strong>."
+  - title: "HABILITAMOS"
+    content: "Ponemos a disposición de los emprendedores la mayor cantidad de recursos para que nada limite el potencial de sus iniciativas. Los facultamos para llevar a cabo investigación aplicada y en campo, los unimos con expertos en el área y con makers (diseñadores, programadores, ingenieros, etc.) para desarrollar sus prototipos y productos; los acompañamos en procesos de testeo y validación; los enlazamos con fuentes de financiamiento y generamos alianzas para su escalabilidad (con gobiernos y ONGs), entre otras cosas.uscamos."
 
-  -  En el LET la experimentación y el fracaso son celebrados. Ser audaz y pensar en grande es la mentalidad prevaleciente.
+  - title: "COLABORAMOS"
+    content: "Somos una comunidad que colabora. Compartimos conocimientos, experiencias y trabajamos con equipos transdisciplinarios. No funcionamos como mesas de trabajo ni hacemos networking. Hacemos amistades y trabajamos en serio en proyectos a largo plazo hasta hacer real el resultado esperado. Juntos.uscamos."
+
+  - title: "EXPERIMENTAMOS"
+    content: "Trabajamos con modelos flexibles y nos enfocamos en intentar y ejecutar, sin miedo a no conseguir el éxito a la primera. Sin embargo, anticipamos riesgos y manejamos el fracaso de una manera segura, cuidando los recursos."
+
+  - title: "DEMOSTRAMOS RESULTADOS"
+    content: "Nos enfocamos en proyectos de alto impacto que beneficien a la mayor cantidad de personas posible. Ideamos e implementamos estos proyectos y medimos su impacto. Nuestro trabajo se hace legítimo a través de los resultados, y son éstos los que nos dan a conocer."
 
 projects:
   - title: "Emprendimiento Público<br/>para Profesores investigadores."
