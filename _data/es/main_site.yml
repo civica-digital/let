@@ -35,11 +35,6 @@ how_content:
     content: "Nos enfocamos en proyectos de alto impacto que beneficien a la mayor cantidad de personas posible. Ideamos e implementamos estos proyectos y medimos su impacto. Nuestro trabajo se hace legítimo a través de los resultados, y son éstos los que nos dan a conocer."
 
 projects:
-  - title: "Emprendimiento Público<br/>para Profesores investigadores."
-    content: Contribuimos a los proyectos de investigación de los docentes de la Escuela de Gobierno y Transformación Pública, desarrollando herramientas de análisis, difusión del conocimiento, entre otros que deriven en emprendimiento público.
-    img: /img/profesores.jpg
-    link:
-
   - title: "Sociedad de Emprendedores<br/>Públicos"
     content: Impulsamos el ecosistema de emprendedores e intraemprendedores públicos. Durante un año los estudiantes recibirán mentoría continua, desarrollarán prototipos y productos, obtendrán guía para ejecutar pilotos y experimentar en campo, y se les vinculará con socios o clientes para lanzar el proyecto al mercado.
     img: /img/sociedad-emprendedores.jpg
