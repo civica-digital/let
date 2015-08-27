@@ -1,22 +1,31 @@
-who_content:
-  - "El LABORATORIO DE EMPRENDIMIENTO Y TRANSFORMACIÓN (LET) es una comunidad activa y transdisciplinaria que se enfoca en impactar la vida de las personas a través del desarrollo de iniciativas de emprendimiento público."
+who:
+  content:
+    - "El LABORATORIO DE EMPRENDIMIENTO Y TRANSFORMACIÓN (LET) es una comunidad activa y transdisciplinaria que se enfoca en impactar la vida de las personas a través del desarrollo de iniciativas de emprendimiento público."
+    - "En LET habilitamos ideas y las transformamos en soluciones innovadoras de alto impacto para implementarlas en sociedades y mercados con oportunidades en diversos sectores clave."
+  obj: "El LET tiene los siguientes objetivos:"
+  hist:
+    - content: LET es una iniciativa de la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey. Nace el 16 de abril del 2015, con la visión de ser el hogar natural de todo emprendedor e innovador social, de México y el mundo, que está verdaderamente comprometido con generar impacto social.
+      img: img/team1.png
+  target:
+    - content: Propiciar un ecosistema de emprendimiento dedicado a la transformación pública y contribuir en la construcción de una economía basada en innovación.
+      img: /img/icons/collaboration.png
+    - content: Desarrollar iniciativas de alto impacto social que generen propiedad intelectual y transferencia de conocimiento, lideradas por la comunidad de la Escuela.
+      img: /img/icons/rocket.png
+    - content: Atraer al mejor talento a la Escuela, que incluye comunidad de emprendedores, pensadores académicos, desarrolladores y diseñadores.
+      img: /img/icons/book.png
 
-  - "En LET habilitamos ideas y las transformamos en soluciones innovadoras de alto impacto para implementarlas en sociedades y mercados con oportunidades en diversos sectores clave."
+  modal:
+    content:
+      - "En el año 2013, después de una importante experiencia en el servicio público, el Dr. Alejandro Poiré fue nombrado Decano de la Escuela de Gobierno y Transformación Pública para darle una nueva visión: contribuir a solucionar los problemas más relevantes de nuestro entorno."
 
-  - "El LET tiene los siguientes objetivos:"
+      - "La idea esencial para lograrlo es que la Escuela de Gobierno sea el espacio donde todos los líderes transformadores, de cualquier ámbito, converjan en la construcción de mejores realidades. Pero más allá de ser los integradores de este ecosistema, la idea crucial fue detonar estas soluciones a través del emprendimiento y la innovación."
 
-who_target:
-  - content: Propiciar un ecosistema de emprendimiento dedicado a la transformación pública y contribuir en la construcción de una economía basada en innovación.
-    img: /img/icons/collaboration.png
+      - "En la Escuela de Gobierno creemos que el emprendimiento es la vía para generar desarrollo local, regional e incluso global. Tenemos la capacidad de generar el conocimiento y formar el capital humano que producirán las propuestas para resolver los problemas más apremiantes que enfrentamos. Queremos que en nuestra Escuela se acerquen y nazcan los emprendedores públicos que desarrollarán las nuevas formas de hacer política, ciudadanía y transformarán la sociedad, a través de la innovación social y la ideación de nuevos modelos de negocio, de vinculación, de colaboración."
 
-  - content: Desarrollar iniciativas de alto impacto social que generen propiedad intelectual y transferencia de conocimiento, lideradas por la comunidad de la Escuela.
-    img: /img/icons/rocket.png
+      - "Después de conducir cambios sustanciales en los pilares académicos, educativos y de investigación, a finales del 2014 se concibió el diseño de otro pilar responsable de generar el impacto social deseado: la dirección en Emprendimiento Público"
 
-  - content: Atraer al mejor talento a la Escuela, que incluye comunidad de emprendedores, pensadores académicos, desarrolladores y diseñadores.
-    img: /img/icons/book.png
-
-who_last:
-  - "LET es una iniciativa de la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey. Nace el 16 de abril del 2015, con la visión de ser el hogar natural de todo emprendedor e innovador social, de México y el mundo, que está verdaderamente comprometido con generar impacto social."
+      - "Fue así como el Doctor Edgar Barroso, compositor, educador, consultor y emprendedor, especialista además en innovación y colaboración en el ámbito artístico y social, llegó a las filas de la Escuela. Junto con Glenda Michel, mercadóloga con experiencia en sector público y apasionada por el bien social, se propusieron la idea de un laboratorio para originar el emprendimiento público."
+    name: conocemas
 
 how_content:
   - title: "APOSTAMOS EN LAS PERSONAS"
@@ -37,12 +46,12 @@ how_content:
 projects:
   - title: "Sociedad de Emprendedores<br/>Públicos"
     content: Impulsamos el ecosistema de emprendedores e intraemprendedores públicos. Durante un año los estudiantes recibirán mentoría continua, desarrollarán prototipos y productos, obtendrán guía para ejecutar pilotos y experimentar en campo, y se les vinculará con socios o clientes para lanzar el proyecto al mercado.
-    img: /img/sociedad-emprendedores.jpg
-    link:
+    img: /img/emprendedor.png
+    link: /sep
 
   - title: "MECATE<br/>International Public Entrepreneurship Program"
     content: Convocamos a personas talentosas y emprendedores del mundo para que, en el plazo de una semana, generen ideas y desarrollen proyectos encaminados a la transformación social.
-    img: /img/logos/mecate-prog.png
+    img: /img/teamMecate.png
     link: /mecate
 
 contacts:
