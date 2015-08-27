@@ -31,18 +31,23 @@ who:
 how_content:
   - title: "APOSTAMOS EN LAS PERSONAS"
     content: "Reclutamos a las personas más comprometidas y dispuestas a transformar vidas. La innovación y el emprendimiento no son obra de metodologías o espacios físicos, sino de las personas. No criticamos ni juzgamos las ideas de los emprendedores. Los ayudamos a construirlas y es también nuestra responsabilidad que generen el impacto social significativo que buscamos."
+    offset: 1
 
   - title: "HABILITAMOS"
-    content: "Ponemos a disposición de los emprendedores la mayor cantidad de recursos para que nada limite el potencial de sus iniciativas. Los facultamos para llevar a cabo investigación aplicada y en campo, los unimos con expertos en el área y con makers (diseñadores, programadores, ingenieros, etc.) para desarrollar sus prototipos y productos; los acompañamos en procesos de testeo y validación; los enlazamos con fuentes de financiamiento y generamos alianzas para su escalabilidad (con gobiernos y ONGs), entre otras cosas.uscamos."
+    content: "Ponemos a disposición de los emprendedores la mayor cantidad de recursos para que nada limite el potencial de sus iniciativas. Los facultamos para llevar a cabo investigación aplicada y en campo, los unimos con expertos en el área y con makers (diseñadores, programadores, ingenieros, etc.) para desarrollar sus prototipos y productos; los acompañamos en procesos de testeo y validación; los enlazamos con fuentes de financiamiento y generamos alianzas para su escalabilidad (con gobiernos y ONGs), entre otras cosas."
+    offset: 7
 
   - title: "COLABORAMOS"
     content: "Somos una comunidad que colabora. Compartimos conocimientos, experiencias y trabajamos con equipos transdisciplinarios. No funcionamos como mesas de trabajo ni hacemos networking. Hacemos amistades y trabajamos en serio en proyectos a largo plazo hasta hacer real el resultado esperado. Juntos.uscamos."
+    offset: 1
 
   - title: "EXPERIMENTAMOS"
     content: "Trabajamos con modelos flexibles y nos enfocamos en intentar y ejecutar, sin miedo a no conseguir el éxito a la primera. Sin embargo, anticipamos riesgos y manejamos el fracaso de una manera segura, cuidando los recursos."
+    offset: 7
 
   - title: "DEMOSTRAMOS RESULTADOS"
     content: "Nos enfocamos en proyectos de alto impacto que beneficien a la mayor cantidad de personas posible. Ideamos e implementamos estos proyectos y medimos su impacto. Nuestro trabajo se hace legítimo a través de los resultados, y son éstos los que nos dan a conocer."
+    offset: 1
 
 projects:
   - title: "Sociedad de Emprendedores<br/>Públicos"
@@ -56,15 +61,24 @@ projects:
     link: /mecate
 
 contacts:
-  - name: Edgar Barroso Merino
-    title: Director
-    email: edgarbarroso@itesm.mx
-    photo: /img/perfil/eb.jpg
+  people:
+    - name: Edgar Barroso Merino
+      title: Director
+      photo: /img/perfil/eb.jpg
+      offset: "col-lg-offset-3 col-md-offset-3 col-sm-offset-3"
 
-  - name: Glenda Michel Gutiérrez
-    title: Coordinadora
-    email: glenda.michel@itesm.mx
-    photo: /img/perfil/gm.jpg
+    - name: Glenda Michel Gutiérrez
+      title: Coordinadora
+      photo: /img/perfil/gm.jpg
+      offset:
+  info:
+    - emails:
+        - "edgarbarroso@itesm.mx"
+        - "glenda.michel@itesm.mx"
+      phone: "+52 55 91 77 7708"
+      twitter: "@LETEmprende"
+
+
 
 home:
   logo: /img/logos/let-logo-hor-white.png
