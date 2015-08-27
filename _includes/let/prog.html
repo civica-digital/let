@@ -1,0 +1,29 @@
+<section id="programas">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ include.menu_content }}</h2>
+        <hr class="primary">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      {% for project in include.project %}
+      <div class="col-lg-6 col-md-6 text-center">
+        <div class="service-box">
+          <div class="portfolio-box">
+            {% if project.link %} <a href="{{ project.link }}"> {% endif %}
+            <img class="img-responsive" src="{{ project.img }}" alt="" />
+            <div class="portfolio-box-caption">
+              <p class="portfolio-box-caption-content">{{ project.content }}</p>
+            </div>
+            {% if project.link %} </a> {% endif %}
+          </div>
+          <h4>{{ project.title }}</h4>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
