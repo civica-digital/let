@@ -244,7 +244,7 @@ header {
 }
 
 .service-box {
-    max-width: 400px;
+    max-width: 500px;
     margin: 50px auto 0;
     @media (min-width: 992px) {
         margin: 20px auto 0;
@@ -433,4 +433,13 @@ i {
 .icon-sized {
   max-height: 50px;
   display: inline-block;
+}
+.img-gray {
+  filter: gray();
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  :hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+  }
 }
