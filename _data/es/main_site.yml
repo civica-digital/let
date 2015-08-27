@@ -8,11 +8,11 @@ who:
       img: img/team1.png
   target:
     - content: Propiciar un ecosistema de emprendimiento dedicado a la transformación pública y contribuir en la construcción de una economía basada en innovación.
-      img: /img/icons/collaboration.png
+      img: /img/icons/bulb.png
     - content: Desarrollar iniciativas de alto impacto social que generen propiedad intelectual y transferencia de conocimiento, lideradas por la comunidad de la Escuela.
-      img: /img/icons/rocket.png
-    - content: Atraer al mejor talento a la Escuela, que incluye comunidad de emprendedores, pensadores académicos, desarrolladores y diseñadores.
       img: /img/icons/book.png
+    - content: Atraer al mejor talento a la Escuela, que incluye comunidad de emprendedores, pensadores académicos, desarrolladores y diseñadores.
+      img: /img/icons/collaborate.png
 
   modal:
     content:
