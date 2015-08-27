@@ -3,10 +3,10 @@
     {% for target in include.elements %}
     <div class="col-lg-{{include.size}} col-md-6 text-center">
       <div class="service-box">
-        <p class="text-muted text-justify">{{ target.content }}</p>
-        <i class="text-right">
+        <p class="text-justify">{{ target.content }}</p>
+        <div class="text-right">
           <img src="{{ target.img }}" class="img-responsive icon-sized"/>
-        </i>
+        </div>
       </div>
     </div>
     {% endfor %}
