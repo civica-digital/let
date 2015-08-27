@@ -6,83 +6,11 @@ lang: es
 {% assign t = site.data[page.lang].main_site %}
 {% assign menu = site.data.menu[page.lang] %}
 
-{% assign title = menu[0].content %}
-
-{% include snippets/title_content_elements.html title=title content=t.who_content elements=t.who_target id='objetivos' size='4' last=t.who_last who_modal=t.who_modal%}
-
-    <section class="bg-primary" id="metodologia">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">{{ menu[1].content }}</h2>
-                    <hr class="light">
-                    {% for method in t.how_content %}
-                    <h4 class="section-heading">
-                      {{ method.title }}
-                    </h4>
-                    <p class="text-faded">
-                      {{ method.content }}
-                    </p>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="programas">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">{{ menu[2].content }}</h2>
-            <hr class="primary">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          {% for project in t.projects %}
-          <div class="col-lg-6 col-md-6 text-center">
-            <div class="service-box">
-              <div class="portfolio-box">
-                {% if project.link %} <a href="{{ project.link }}"> {% endif %}
-                <img class="img-responsive" src="{{ project.img }}" alt="" />
-                <div class="portfolio-box-caption">
-                  <p class="portfolio-box-caption-content">{{ project.content }}</p>
-                </div>
-                {% if project.link %} </a> {% endif %}
-              </div>
-              <h4>{{ project.title }}</h4>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-grey" id="contacto">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">{{ menu[3].content }}</h2>
-            <hr class="primary">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          {% for contact in t.contacts %}
-          <div class="col-lg-6 col-md-6 col-sm-6 text-center">
-            <div class="service-box">
-              <img class="img-responsive contact-circle img-circle center-block" src="{{ contact.photo }}" alt="" />
-              <h4>{{ contact.name }}</h4>
-                <div class="info">
-                  <p>{{ contact.title }}</p>
-                  <p> <a href="mailto:{{ contact.email}}"><i class="fa fa-envelope-o wow bounceIn" data-wow-delay=".1s"></i></a> </p>
-                </div>
-              </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </section>
+{% assign title0 = menu[0].content %}
+{% include let/who.html menu_content=title0 who=t.who id='objetivos' size='4' size_container='6' size_offset='3'%}
+{% assign title1 = menu[1].content %}
+{% include let/how.html menu_content=title1 how_content=t.how_content %}
+{% assign title2 = menu[2].content %}
+{% include let/prog.html menu_content=title2 project=t.projects %}
+{% assign title3 = menu[3].content %}
+{% include let/contact.html menu_content=title3 contacts=t.contacts %}
