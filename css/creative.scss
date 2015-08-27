@@ -240,6 +240,7 @@ header {
 
 .section-heading {
     margin-top: 0;
+    text-transform: capitalize;
 }
 
 .service-box {
@@ -411,4 +412,20 @@ i {
 }
 .contact-circle {
   max-width: 150px;
+}
+
+.text-caption {
+  text-align: justify;
+  font-style: italic;
+}
+.btn-logo {
+  color: $theme-primary;
+  background-color: rgba(255, 255, 255, 0);
+  :hover {
+    color: $theme-primary;
+  }
+}
+.btn-img {
+  max-height: 44px;
+  display: inline-block;
 }
