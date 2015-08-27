@@ -1,18 +1,24 @@
 <section class="bg-primary" id="metodologia">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">{{ include.menu_content }}</h2>
-                <hr class="light">
-                {% for method in include.how_content %}
-                <h4 class="section-heading">
-                  {{ method.title }}
-                </h4>
-                <p class="text-faded">
-                  {{ method.content }}
-                </p>
-                {% endfor %}
-            </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2 class="section-heading">{{ include.menu_content }}</h2>
+        <hr class="light">
+      </div>
     </div>
+
+    {% for method in include.how_content %}
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-{{ method.offset }} text-center">
+        <h4 class="section-heading">
+          {{ method.title }}
+        </h4>
+        <p class="text-justify">
+          {{ method.content }}
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
 </section>

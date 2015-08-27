@@ -9,18 +9,31 @@
   </div>
   <div class="container">
     <div class="row">
-      {% for contact in include.contacts %}
-      <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+      {% for contact in include.contacts.people %}
+      <div class="col-lg-3 col-md-3 col-sm-3 text-center {% if contact.offset %} {{ contact.offset }} {% endif %}">
         <div class="service-box">
-          <img class="img-responsive contact-circle img-circle center-block" src="{{ contact.photo }}" alt="" />
+          <img class="img-responsive contact-circle img-circle center-block img-gray" src="{{ contact.photo }}" alt="" />
           <h4>{{ contact.name }}</h4>
-            <div class="info">
-              <p>{{ contact.title }}</p>
-              <p> <a href="mailto:{{ contact.email}}"><i class="fa fa-envelope-o wow bounceIn" data-wow-delay=".1s"></i></a> </p>
-            </div>
+          <p>{{ contact.title }}</p>
           </div>
       </div>
       {% endfor %}
+      <div class="info col-lg-3 col-md-3 col-sm-3">
+        <p>
+          <img src="/img/icons/mail.png" class="img-responsive icon-sized"/>
+          {% for email in include.contacts.info.emails %}
+          <a href="mailto:{{ email }}">{{ email }}</a>
+          {% endfor %}
+        </p>
+        <p>
+          <img src="/img/icons/phone.png" class="img-responsive icon-sized"/>
+          {{ include.contacts.info.phone }}
+        </p>
+        <p>
+          <img src="/img/icons/twitter.png" class="img-responsive icon-sized"/>
+          {{ include.contacts.info.twitter }}
+        </p>
+      </div>
     </div>
   </div>
 </section>
