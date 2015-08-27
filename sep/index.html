@@ -1,0 +1,62 @@
+---
+layout: page
+lang: es
+---
+
+{% assign t = site.data[page.lang].mecate %}
+<section id="inicio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2  text-center">
+        <img class="mecate-logo" src="{{ t.logo.link }}" alt="" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p id="description">
+          {{ t.home.description }}
+        </p>
+        <p >
+          {{ t.home.objectives.msg }}
+        </p>
+      </div>
+      {% include snippets/icon_description.html elements=t.home.objectives.list size="3" %}
+    </div>
+  </div>
+</section>
+<section class="mecate-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="{{ t.video }}" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-short bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p id="origin">
+          {{ t.origin.content }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="registro" class="section ">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2>
+          {{ t.registry.title }}
+        </h2>
+        {% for content in t.registry.content %}
+          <p class="text-muted">{{ content }} </p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
