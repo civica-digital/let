@@ -1,10 +1,13 @@
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#conocemas">
-  Conoce m&aacute;s
-</button>
+<div class="col-lg-3 col-md-2 col-lg-offset-7 col-md-offset-7">
+  <button type="button" class="btn btn-lg btn-logo" data-toggle="modal" data-target="#{{ include.name }}">
+    Conoce m&aacute;s
+    <img class="img-responsive btn-img" src="/img/logos/let-iso.png" />
+  </button>
+</div>
 
 <!-- Modal -->
-<div class="modal fade" id="conocemas" tabindex="-1" role="dialog" aria-labelledby="conocemas">
+<div class="modal fade" id="{{ include.name }}" tabindex="-1" role="dialog" aria-labelledby="{{ include.name }}">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -12,7 +15,7 @@
         <h4 class="modal-title" id="myModalLabel">¿DE D&Oacute;NDE VIENE LET?</h4>
       </div>
       <div class="modal-body text-left">
-        {% for content in include.who_modal %}
+        {% for content in include.modal %}
         <p>
           {{ content }}
         </p>
