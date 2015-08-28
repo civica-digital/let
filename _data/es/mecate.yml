@@ -5,16 +5,17 @@ menu:
   - content: Mecate
     link: "#inicio"
 
-  - content: Registro
-    link: "#registro"
+  - content: Primera Generación
+    link: "#first"
+
+  - content: Galería
+    link: "#galery"
 
   - content: English
     link: "/mecate/en"
 
 logo:
   link: /img/logos/mecate-color.png
-
-video: "https://www.youtube.com/embed/9EzDOHrVNyM"
 
 home:
   description: MECATE es el programa de carácter internacional de LET, que año con año busca unir a emprendedores de todas partes del mundo para que, en el transcurso de una semana, planteen soluciones en diversos ámbitos sociales.
@@ -35,12 +36,18 @@ home:
 
 origin:
   content: Mecate ‘mecatl’, viene del náhuatl, el idioma mexicano. Es una cuerda hecha de muchas fibras del maguey que sirve para sujetar y unir variados objetos. Así, en Mecate vinculamos y tejemos diversas ideas para fabricar soluciones.
+first:
+  title: PRIMERA GENERACIÓN
+  img: "/img/makers.png"
+  text:
+    - content: Después de recibir 125 solicitudes de 35 países para ser parte de la primera generación de MECATE, dimos inicio a este programa basado, no en el uso de metodologías específicas, sino en el talento de los emprendedores y en la colaboración transdisciplinaria profunda.
+    - content: Artistas, diseñadores, emprendedores, politólogos, activistas, ambientalistas, arquitectos, ingenieros, entre otros muchos perfiles, conformaron el grupo de 30 “mecateros” que, apoyados por un equipo de 10 desarrolladores, generaron 12 propuestas a distintos retos públicos.
+    - content: Así, la primera generación de MECATE formó los primeros nodos de una red de amigos y colaboradores alrededor del mundo que perdurará para trabajar por el acceso a mejores condiciones de vida para las personas.
+  btn: ￼Conoce más la primera generación de MECATE y sus proyectos
+#
+# gallery:
+#   - img:
+#     title:
 
-registry:
-  title: Convocatoria cerrada
-  content:
-    - "Agradecemos tu interés de formar formar parte de este programa. La convocatoria cerró el 14 de junio."
-    - "Nos alegra anunciar que recibimos más de 110 aplicaciones de 35 países diferentes."
-    - "Los 30 participantes finales se darán a conocer el 29 de junio a más tardar. Le deseamos la mejor de la suerte a todos los candidatos."
 bg:
   link: "/img/mecate.png"

@@ -117,7 +117,20 @@ section {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+.maker-bg {
+  background-image: url("/img/makers.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 .mecatl-bg>.container {
   background-color: transparentize($mecate-primary, .5);
+  color:black;
+}
+.maker-box {
+  background-color: transparentize(white, .5);
+}
+.maker-btn {
+  background-color: transparentize($mecate-primary, .4);
   color:black;
 }
