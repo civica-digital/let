@@ -18,20 +18,26 @@ lang: es
         </p>
       </div>
     </div>
-    <div class="img-bg">
-      <!-- TODO: text with image as bg -->
-    </div>
     <div class="row">
-      <div class="col-lg-6 text-justify">
+      <div class="col-lg-5 col-lg-offset-7 text-justify">
+        <p> {{ t.obj.content }}</p>
+      </div>
+      <div class="col-lg-12">
+        <img src="{{ t.obj.img }}" alt="team" class="img-responsive">
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-5 text-justify">
         <p>
           {{ t.who.content }}
         </p>
       </div>
       <br>
       <div class="col-lg-12">
-        <p class="text-center text-primary">
+        <h2 class="text-center text-sep">
           {{ t.home.how.msg }}
-        </p>
+        </h2>
       </div>
     </div>
     <div class="row">
@@ -54,7 +60,7 @@ lang: es
     </div>
   </div>
 </section>
-<section id="convocatoria" class="bg-primary ">
+<section id="convocatoria" class="bg-sep">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">

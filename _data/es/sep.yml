@@ -42,6 +42,9 @@ home:
         color:
         float: right
     img: "/img/semillero.png"
+obj:
+  content: Nuestro objetivo es catalizar el talento, creatividad y visión de los emprendedores para generar la innovación que el sector público necesita para dar respuesta a los problemas más relevantes.
+  img: "/img/team2.png"
 plan:
   content: Junto con los emprendedores públicos, definimos un plan de trabajo con metas específicas a alcanzar a los 8 meses que finaliza el programa. Éste concluye con la presentación de las iniciativas ante stakeholders, inversores y medios con el fin de consolidar alianzas y clientes, y una serie de “TED talks” donde presentan sus propuestas y relevancia en video.
 who:
