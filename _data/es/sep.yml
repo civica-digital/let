@@ -24,15 +24,28 @@ home:
     msg: "¿Cómo apoyamos?"
     list:
       - content: Acompañamiento en la investigación de la problemática
+        color: primary
+        float: left
       - content: Conexión con “makers” para desarrollo de prototipos y productos
+        color:
+        float: right
       - content: Acompañamiento en ejecución de pilotos y validación
+        color:
+        float: left
       - content: Guía y consultoría en la definición de la propuesta
+        color: primary
+        float: right
       - content: Alianzas para la ejecución y operación del proyecto
+        color: primary
+        float: left
       - content: Financiamiento y vínculo con fondos
+        color:
+        float: right
     img: "/img/semillero.png"
 plan:
   content: Junto con los emprendedores públicos, definimos un plan de trabajo con metas específicas a alcanzar a los 8 meses que finaliza el programa. Éste concluye con la presentación de las iniciativas ante stakeholders, inversores y medios con el fin de consolidar alianzas y clientes, y una serie de “TED talks” donde presentan sus propuestas y relevancia en video.
-
+who:
+  content: La Sociedad de Emprendedores Públicos la conformarán aquellas personas dispuestas a entablar sinergias y construir una relación productiva con los gobiernos, para hacer de sus emprendimientos el motor de la transformación social, el vehículo para escalarlos y llegar a más mercados, más comunidades y más beneficiados.
 registry:
   title: Convocatoria
   content:

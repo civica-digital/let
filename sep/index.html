@@ -16,15 +16,31 @@ lang: es
         <p id="description">
           {{ t.home.description }}
         </p>
-        <p >
+      </div>
+    </div>
+    <div class="img-bg">
+      <!-- TODO: text with image as bg -->
+    </div>
+    <div class="row">
+      <div class="col-lg-6 text-justify">
+        <p>
+          {{ t.who.content }}
+        </p>
+      </div>
+      <br>
+      <div class="col-lg-12">
+        <p class="text-center text-primary">
           {{ t.home.how.msg }}
         </p>
       </div>
-      {% include snippets/icon_description.html elements=t.home.how.list size="3" %}
     </div>
+    <div class="row">
+      {% include snippets/arrow_desc.html elements=t.home.how.list size="6" %}
+    </div>
+
   </div>
 </section>
-<section class="section-short bg-grey">
+<section class="section-short bg-grey" id="how">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
@@ -38,7 +54,7 @@ lang: es
     </div>
   </div>
 </section>
-<section id="registro" class="bg-primary ">
+<section id="convocatoria" class="bg-primary ">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
