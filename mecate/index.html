@@ -20,22 +20,22 @@ lang: es
           {{ t.home.objectives.msg }}
         </p>
       </div>
-      {% include snippets/icon_description.html elements=t.home.objectives.list size="3" %}
     </div>
   </div>
 </section>
-<section class="mecate-primary">
+<div id="mecate-bg">
+<section>
   <div class="container">
+    {% for target in t.home.objectives.list %}
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="{{ t.video }}" allowfullscreen></iframe>
-        </div>
+      <div class="col-lg-4 col-md-6 {% if target.float == 'right' %} col-md-offset-6 col-lg-offset-8 {% endif%}">
+        <p class="text-{{ target.float }} {% if target.color %} text-sep {% endif %}">{{ target.content }}</p>
       </div>
     </div>
+    {% endfor %}
   </div>
 </section>
-<section class="section-short bg-grey">
+<section class="mecatl-bg">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -46,6 +46,14 @@ lang: es
     </div>
   </div>
 </section>
+<section class="section-short bg-grey">
+  <div class="container">
+    <div class="row">
+
+    </div>
+  </div>
+</section>
+</div>
 <section id="registro" class="section ">
   <div class="container">
     <div class="row">

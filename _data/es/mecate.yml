@@ -17,21 +17,21 @@ logo:
 video: "https://www.youtube.com/embed/9EzDOHrVNyM"
 
 home:
-  description: Diseñado por el Laboratorio de Emprendimiento y Transformación (LET) de la Escuela de Gobierno y Transformación Pública, Mecate es un programa internacional de emprendimiento público que convoca a estudiantes de posgrados de distintas universidades de México y del mundo, así como a ciudadanos y emprendedores excepcionales, para realizar propuestas con impacto social en México.
+  description: MECATE es el programa de carácter internacional de LET, que año con año busca unir a emprendedores de todas partes del mundo para que, en el transcurso de una semana, planteen soluciones en diversos ámbitos sociales.
   objectives:
-    msg: "Mecate será una plataforma para:"
+    msg: "MECATE es una plataforma para:"
     list:
-      - content: Formar una red internacional permanente de colaboración transdisciplinaria.
-        img: /img/icons/collaboration.png
+      - content: Formar una RED INTERNACIONAL permanente de colaboración transdisciplinaria.
+        float: left
 
-      - content: Impulsar el intercambio de conocimiento y mejores prácticas en emprendimiento público.
-        img: /img/icons/rocket.png
+      - content: Desarrollar PROPUESTAS INNOVADORAS DE IMPACTO SOCIAL en México.
+        float: right
 
-      - content: Identificar a emprendedores que transforman su comunidad.
-        img: /img/icons/search.png
+      - content: Impulsar el INTERCAMBIO DE CONOCIMIENTO y mejores prácticas en emprendimiento público.
+        float: left
 
-      - content: Desarrollar propuestas innovadoras de impacto social que se implementen y validen en México.
-        img: /img/icons/bulb.png
+      - content: IDENTIFICAR A EMPRENDEDORES que transforman su comunidad.
+        float: right
 
 origin:
   content: Mecate ‘mecatl’, viene del náhuatl, el idioma mexicano. Es una cuerda hecha de muchas fibras del maguey que sirve para sujetar y unir variados objetos. Así, en Mecate vinculamos y tejemos diversas ideas para fabricar soluciones.
@@ -42,3 +42,5 @@ registry:
     - "Agradecemos tu interés de formar formar parte de este programa. La convocatoria cerró el 14 de junio."
     - "Nos alegra anunciar que recibimos más de 110 aplicaciones de 35 países diferentes."
     - "Los 30 participantes finales se darán a conocer el 29 de junio a más tardar. Le deseamos la mejor de la suerte a todos los candidatos."
+bg:
+  link: "/img/mecate.png"

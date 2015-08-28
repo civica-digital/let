@@ -101,8 +101,23 @@ section {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: transparent;
 }
-
 .service-box img {
   margin-bottom: 25px;
   margin-top: 20px;
+}
+#mecate-bg {
+  background-image: url("/img/mecate.png");
+  background-position: 70% 0;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.mecatl-bg {
+  background-image: url("/img/mecatl.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.mecatl-bg>.container {
+  background-color: transparentize($mecate-primary, .5);
+  color:black;
 }
