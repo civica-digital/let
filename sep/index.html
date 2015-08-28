@@ -19,7 +19,7 @@ lang: es
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-5 col-lg-offset-7 text-justify">
+      <div class="col-lg-5 col-lg-offset-7 col-md-6 col-md-offset-5 col-sm-6 co-sm-offset-5 text-justify" id="in-img">
         <p> {{ t.obj.content }}</p>
       </div>
       <div class="col-lg-12">
@@ -33,20 +33,22 @@ lang: es
           {{ t.who.content }}
         </p>
       </div>
-      <br>
+    </div>
+  </div>
+</section>
+<section id="how" class="section-short">
+  <div class="container">
+    <div class="row">
       <div class="col-lg-12">
-        <h2 class="text-center text-sep">
+        <h2 class="text-center text-sep" >
           {{ t.home.how.msg }}
         </h2>
       </div>
-    </div>
-    <div class="row">
       {% include snippets/arrow_desc.html elements=t.home.how.list size="6" %}
     </div>
-
   </div>
 </section>
-<section class="section-short bg-grey" id="how">
+<section class="section-short">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
@@ -58,15 +60,20 @@ lang: es
         </p>
       </div>
     </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2>
+          {{ t.registry.title }}
+        </h2>
+      </div>
+    </div>
   </div>
 </section>
 <section id="convocatoria" class="bg-sep">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
-        <h2>
-          {{ t.registry.title }}
-        </h2>
         {% for content in t.registry.content %}
           <p>{{ content }}</p>
         {% endfor %}

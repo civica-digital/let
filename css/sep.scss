@@ -113,3 +113,9 @@ section {
   background-color: $sep-primary;
   color: white;
 }
+#in-img {
+  top: 120px;
+  z-index: 1;
+  background-color: transparentize($sep-dark, .5);
+  right: 20px;
+}
