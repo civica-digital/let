@@ -1,14 +1,14 @@
 ---
-layout: page
+layout: sep
 lang: es
 ---
 
-{% assign t = site.data[page.lang].mecate %}
+{% assign t = site.data[page.lang].sep %}
 <section id="inicio">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2  text-center">
-        <img class="mecate-logo" src="{{ t.logo.link }}" alt="" />
+        <img class="sep-logo" src="{{ t.logo.link }}" alt="logo" />
       </div>
     </div>
     <div class="row">
@@ -17,36 +17,28 @@ lang: es
           {{ t.home.description }}
         </p>
         <p >
-          {{ t.home.objectives.msg }}
+          {{ t.home.how.msg }}
         </p>
       </div>
-      {% include snippets/icon_description.html elements=t.home.objectives.list size="3" %}
-    </div>
-  </div>
-</section>
-<section class="mecate-primary">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="{{ t.video }}" allowfullscreen></iframe>
-        </div>
-      </div>
+      {% include snippets/icon_description.html elements=t.home.how.list size="3" %}
     </div>
   </div>
 </section>
 <section class="section-short bg-grey">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
+      <div class="col-lg-6">
+        <img src="{{ t.home.how.img }}" alt="plan" class="img-responsive">
+      </div>
+      <div class="col-lg-6 text-justify">
         <p id="origin">
-          {{ t.origin.content }}
+          {{ t.plan.content }}
         </p>
       </div>
     </div>
   </div>
 </section>
-<section id="registro" class="section ">
+<section id="registro" class="bg-primary ">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -54,8 +46,13 @@ lang: es
           {{ t.registry.title }}
         </h2>
         {% for content in t.registry.content %}
-          <p class="text-muted">{{ content }} </p>
+          <p>{{ content }}</p>
         {% endfor %}
+        <ul class="text-left">
+          {% for req in t.registry.reqs %}
+            <li>{{ req }}</li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>

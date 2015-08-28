@@ -72,11 +72,12 @@ contacts:
       photo: /img/perfil/gm.jpg
       offset:
   info:
-    - emails:
+    phone: "+52 55 91 77 7708"
+    twitter: "@LETEmprende"
+    emails:
         - "edgarbarroso@itesm.mx"
         - "glenda.michel@itesm.mx"
-      phone: "+52 55 91 77 7708"
-      twitter: "@LETEmprende"
+
 
 
 

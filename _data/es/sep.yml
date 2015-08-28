@@ -1,0 +1,46 @@
+menu:
+  - content: Inicio
+    link: "/"
+
+  - content: SEP
+    link: "#inicio"
+
+  - content: ¿Cómo?
+    link: "#how"
+
+  - content: Convocatoria
+    link: "#convocatoria"
+
+  - content: English
+    link: "/sep/en"
+
+logo:
+  link: /img/logos/sep.png
+
+
+home:
+  description: La Sociedad de Emprendedores Públicos es el programa de LET que apoya a emprendedores con iniciativas de alto impacto público regional, nacional o global, con el fin de asegurar que transformen la mayor cantidad de vidas posible.
+  how:
+    msg: "¿Cómo apoyamos?"
+    list:
+      - content: Acompañamiento en la investigación de la problemática
+      - content: Conexión con “makers” para desarrollo de prototipos y productos
+      - content: Acompañamiento en ejecución de pilotos y validación
+      - content: Guía y consultoría en la definición de la propuesta
+      - content: Alianzas para la ejecución y operación del proyecto
+      - content: Financiamiento y vínculo con fondos
+    img: "/img/semillero.png"
+plan:
+  content: Junto con los emprendedores públicos, definimos un plan de trabajo con metas específicas a alcanzar a los 8 meses que finaliza el programa. Éste concluye con la presentación de las iniciativas ante stakeholders, inversores y medios con el fin de consolidar alianzas y clientes, y una serie de “TED talks” donde presentan sus propuestas y relevancia en video.
+
+registry:
+  title: Convocatoria
+  content:
+    - "La convocatoria para ser parte de la primera generación de la Sociedad de Emprendedores Públicos iniciará el viernes 28 de agosto. Las bases y lineamientos estarán disponibles en este espacio."
+    - "Los requisitos de participación son:"
+  reqs:
+    - "Ser mexicano o tener una iniciativa con alcance en México."
+    - "Ser residente en México."
+    - "Contar con carrera universitaria terminada."
+    - "Tener un emprendimiento de impacto público, ya sea que esté en etapas tempranas (incluso ideación), o en crecimiento."
+    - "Tener alto deseo, capacidad y compromiso de desarrollar un proyecto de emprendimiento público que mejore la calidad de vida de la población."
