@@ -12,7 +12,7 @@ lang: es
 {% include let/how.html menu_content=title1 how_content=t.how_content %}
 {% assign title2 = menu[2].content %}
 {% include let/prog.html menu_content=title2 project=t.projects %}
-{% assign title3 = menu[3].content %}
-{% include let/emp.html menu_content=title3 %}
+{% assign title3 = menu[3] %}
+{% include let/emp.html menu=title3 emp=t.emp%}
 {% assign title4 = menu[4].content %}
 {% include let/contact.html menu_content=title4 contacts=t.contacts %}

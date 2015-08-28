@@ -21,7 +21,10 @@ hr {
     border-width: 3px;
     max-width: 50px;
 }
-
+hr.wide {
+  max-width: 100%;
+  width:100%;
+}
 hr.light {
     border-color: white;
 }
@@ -442,4 +445,18 @@ i {
     filter: none;
     -webkit-filter: grayscale(0);
   }
+}
+
+#emprendimiento {
+  background-image: url("/img/logos/let-iso-gray.png");
+  background-position: 100% 40%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.dashed {
+  border: 1px gray dashed;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px
 }

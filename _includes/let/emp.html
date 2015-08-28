@@ -1,16 +1,22 @@
-<section class="bg-img" id="{{ include.menu_content }}">
+<section id="emprendimiento" class="section-short">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ include.menu_content }}</h2>
-        <hr class="primary">
+        <hr class="wide">
+        <h2 class="text-primary">{{ include.menu.name }}</h2>
       </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
-      <div class="info col-lg-3 col-md-3 col-sm-3">
-        
+      <div class="col-lg-6 col-md-6 col-sm-6 dashed">
+        <p>{{ include.emp.content[1] }}</p>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 dashed">
+        <p>{{ include.emp.content[2] }}</p>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 dashed">
+        <p>{{ include.emp.content[2] }}</p>
       </div>
     </div>
   </div>
