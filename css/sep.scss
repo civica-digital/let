@@ -119,3 +119,22 @@ section {
   background-color: transparentize($sep-dark, .5);
   right: 20px;
 }
+.btn {
+  background-color: $sep-secondary;
+  border: none;
+  border-radius: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+  :hover {
+    background-color: $sep-secondary;
+  }
+  .btn-primary {
+    :hover, :focus {
+      background-color: $sep-secondary;
+    }
+  }
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .btn-primary {
+  background-color: $sep-secondary;
+  border-color: darken($sep-secondary, .5);
+}
