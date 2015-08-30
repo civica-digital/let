@@ -3,8 +3,12 @@
     {% for target in include.elements %}
     <div class="col-lg-{{include.size}} col-md-6 text-center">
       <div class="service-box">
-        <i class="fa fa-3x wow bounceIn text-primary">
-          <img src="{{ target.img }}" />
+        <i class="fa fa-3x wow bounceIn text-sep" id="arrow">
+          {%if target.float == 'right' %}
+          <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+          {% else %}
+          <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+          {% endif %}
         </i>
         <p class="text-{{ target.float }} {% if target.color %} text-sep {% endif %}">{{ target.content }}</p>
       </div>
