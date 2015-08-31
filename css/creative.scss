@@ -475,3 +475,8 @@ span.muted {
 .info {
   padding-top: 129px;
 }
+.modal-body p:last-child {
+  font-weight: bold;
+  color: $theme-primary;
+  text-align: center;
+}
