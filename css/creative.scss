@@ -414,7 +414,7 @@ i {
   font-size: 10px !important;
 }
 .contact-circle {
-  max-width: 150px;
+  max-width: 250px;
 }
 
 .text-caption {
@@ -462,4 +462,8 @@ i {
 }
 #metodologia {
   padding:20px 0px;
+}
+.portfolio-box + h4 {
+  text-transform: uppercase;
+  font-weight: bold;
 }
