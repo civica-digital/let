@@ -483,3 +483,24 @@ span.muted {
   color: $theme-primary;
   text-align: center;
 }
+.container-wide {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  width: 100%;
+}
+.row-wide {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  width: 100%;
+  .col-wide {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    .service-box {
+      max-width: none;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+}
