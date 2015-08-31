@@ -1,12 +1,16 @@
-<section class="bg-primary" id="metodologia">
+
+<section class="section-short" id="metodologia">
   <div class="container">
     <div class="row">
+      <hr class="wide">
       <div class="col-lg-8 col-lg-offset-2 text-center">
         <h2 class="section-heading">{{ include.menu_content }}</h2>
-        <hr class="light">
       </div>
     </div>
-
+  </div>
+</section>
+<section class="bg-primary">
+  <div class="containet bg-primary"
     {% for method in include.how_content %}
     <div class="row">
       <div class="col-lg-4 col-lg-offset-{{ method.offset }} text-center">
