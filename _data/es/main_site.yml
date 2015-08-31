@@ -1,6 +1,10 @@
 who:
   content:
-    - "El LABORATORIO DE EMPRENDIMIENTO Y TRANSFORMACIÓN (LET) es una comunidad activa y transdisciplinaria que se enfoca en impactar la vida de las personas a través del desarrollo de iniciativas de emprendimiento público."
+    - |
+     El <span class="text-primary">LABORATORIO DE EMPRENDIMIENTO Y TRANSFORMACIÓN (LET)</span>
+     es una <span class="muted">comunidad</span> activa y <span class="muted">transdisciplinaria</span>
+     que se enfoca en impactar la vida de las personas a través del desarrollo de iniciativas de
+     <span class="muted">emprendimiento público.</span>"
     - "En LET habilitamos ideas y las transformamos en soluciones innovadoras de alto impacto para implementarlas en sociedades y mercados con oportunidades en diversos sectores clave."
   obj: "El LET tiene los siguientes objetivos:"
   hist:
