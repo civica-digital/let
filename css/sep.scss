@@ -138,5 +138,12 @@ section {
   background-color: $sep-secondary;
   border-color: darken($sep-secondary, .5);
 }
-#arrow {
+.arrow {
+  display: inline;
+}
+.arrow-text {
+  display: inline;
+  font-size: 13px;
+  position: relative;
+  top: -15px;
 }

@@ -1,18 +1,27 @@
 <div class="container">
   <div class="row">
     {% for target in include.elements %}
-    <div class="col-lg-{{include.size}} col-md-6 text-center">
-      <div class="service-box">
-        <i class="fa fa-3x wow bounceIn text-sep" id="arrow">
-          {%if target.float == 'right' %}
-          <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-          {% else %}
-          <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
-          {% endif %}
-        </i>
-        <p class="text-{{ target.float }} {% if target.color %} text-sep {% endif %}">{{ target.content }}</p>
+      {% if target.float == 'left' %}
+      <div class="col-lg-{{include.size}} col-md-6 text-{{ target.float }}">
+        <div class="service-box">
+          <i class="fa fa-3x wow bounceIn text-sep arrow">
+            <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+          </i>
+          <p class="text-{{ target.float }} {% if target.color %} text-sep {% endif %} arrow-text">{{ target.content }}</p>
+        </div>
       </div>
-    </div>
+
+      {% else %}
+      <div class="col-lg-{{include.size}} col-md-6 text-{{ target.float }}">
+        <div class="service-box">
+          <p class="text-{{ target.float }} {% if target.color %} text-sep {% endif %} arrow-text">{{ target.content }}</p>
+          <i class="fa fa-3x wow bounceIn text-sep arrow">
+            <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+          </i>
+        </div>
+      </div>
+
+      {% endif %}
     {% endfor %}
   </div>
 </div>
