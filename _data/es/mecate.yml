@@ -17,22 +17,24 @@ menu:
 logo:
   link: /img/logos/mecate-color.png
 
+video: "https://www.youtube.com/embed/9EzDOHrVNyM"
+
 home:
   description: MECATE es el programa de carácter internacional de LET, que año con año busca unir a emprendedores de todas partes del mundo para que, en el transcurso de una semana, planteen soluciones en diversos ámbitos sociales.
   objectives:
     msg: "MECATE es una plataforma para:"
     list:
-      - content: Formar una RED INTERNACIONAL permanente de colaboración transdisciplinaria.
-        float: left
+      - content: Formar una red internacional permanente de colaboración transdisciplinaria.
+        img: /img/icons/collaboration.png
 
-      - content: Desarrollar PROPUESTAS INNOVADORAS DE IMPACTO SOCIAL en México.
-        float: right
+      - content: Impulsar el intercambio de conocimiento y mejores prácticas en emprendimiento público.
+        img: /img/icons/rocket.png
 
-      - content: Impulsar el INTERCAMBIO DE CONOCIMIENTO y mejores prácticas en emprendimiento público.
-        float: left
+      - content: Identificar a emprendedores que transforman su comunidad.
+        img: /img/icons/search.png
 
-      - content: IDENTIFICAR A EMPRENDEDORES que transforman su comunidad.
-        float: right
+      - content: Desarrollar propuestas innovadoras de impacto social que se implementen y validen en México.
+        img: /img/icons/bulb01.png
 
 origin:
   content: Mecate ‘mecatl’, viene del náhuatl, el idioma mexicano. Es una cuerda hecha de muchas fibras del maguey que sirve para sujetar y unir variados objetos. Así, en Mecate vinculamos y tejemos diversas ideas para fabricar soluciones.
