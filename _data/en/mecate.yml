@@ -38,7 +38,7 @@ origin:
   content: Mecate ‘mecatl’, viene del náhuatl, el idioma mexicano. Es una cuerda hecha de muchas fibras del maguey que sirve para sujetar y unir variados objetos. Así, en Mecate vinculamos y tejemos diversas ideas para fabricar soluciones.
 first:
   title: PRIMERA GENERACIÓN
-  img: "/img/makers.png"
+  img: "/img/portfolio/makers.png"
   text:
     - content: Después de recibir 125 solicitudes de 35 países para ser parte de la primera generación de MECATE, dimos inicio a este programa basado, no en el uso de metodologías específicas, sino en el talento de los emprendedores y en la colaboración transdisciplinaria profunda.
     - content: Artistas, diseñadores, emprendedores, politólogos, activistas, ambientalistas, arquitectos, ingenieros, entre otros muchos perfiles, conformaron el grupo de 30 “mecateros” que, apoyados por un equipo de 10 desarrolladores, generaron 12 propuestas a distintos retos públicos.
@@ -50,4 +50,4 @@ first:
 #     title:
 
 bg:
-  link: "/img/mecate.png"
+  link: "/img/portfolio/mecate.png"

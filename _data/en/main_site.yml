@@ -9,7 +9,7 @@ who:
   obj: "El LET tiene los siguientes objetivos:"
   hist:
     - content: LET es una iniciativa de la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey. Nace el 16 de abril del 2015, con la visión de ser el hogar natural de todo emprendedor e innovador social, de México y el mundo, que está verdaderamente comprometido con generar impacto social.
-      img: img/team1.png
+      img: img/portfolio/team1.png
   target:
     - content: Propiciar un ecosistema de emprendimiento dedicado a la transformación pública y contribuir en la construcción de una economía basada en innovación.
       img: /img/icons/bulb.png
@@ -53,24 +53,24 @@ how_content:
 projects:
   - title: "Sociedad de Emprendedores<br/>Públicos"
     content: Impulsamos el ecosistema de emprendedores e intraemprendedores públicos. Durante 8 meses los miembros reciben asesoría continua y apoyo para desarrollar prototipos y productos, ejecutar pilotos  y vincularse con fondos, socios o clientes para lanzar el proyecto al mercado.
-    img: /img/emprendedor.png
+    img: /img/portfolio/emprendedor.png
     link: /sep
 
   - title: "MECATE - International Public Entrepreneurship Program"
     content: Convocamos a personas talentosas y emprendedores del mundo para que, en el plazo de una semana, generen ideas y desarrollen proyectos encaminados a la transformación social.
-    img: /img/teamMecate.png
+    img: /img/portfolio/teamMecate.png
     link: /mecate
 
 contacts:
   people:
     - name: Edgar Barroso Merino
       title: Director
-      photo: /img/perfil/eb.jpg
+      photo: /img/perfil/ebarrosomcircle.png
       offset: "col-lg-offset-3 col-md-offset-3 col-sm-offset-3"
 
     - name: Glenda Michel Gutiérrez
       title: Coordinadora
-      photo: /img/perfil/gm.jpg
+      photo: /img/perfil/gmmcircle.png
       offset:
   info:
     phone: "+52 55 91 77 7708"
