@@ -9,10 +9,10 @@
 
   <div class="container">
     <div class="row">
+      <hr class="wide">
       <div class="col-md-{{ include.size_container }} col-md-offset-{{ include.size_offset }} text-center">
         {% if include.menu_content %}
         <h2 class="section-heading">{{ include.menu_content }}</h2>
-        <hr class="primary">
         {% elsif include.logo %}
           <div class="col-lg-12  text-center">
             <img class="include.logo_class" src="{{ include.logo }}" alt="" />
