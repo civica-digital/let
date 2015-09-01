@@ -65,11 +65,13 @@ contacts:
   people:
     - name: Edgar Barroso Merino
       title: Director
+      # photo: /img/perfil/ebarrosomcircle.png
       photo: /img/perfil/eb.jpg
       offset: "col-lg-offset-3 col-md-offset-3 col-sm-offset-3"
 
     - name: Glenda Michel Gutiérrez
       title: Coordinadora
+      # photo: /img/perfil/gmmcircle.png
       photo: /img/perfil/gm.jpg
       offset:
   info:
