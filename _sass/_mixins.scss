@@ -53,11 +53,14 @@
 		background-color: $color;
 	}
 }
-
+@font-face {
+  font-family: Gadugi;
+  src: url('/fonts/gadugi.ttf');
+}
 @mixin sans-serif-font() {
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'Montserrat', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 @mixin serif-font() {
-	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'Gadugi', 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
