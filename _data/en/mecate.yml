@@ -1,45 +1,53 @@
 menu:
-  - content: Home
-    link: "/en"
+  - content: Inicio
+    link: "/"
 
   - content: Mecate
     link: "#inicio"
 
-  - content: Registration
-    link: "#registro"
+  - content: Primera Generación
+    link: "#first"
 
-  - content: Español
-    link: "/mecate"
+  - content: Galería
+    link: "#galery"
+
+  - content: English
+    link: "/mecate/en"
 
 logo:
   link: /img/logos/mecate-color.png
 
-video: "https://www.youtube.com/embed/GWpeLCoQ_5k"
-
 home:
-  description: Designed by the Entrepreneurship and Transformation Laboratory (LET) of the Graduate School of Government and Public Transformation, Mecate is an international public entrepreneurship program that gathers talented graduate and postgraduate students from different universities in Mexico and the world, with exceptional citizens and entrepreneurs to make proposals with social impact.
+  description: MECATE es el programa de carácter internacional de LET, que año con año busca unir a emprendedores de todas partes del mundo para que, en el transcurso de una semana, planteen soluciones en diversos ámbitos sociales.
   objectives:
-    msg: "Mecate will be a platform to:"
+    msg: "MECATE es una plataforma para:"
     list:
-      - content: Form a permanent international network of transdisciplinary collaboration.
-        img: /img/icons/collaboration.png
+      - content: Formar una RED INTERNACIONAL permanente de colaboración transdisciplinaria.
+        float: left
 
-      - content: Promote the exchange of knowledge and best practices on public entrepreneurship.
-        img: /img/icons/rocket.png
+      - content: Desarrollar PROPUESTAS INNOVADORAS DE IMPACTO SOCIAL en México.
+        float: right
 
-      - content: Identify entrepreneurs that transform their communities.
-        img: /img/icons/search.png
+      - content: Impulsar el INTERCAMBIO DE CONOCIMIENTO y mejores prácticas en emprendimiento público.
+        float: left
 
-      - content: Develop innovative social impact proposals to be implemented and validated in Mexico
-        img: /img/icons/bulb.png
+      - content: IDENTIFICAR A EMPRENDEDORES que transforman su comunidad.
+        float: right
 
 origin:
-  content: ‘Mecatl’, comes from the mexican language Nahuatl. It is a rope, made of multiple fibers  that come from the agave plant and is used to tie and hold various objects.  In Mecate we link and weave several ideas  to produce solutions.
+  content: Mecate ‘mecatl’, viene del náhuatl, el idioma mexicano. Es una cuerda hecha de muchas fibras del maguey que sirve para sujetar y unir variados objetos. Así, en Mecate vinculamos y tejemos diversas ideas para fabricar soluciones.
+first:
+  title: PRIMERA GENERACIÓN
+  img: "/img/makers.png"
+  text:
+    - content: Después de recibir 125 solicitudes de 35 países para ser parte de la primera generación de MECATE, dimos inicio a este programa basado, no en el uso de metodologías específicas, sino en el talento de los emprendedores y en la colaboración transdisciplinaria profunda.
+    - content: Artistas, diseñadores, emprendedores, politólogos, activistas, ambientalistas, arquitectos, ingenieros, entre otros muchos perfiles, conformaron el grupo de 30 “mecateros” que, apoyados por un equipo de 10 desarrolladores, generaron 12 propuestas a distintos retos públicos.
+    - content: Así, la primera generación de MECATE formó los primeros nodos de una red de amigos y colaboradores alrededor del mundo que perdurará para trabajar por el acceso a mejores condiciones de vida para las personas.
+  btn: ￼Conoce más la primera generación de MECATE y sus proyectos
+#
+# gallery:
+#   - img:
+#     title:
 
-
-registry:
-  title: Application process closed
-  content:
-    - "We thank you for your interest on being part of this program."
-    - "Application process is closed now. We are very happy to announce that more than 110 people from 35 different countries registered."
-    - "Final participants will be announced through this website on June 29th  the latest. We wish the best of lucks to all applicants."
+bg:
+  link: "/img/mecate.png"

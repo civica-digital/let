@@ -1,61 +1,95 @@
 ---
 layout: sep
-lang: en
+lang: es
 ---
 
-{% assign t = site.data[page.lang].mecate %}
+{% assign t = site.data[page.lang].sep %}
 <section id="inicio">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2  text-center">
-        <img class="img-responsive" src="{{ t.logo.link }}" alt="" />
+        <img class="sep-logo" src="{{ t.logo.link }}" alt="logo" />
       </div>
     </div>
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p id="description">
+        <h3 id="description">
           {{ t.home.description }}
-        </p>
-        <p >
-          {{ t.home.objectives.msg }}
+        </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-5 col-lg-offset-7 col-md-6 col-md-offset-5 col-sm-6 co-sm-offset-5 text-justify" id="in-img">
+        <p> {{ t.obj.content }}</p>
+      </div>
+      <div class="col-lg-12">
+        <img src="{{ t.obj.img }}" alt="team" class="img-responsive">
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-5 text-justify">
+        <p>
+          {{ t.who.content }}
         </p>
       </div>
-      {% include snippets/icon_description.html elements=t.home.objectives.list size="3" %}
     </div>
   </div>
 </section>
-<section class="mecate-primary">
+<section id="how" class="section-short">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="{{ t.video }}" allowfullscreen></iframe>
-        </div>
+      <div class="col-lg-12">
+        <h2 class="text-center text-sep content-header" >
+          {{ t.home.how.msg }}
+        </h2>
       </div>
+      {% include snippets/arrow_desc.html elements=t.home.how.list size="6" %}
     </div>
   </div>
 </section>
-<section class="section-short bg-grey">
+<section class="section-short">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
+      <div class="col-lg-6">
+        <img src="{{ t.home.how.img }}" alt="plan" class="img-responsive">
+      </div>
+      <div class="col-lg-6 text-justify">
         <p id="origin">
-          {{ t.origin.content }}
+          {{ t.plan.content }}
         </p>
       </div>
     </div>
-  </div>
-</section>
-<section id="registro" class="section ">
-  <div class="container">
+    <br>
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
+      <div class="col-lg-8 col-lg-offset-2 text-center content-header">
         <h2>
           {{ t.registry.title }}
         </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="convocatoria" class="bg-sep">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
         {% for content in t.registry.content %}
-          <p class="text-muted">{{ content }} </p>
+          <p>{{ content }}</p>
         {% endfor %}
+        <ul class="text-left">
+          {% for req in t.registry.reqs %}
+            <li>{{ req }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <br>
+      <br>
+      <div class="col-lg-3 col-lg-offset-3 text-center">
+        <a target="_blank" href="/content/Convocatoria-SEP.pdf" class="btn btn-primary">{{ t.registry.bases }}</a>
+      </div>
+      <div class="col-lg-3 text-center">
+        <a target="_blank" href="https://docs.google.com/forms/d/1BrSn02-J7aOA_i3WLu0jzEQpcy28qEwhYZO0qUggkBk/viewform?c=0&w=1" class="btn btn-primary">{{ t.registry.reg }}</a>
       </div>
     </div>
   </div>
