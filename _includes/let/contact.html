@@ -19,12 +19,12 @@
       </div>
       {% endfor %}
       <div class="info col-lg-3 col-md-3 col-sm-3">
-        <p>
-          <img src="/img/icons/mail.png" class="img-responsive icon-sized"/>
-          {% for email in include.contacts.info.emails %}
-          <a href="mailto:{{ email }}">{{ email }}</a>
-          {% endfor %}
-        </p>
+          <img src="/img/icons/mail.png" class="img-responsive icon-sized icon-emails"/>
+          <div class="emails">
+            {% for email in include.contacts.info.emails %}
+            <a href="mailto:{{ email }}">{{ email }}</a>
+            {% endfor %}
+          </div>
         <p>
           <img src="/img/icons/phone.png" class="img-responsive icon-sized"/>
           {{ include.contacts.info.phone }}
