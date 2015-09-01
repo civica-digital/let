@@ -11,8 +11,8 @@ menu:
   - content: Convocatoria
     link: "#convocatoria"
 
-  - content: English
-    link: "/sep/en"
+  # - content: English
+  #   link: "/sep/en"
 
 logo:
   link: /img/logos/sep.png

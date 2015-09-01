@@ -11,8 +11,8 @@ menu:
   - content: Galería
     link: "#galery"
 
-  - content: English
-    link: "/mecate/en"
+  # - content: English
+  #   link: "/mecate/en"
 
 logo:
   link: /img/logos/mecate-color.png

@@ -15,8 +15,8 @@ es:
   - content: Contacto
     link: "#contacto"
 
-  - content: English
-    link: "/en"
+  # - content: English
+  #   link: "/en"
 
 en:
     - content: Who are we?
