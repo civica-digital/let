@@ -138,13 +138,14 @@ section {
   border-color: darken($sep-secondary, .5);
 }
 .arrow {
-  display: inline;
+  display: inline-block;
 }
 .arrow-text {
-  display: inline;
-  font-size: 13px;
-  position: relative;
-  top: -15px;
+  display: inline-block;
+  max-width: 80%;
+  p {
+    font-size: 1.5em;
+  }
 }
 .content-header {
   text-transform: uppercase;
