@@ -9,7 +9,7 @@ who:
   obj: "El LET tiene los siguientes objetivos:"
   hist:
     - content: LET es una iniciativa de la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey. Nace el 16 de abril del 2015, con la visión de ser el hogar natural de todo emprendedor e innovador social, de México y el mundo, que está verdaderamente comprometido con generar impacto social.
-      img: img/team1.png
+      img: /img/portfolio/team1.png
   target:
     - content: Propiciar un ecosistema de emprendimiento dedicado a la transformación pública y contribuir en la construcción de una economía basada en innovación.
       img: /img/icons/bulb.png
