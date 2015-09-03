@@ -11,11 +11,11 @@ menu:
   - content: Convocatoria
     link: "#convocatoria"
 
-  # - content: English
-  #   link: "/sep/en"
+  - content: English
+    link: "/sociedad/en"
 
 logo:
-  link: /img/logos/sep.png
+  link: /img/logos/sociedad.png
 
 
 home:

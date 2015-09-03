@@ -29,7 +29,7 @@ lang: es
     {% for target in t.home.objectives.list %}
     <div class="row">
       <div class="col-lg-4 col-md-6 {% if target.float == 'right' %} col-md-offset-6 col-lg-offset-8 {% endif%}">
-        <p class="text-{{ target.float }} {% if target.color %} text-sep {% endif %}">{{ target.content }}</p>
+        <p class="text-{{ target.float }} {% if target.color %} text-sociedad {% endif %}">{{ target.content }}</p>
       </div>
     </div>
     {% endfor %}
