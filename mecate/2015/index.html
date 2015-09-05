@@ -1,0 +1,69 @@
+---
+layout: mecate
+lang: es
+---
+
+
+{% assign t = site.data[page.lang].mecate %}
+<section id="inicio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2  text-center">
+        <img class="mecate-logo" src="{{ t.logo.link }}" alt="" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p id="description">
+          {{ t.home.description }}
+        </p>
+        <p >
+          {{ t.home.objectives.msg }}
+        </p>
+      </div>
+      {% include snippets/icon_description.html elements=t.home.objectives.list size="3" %}
+    </div>
+  </div>
+</section>
+<section class="section-short mecate-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p id="origin">
+          {{ t.origin.content }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mecate-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="{{ t.video }}" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="first" class="maker-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center maker-box text-justify">
+        <h2>
+          {{ t.first.title }}
+        </h2>
+        {% for text in t.first.text %}
+          <p>{{ text.content }} </p>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 text-center">
+      </div>
+    </div>
+  </div>
+</section>
