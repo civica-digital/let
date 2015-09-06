@@ -1,0 +1,7 @@
+{% for project in include.projects %}
+  <img src="{{ target.img }}" class="img-responsive"/>
+  <p class="text-caption text-muted">{{ target.content }}</p>
+  <div class="col-lg-{{ include.size }} text-center">
+    <h2>{{ t.proj }}</h2>
+  </div>
+{% endfor %}
