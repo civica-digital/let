@@ -134,3 +134,23 @@ section {
   background-color: transparentize($mecate-primary, .4);
   color:black;
 }
+.mecate-text {
+  color: $mecate-primary;
+}
+
+
+// Generations
+
+
+#inicio2015 {
+  background-image: url("/img/portfolio/makers.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  h1 {
+    height: 100%;
+    color: $mecate-primary;
+    vertical-align: bottom;
+  }
+}
