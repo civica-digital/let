@@ -4,66 +4,68 @@ lang: es
 ---
 
 
-{% assign t = site.data[page.lang].mecate %}
-<section id="inicio">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2  text-center">
-        <img class="mecate-logo" src="{{ t.logo.link }}" alt="" />
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p id="description">
-          {{ t.home.description }}
-        </p>
-        <p >
-          {{ t.home.objectives.msg }}
-        </p>
-      </div>
-      {% include snippets/icon_description.html elements=t.home.objectives.list size="3" %}
-    </div>
-  </div>
+{% assign t = site.data[page.lang].m2015 %}
+<section id="inicio2015">
+  <h1>{{ t.inicio.title }}</h1>
 </section>
-<section class="section-short mecate-primary">
+
+<section id="projects">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p id="origin">
-          {{ t.origin.content }}
-        </p>
+      <div class="col-lg-4 col-lg-offset-4  text-center">
+        <h3>{{ t.proj }}</h3>
       </div>
+    </div>
+    <div class="row">
+      {% include snippets/projects.html projects=t.projects size='4'%}
     </div>
   </div>
 </section>
 
-<section class="mecate-primary">
+<section id="mecateros" class="section-short mecate-primary">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="{{ t.video }}" allowfullscreen></iframe>
+      <div class="col-lg-4 col-lg-offset-4  text-center">
+        <h2>{{ t.meca }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      {% include snippets/mecateros.html mecateros=t.mecateros size='4'%}
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="section-short">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-4  text-center">
+        <h2>{{ t.gallery.title }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      {% include snippets/gallery.html pictures=t.gallery.pictures size='4'%}
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="section-short">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-4  text-center">
+        <h2>{{ t.ref.title }}</h2>
+      </div>
+    </div>
+    {% for subject in t.ref.subj %}
+      <div class="row">
+        <div class="col-lg-4 col-lg-offset-4  text-center">
+          <h2 class="mecate-text">{{ subject.title }}</h2>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="first" class="maker-bg">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center maker-box text-justify">
-        <h2>
-          {{ t.first.title }}
-        </h2>
-        {% for text in t.first.text %}
-          <p>{{ text.content }} </p>
+        {% for element in subject.elements %}
+          <div class="col-lg-6 col-lg-offset-3  text-center">
+            {{ element }}
+          </div>
         {% endfor %}
       </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 text-center">
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </section>
