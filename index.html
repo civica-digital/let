@@ -6,6 +6,7 @@ lang: es
 {% assign t = site.data[page.lang].main_site %}
 {% assign menu = site.data.menu[page.lang] %}
 
+{% include snippets/banner.html content=t.banner%}
 {% assign title0 = menu[0].content %}
 {% include let/who.html menu_content=title0 who=t.who id='objetivos' size='4' size_container='6' size_offset='3'%}
 {% assign title1 = menu[1].content %}
