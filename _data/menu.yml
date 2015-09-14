@@ -6,7 +6,14 @@ es:
     link: "#metodologia"
 
   - content: Programas
-    link: "#programas"
+    link: "#"
+    sub:
+      - name: Todos
+        link: "#programas"
+      - name: Mecate
+        link: "/mecate"
+      - name: Sociedad de Emprendedores
+        link: "/sociedad"
 
   - content: Emprendimiento Público
     name: ¿Qué es el Emprendimiento Público?
