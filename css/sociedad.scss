@@ -172,3 +172,29 @@ section {
     margin-bottom: 40px;
   }
 }
+
+#inicio2015 {
+  background-image: url("/img/photos/mecate/main.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  margin-top: 65px;
+  height: auto;
+  h1 {
+    height: 100%;
+    color: $mecate-primary;
+    font-size: 80px;
+    vertical-align: bottom;
+    padding-top: 25%;
+  }
+}
+@media (min-width: 768px) {
+  header {
+      min-height: 0px;
+  }
+}
+
+#projects {
+  padding: 0px 0px;
+}

@@ -26,8 +26,41 @@ inicio:
 
 proj: Éstos son los 12 proyectos que resultaron después de 4 días de trabajo. Conócelos.
 projects:
-  - name:
-    description:
+  - name: Mavens
+    description: Max Liu de Estados Unidos y Sofía Fernández del Castillo de México diseñaron una plataforma de consultoría que pretende ayudar a pequeños empresarios para que reciban consultoría calificada de manera rápida y accesible.
+    img:
+  - name: TimeLayers
+    description: Aylin Yildirim Tschoepe de origen turco-alemán y Alberto Barradas originario de México desarrollaron una plataforma web móvil que busca apoyar la planeación de una ciudad y de la vida urbana desde una perspectiva que recuerda el pasado y mira hacia el futuro a través de entender la diversidad de los espacios que en ella convergen. TIMELAYERS contribuye al diseño de estrategias de planificación participativa incluyente, aumentando la sensibilidad por el patrimonio urbano y cultural mostrando la transformación urbana del espacio público a través del tiempo.
+    img:
+  - name: Puente Digital
+    description: José Molina de Guatemala, Mariana Santos y Antonio Petz, ambos de México, desarrollaron una plataforma de aprendizaje combinado para proporcionar habilidades digitales a las PYMEs y permitirles acceder a las herramientas que internet ofrece para aumentar su productividad utilizando la infraestructura ya existente.
+    img:
+  - name: Semillero
+    description: Semillero fue una propuesta presentada por Erika Contreras, Carlos Molina y Abril Sandoval, todos ellos mexicanos, la cual pretende generar una nueva herbolaria mexicana a través de la puesta en marcha de un Laboratorio de Innovación en Herbolaria donde se fusionen la tradición, ciencia e innovación en favor del desarrollo de nuevos productos herbolarios. Las ventas que se generen favorecerán el ingreso familiar de los productores.
+    img:
+  - name: Inc. Ability
+    description: Loria-Mae Heywood de Guyana Francesa y María Fernanda Galindo de México generaron una plataforma digital que crea un vínculo directo entre las personas con discapacidad visual y los empleadores, con el objetivo final de garantizar su inserción laboral y significativa al desarrollo social y económico de su entorno.
+    img:
+  - name: Robit
+    description: Diseñado por los mexicanos Ricardo Moncada y Miguel Pérez Xochicale, busca fomentar el interés en los niños por la programación y la robótica. Se trata de un robot de bajo costo que permite a los niños de cualquier contexto interactuar con la tecnología.
+    img:
+  - name: Nuco
+    description: Darienne Hunziker de Suiza-México, Sanju Soman de la India, y Linda Odhiambo de Kenya propusieron la creación de un centro de colaboración entre artesanos y artistas que, bajo un enfoque en cadenas de suministro transparente y sostenible, promueva la innovación y una nueva relación entre los productores y los consumidores de la moda.
+    img:
+  - name: Accord
+    description: Bruno Silva de Brasil, Jotte de Koning de Holanda, Santiago Siri de Argentina y Thomas Lengeling de México diseñaron una plataforma social que permite a personas en diferentes sectores de la sociedad tomar decisiones de manera efectiva a través de la delegación de votos.
+    img:
+  - name: Auxilio
+    description: Laura Talsma de Holanda y David Leal de México presentaron un dispositivo de rastreo accesible y camuflado (en la ropa) para situaciones de secuestro. Este dispositivo emite una señal de auxilio y permite el rastreo de la persona capturada ya sea por la familia, amigos u otros organismos de auxilio.
+    img:
+  - name: Soco
+    description: Lucy Antrobus de Reino Unido, Nada Rafik Wahba de Egipto y María Fernanda Galindo de México propusieron el desarrollo de una metodología para la composición de kits de herramientas ad hoc a necesidades específicas de mujeres en comunidades vulnerables para que, de manera autónoma, hagan frente a los desafíos locales y luego los compartan con otras mujeres.
+    img:
+  - name: GCCC
+    description: Kulwant Singh de la India, Nazanin Karimi de Irán y Mike Smith de Costa Rica generaron una plataforma de participación e involucramiento ciudadano con los diversos centros comunitarios de la Ciudad de México para inspirar, respaldar y fortalecer el desarrollo, la interacción, la capacitación, el intercambio y el aprendizaje entre los distintos actores sociales.
+    img:
+  - name: MaKernel
+    description: Rosanna López de Filipinas, David Bustos de México y Tomás de Camino de Chile presentaron un kit móvil que contiene todas las herramientas necesarias para que comunidades e individuos desarrollen proyectos tecnológicos para mejorar su entorno o su forma de vida. El kit contiene Brikos, impresoras 3D, arduinos, componentes electrónicos, y herramientas para madera y metal.
     img:
 
 meca: MECATEROS 2015
