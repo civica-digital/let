@@ -8,7 +8,7 @@ es:
   - content: Programas
     link: "#"
     sub:
-      - name: Todos
+      - name: Nuestros Programas
         link: "#programas"
       - name: Mecate
         link: "/mecate"
