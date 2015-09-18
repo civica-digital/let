@@ -198,8 +198,9 @@ section {
 #projects {
   padding: 0px 0px;
   .project {
+    min-height: 450px;
     img {
-      margin: 10px auto;
+      margin: 0px auto;
     }
   }
 }
