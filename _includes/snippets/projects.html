@@ -1,7 +1,7 @@
 {% for project in include.projects %}
-  <div class="col-lg-{{ include.size }} text-center">
+  <div class="col-lg-{{ include.size }} text-center project">
     <h2>{{ project.name }}</h2>
-    <img src="{{ project.img }}" class="img-responsive"/>
+    <img src="{{ project.img }}" class="img-responsive text-center"/>
     <p class="text-caption text-muted">{{ project.description }}</p>
   </div>
 
