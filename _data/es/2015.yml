@@ -65,12 +65,250 @@ projects:
 
 meca: MECATEROS 2015
 mecateros:
-  - name:
+  - name: Erika Contreras Licea
+    country: MÉXICO
+    bg: La Fundadora
     info:
+    - |
+     Erika is CEO and co-founder of La Fundadora, a social enterprise that commercializes adequate, reliable,
+     and affordable technology at the base of the pyramid. By doing so, La Fundadora aims to contribute to the
+     productive efforts of people living in poverty and enhance their resilience. She studied a Master’s Degree in
+     Political Science at the University of Toronto, Canada; and a Master’s Degree in Public Policy and Management at
+     the University of Melbourne, Australia. With more than 10 years of experience in the Mexican Federal Government,
+     serving in Secretariats such as Foreign Affairs, Finance and Social Development, she has a strong commitment to
+     building solid and effective public private partnerships that successfully deal with old social and economic problems.
+     Her hobbies are reading, sports and traveling, whenever and wherever possible.
+    img:
+  - name: Loria-Mae Heywood
+    country: GUYANA
+    bg: Unicef
+    info:
+    - |
+     Loria-Mae Heywood originates from Guyana – the only English-speaking country in South America! She is a
+     proud ambassador of her country and has a Bachelor’s Degree in International Relations from the University
+     of Guyana and a Master’s Degree in Development Studies from the Graduate Institute in Geneva.  Her versatility
+     extends from her ability to play five musical instruments, proficiency in three languages and agility in sports,
+     to her diverse work experience in national and international organisations stationed in Guyana and Switzerland.
+     She is nearing the completion of a consultancy with UNICEF-Guyana and has a history of working/interning with
+     the Guyana Revenue Authority, Canadian High Commission, International Organisation for the Least Developed Countries,
+     and the International Labour Organisation.  Her interest in MECATE stems from her belief that entrepreneurship and
+     innovation are engines of growth in any economy and that if nurtured, could facilitate the social and financial
+     inclusion of vulnerable groups. She is particularly interested in the use of microfinance and microinsurance to
+     stimulate entrepreneurial action and looks forward to exchanging ideas and working together with fellow game
+     changers towards the development and implementation of social impact proposals.
+    img:
+  - name: Bruno Silva
+    country: BRAZIL
+    bg: Amplify
+    info:
+    - |
+     Bruno Silva is an award-winning Portuguese Brazilian Product Designer. Currently he is earning his MFA in
+     Design for social Innovation at the School of Visual Arts in New York. His extensive design experience
+     includes global brand repositioning, TV series branding, environmental graphics, and all manner of print
+     and digital materials. Most recently, Bruno has been developing digital experiences for the classroom based
+     on the NGSS (Next Generation Science Standards). Bruno is passionate about technology and the role it can
+     play to affect social change. His works have been featured by many prominent design publications and
+     displayed at MOMA and the Cooper Hewitt Museum.
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
+    img:
+  - name:
+    country:
+    bg:
+    info:
+    - |
+
     img:
 
 gallery:
-  title:
+  title: GALERÍA
   pictures:
     - img:
       desc:
