@@ -1,11 +1,11 @@
 {% for mecatero in include.mecateros %}
   <div class="col-lg-{{ include.size }} text-center">
-    <h2>
-      {{ mecatero.name }} - {{ mecatero.country }} 
+    <!-- <h2>
+      {{ mecatero.name }} - {{ mecatero.country }}
       <br>
       <small>{{ mecatero.bg }}</small>
-    </h2>
-    <img src="{{ mecatero.img }}" class="img-responsive"/>
-    <p class="text-justify">{{ mecatero.info }}</p>
+    </h2> -->
+    <img src="{{ mecatero.img }}" class="img-responsive img-mecatero"/>
+    <!-- <p class="text-justify">{{ mecatero.info }}</p> -->
   </div>
 {% endfor %}
