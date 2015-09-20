@@ -1,11 +1,30 @@
 {% for mecatero in include.mecateros %}
-  <div class="col-lg-{{ include.size }} text-center">
-    <!-- <h2>
-      {{ mecatero.name }} - {{ mecatero.country }}
-      <br>
-      <small>{{ mecatero.bg }}</small>
-    </h2> -->
-    <img src="{{ mecatero.img }}" class="img-responsive img-mecatero"/>
-    <!-- <p class="text-justify">{{ mecatero.info }}</p> -->
+  <div class="col-sm-{{ include.size }} text-center">
+
+    <!-- Button trigger modal -->
+    <button type="button" class="img-btn" data-toggle="modal" data-target="#{{ mecatero.name | slugify }}">
+      <img src="{{ mecatero.img }}" class="img-responsive img-mecatero"/>
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="{{ mecatero.name | slugify }}" tabindex="-1" role="dialog" aria-labelledby="{{ mecatero.name | slugify }}Label">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h2 class="modal-title" id="{{ mecatero.name | slugify }}Label">{{ mecatero.name }} - {{ mecatero.country }}
+            <br>
+            <small>{{ mecatero.bg }}</small></h2>
+          </div>
+          <div class="modal-body">
+            <p class="text-justify">{{ mecatero.info }}</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 {% endfor %}
