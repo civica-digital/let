@@ -1,10 +1,24 @@
 {% for mecatero in include.mecateros %}
   <div class="col-sm-{{ include.size }} text-center">
 
+    <div class="cuadro">
+      <p class="img-btn">
+        <img src="{{ mecatero.img }}" class="img-responsive img-mecatero"/>
+      </p>
+      <div class="caption">
+        <div class="blur"></div>
+        <div class="caption-text">
+        <h4>{{ mecatero.name }}</h4>
+        <p>{{ mecatero.bg }}</p>
+        <button type="button" class="btn btn-small " data-toggle="modal" data-target="#{{ mecatero.name | slugify }}">
+          <span class="glyphicon glyphicon-plus">INFO</span>
+        </button>
+        </div>
+      </div>
+    </div>
+
     <!-- Button trigger modal -->
-    <button type="button" class="img-btn" data-toggle="modal" data-target="#{{ mecatero.name | slugify }}">
-      <img src="{{ mecatero.img }}" class="img-responsive img-mecatero"/>
-    </button>
+
 
     <!-- Modal -->
     <div class="modal fade" id="{{ mecatero.name | slugify }}" tabindex="-1" role="dialog" aria-labelledby="{{ mecatero.name | slugify }}Label">
