@@ -50,22 +50,27 @@ lang: es
 
 <section id="gallery" class="section-short">
   <div class="container">
+
     <div class="row">
-      <div class="col-lg-4 col-lg-offset-4  text-center">
-        <h2>{{ t.ref.title }}</h2>
+      <div class="col-lg-4 col-lg-offset-4 text-center">
+        <h2>{{ t.ref-title }}</h2>
       </div>
-    </div>
-    {% for subject in t.ref.subj %}
-      <div class="row">
-        <div class="col-lg-4 col-lg-offset-4  text-center">
-          <h2 class="mecate-text">{{ subject.title }}</h2>
+    </div><!-- /.row -->
+
+    <!-- Referencias en medios -->
+    <div class="row">
+
+      <div class="col-md-4 col-md-offset-4 text-center">
+        <h4>{{ t.publics.title }}</h4>
+      </div>
+
+      {% for pub in t.publics.elements %}
+        <div class="col-lg-4 col-lg-offset-4 text-center">
+          <h2 class="mecate-text"><a href="{{ pub.link }}">{{ pub.title }}</a><small>{{ pub.ref }}</small></h2>
         </div>
-        {% for element in subject.elements %}
-          <div class="col-lg-6 col-lg-offset-3  text-center">
-            {{ element }}
-          </div>
-        {% endfor %}
-      </div>
-    {% endfor %}
-  </div>
+      {% endfor %}
+      
+    </div><!-- /.row -->
+
+  </div><!-- /.container -->
 </section>
