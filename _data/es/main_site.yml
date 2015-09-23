@@ -39,7 +39,7 @@ how_content:
     offset: 7
 
   - title: "COLABORAMOS"
-    content: "Somos una comunidad que colabora. Compartimos conocimientos, experiencias y trabajamos con equipos transdisciplinarios. No funcionamos como mesas de trabajo ni hacemos networking. Hacemos amistades y trabajamos en serio en proyectos a largo plazo hasta hacer real el resultado esperado. Juntos.uscamos."
+    content: "Somos una comunidad que colabora. Compartimos conocimientos, experiencias y trabajamos con equipos transdisciplinarios. No funcionamos como mesas de trabajo ni hacemos networking. Hacemos amistades y trabajamos en serio en proyectos a largo plazo hasta hacer real el resultado esperado. Juntos."
     offset: 1
 
   - title: "EXPERIMENTAMOS"
@@ -97,3 +97,5 @@ banner:
   message: Ya está abierta la convocatoria para ser parte de la Sociedad de Emprendedores Públicos.
   button: Conoce las bases aquí.
   link: /sociedad/#convocatoria
+banner-closed:
+  message: La convocatoria de la Sociedad de Emprendedores Públicos se ha cerrado. El día 30 de septiembre se anunciarán los finalistas que continuarán a la segunda etapa. ¡Mucho éxito!
