@@ -2,7 +2,7 @@
   <div class="row">
     {% for target in include.elements %}
       {% if target.float == 'left' %}
-      <div class="col-lg-{{include.size}} col-md-6 text-{{ target.float }}">
+      <div class="col-lg-{{include.size}} col-md-6 text-{{ target.float }} height140">
         <div class="service-box">
           <div class="arrow">
             <i class="fa fa-3x wow bounceIn text-sociedad arrow">
@@ -16,7 +16,7 @@
       </div>
 
       {% else %}
-      <div class="col-lg-{{include.size}} col-md-6 text-{{ target.float }}">
+      <div class="col-lg-{{include.size}} col-md-6 text-{{ target.float }} height140">
         <div class="service-box">
           <div class="arrow-text">
             <p class="text-{{ target.float }} {% if target.color %} text-sociedad {% endif %}">{{ target.content }}</p>
