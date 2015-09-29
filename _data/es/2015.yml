@@ -309,11 +309,7 @@ mecateros:
 
 gallery:
   title: GALERÍA
-  pictures:
-    - img:
-      title:
-      desc:
-
+  
 ref-title: REFERENCIAS
 videos:
   - title: Videos

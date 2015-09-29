@@ -1,12 +1,5 @@
 {% for picture in include.pictures %}
-  <div class="col-md-{{ include.size }} text-center">
-    {% if picture.title %}
-    <h2>{{ picture.title }}</h2>
-    {% endif %}
+  <div class="col-sm-{{ include.size }} text-center no-padding">
     <img src="{{ picture.img }}" class="img-responsive"/>
-    {% if picture.desc %}
-    <p class="text-caption text-muted">{{ target.desc }}</p>
-    {% endif %}
-
   </div>
 {% endfor %}
