@@ -52,4 +52,33 @@ who:
 registry:
   title: Convocatoria
   content:
-    - "La convocatoria de la Sociedad de Emprendedores Públicos se ha cerrado. El día 30 de septiembre se anunciarán los finalistas que continuarán a la segunda etapa; y el 7 de octubre conoceremos a los 5 proyectos que formarán parte de la primera generación. ¡Mucho éxito!"
+    - "¡Muchas gracias a todos los emprendedores que han participado en nuestra convocatoria!"
+    - "Nos da mucho gusto saber que hay muchos proyectos de calidad que buscan transformar a México."
+    - "Después de conocer las 35 solicitudes, el Comité Evaluador determinó que éstos son los finalistas que pasarán a la etapa de entrevistas. ¡Muchas felicidades!"
+finalists:
+  - name: Jesús Rodríguez Coreño
+    firma: JOR SOLUTIONS
+    sector: Medio Ambiente
+  - name: Enrique González
+    firma: EATLIMMO
+    sector: Nutrición y Productividad
+  - name: Ernesto Rodriguez Leal
+    firma: AUKERA
+    sector: Salud
+  - name: Fermín Reygadas Robles Gil
+    firma: CÁNTARO AZUL
+    sector: Agua potable
+  - name: Mario Ramón Hernández López
+    firma: CINELANDIAMX
+    sector: Cultura
+  - name: Javier Armando Lozano Garza
+    firma: CLÍNICAS DEL AZÚCAR
+    sector: Salud
+  - name: Rubén Sánchez Tejeda
+    firma: RCI
+    sector: Telecomunicaciones y crecimiento incluyente
+  - name: Thomas Ricolfi
+    firma: TENOLI
+    sector: Crecimiento incluyente y productividad
+
+registry-final: "El día 6 de octubre anunciaremos a los 5 seleccionados como miembros de la primera generación de la Sociedad de Emprendedores Públicos de la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey. ¡Mucho éxito!"
