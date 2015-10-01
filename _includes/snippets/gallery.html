@@ -1,5 +1,5 @@
 {% for picture in include.pictures %}
   <div class="col-sm-{{ include.size }} text-center no-padding">
-    <img src="{{ picture.img }}" class="img-responsive"/>
+    <img src="/img/photos/mecate/{{ picture.link }}" alt="{{ picture.title }}" class="img-responsive"/>
   </div>
 {% endfor %}
