@@ -73,17 +73,20 @@ lang: es
 <section id="convocatoria" class="bg-sociedad">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-justify">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
         {% for content in t.registry.content %}
           <p>{{ content }}</p>
         {% endfor %}
       </div>
       <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2>{{ t.registry.fin }}</h2>
+        <br>
         {% for finalist in t.finalists %}
           <p><strong>{{ finalist.name }}</strong> - {{ finalist.firma }}: {{ finalist.sector }}</p>
         {% endfor %}
       </div>
-      <div class="col-lg-8 col-lg-offset-2 text-justify">
+      <hr>
+      <div class="col-lg-8 col-lg-offset-2 text-center">
           <p>{{ t.registry-final }}</p>
       </div>
     </div>

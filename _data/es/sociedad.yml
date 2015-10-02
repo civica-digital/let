@@ -55,10 +55,8 @@ registry:
     - "¡Muchas gracias a todos los emprendedores que han participado en nuestra convocatoria!"
     - "Nos da mucho gusto saber que hay muchos proyectos de calidad que buscan transformar a México."
     - "Después de conocer las 35 solicitudes, el Comité Evaluador determinó que éstos son los finalistas que pasarán a la etapa de entrevistas. ¡Muchas felicidades!"
+  fin: "FINALISTAS"
 finalists:
-  - name: Jesús Rodríguez Coreño
-    firma: JOR SOLUTIONS
-    sector: Medio Ambiente
   - name: Enrique González
     firma: EATLIMMO
     sector: Nutrición y Productividad
@@ -68,15 +66,27 @@ finalists:
   - name: Fermín Reygadas Robles Gil
     firma: CÁNTARO AZUL
     sector: Agua potable
-  - name: Mario Ramón Hernández López
-    firma: CINELANDIAMX
-    sector: Cultura
+  - name: Gabriela Rocha
+    firma: LABORATORIA
+    sector: Crecimiento incluyente
   - name: Javier Armando Lozano Garza
     firma: CLÍNICAS DEL AZÚCAR
     sector: Salud
+  - name: Jesús Rodríguez Coreño
+    firma: JOR SOLUTIONS
+    sector: Medio Ambiente
+  - name: Laura Espinosa Rentería
+    firma: DONATELA
+    sector: Medio Ambiente
+  - name: Mario Ramón Hernández López
+    firma: CINELANDIAMX
+    sector: Cultura
   - name: Rubén Sánchez Tejeda
     firma: RCI
     sector: Telecomunicaciones y crecimiento incluyente
+  - name: Sofía Cruz del Río
+    firma: MEXIKATEKATL
+    sector: Crecimiento incluyente
   - name: Thomas Ricolfi
     firma: TENOLI
     sector: Crecimiento incluyente y productividad
