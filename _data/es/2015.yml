@@ -506,31 +506,31 @@ videos:
   - title: Videos
 publics:
   - title: Publicaciones en Medios
-    elements:
-      - title: Juntan mentes y propuestas
-        ref: Reforma, 26 de junio
-        link: http://goo.gl/RPGEyp
-      - title: Sector público, nuevo mercado para emprendedores
-        ref: Expansión, 29 de junio
-        link: http://goo.gl/idERMO
-      - title: Mecate un proyecto de innovación y emprendimiento
-        ref: El Universal TV, 31 de julio
-        link: http://goo.gl/0oWDgr
-      - title: Innovación para hacer más productivo al Gobierno
-        ref: Excélsior, 2 de agosto
-        link: http://goo.gl/l7iNLq
-      - title: Mecate celebra primera edición de emprendimiento público
-        ref: El Empresario, 4 de agosto
-        link: http://goo.gl/iad3OH
-      - title: Reúne Tec a emprendedores públicos
-        ref: Reforma, 5 de agosto
-        link: http://goo.gl/Lq1yBb
-      - title: Unen con MECATE a emprendedores públicos
-        ref: Regio.com, 5 de agosto
-        link: http://goo.gl/J9vwAz
-      - title: Entrevista con Dr. Edgar Barroso
-        ref: Xponente (Grupo Imagen), 8 de agosto
-        link: http://xponente.mx/#/episodios/episodio-24
-      - title: ¿Qué es el Emprendimiento Püblico?
-        ref: Disruptivo Mx, 21 de septiembre 2015
-        link: http://bit.ly/MECATE
+pub-elements:
+  - title: Juntan mentes y propuestas
+    ref: Reforma, 26 de junio
+    link: http://goo.gl/RPGEyp
+  - title: Sector público, nuevo mercado para emprendedores
+    ref: Expansión, 29 de junio
+    link: http://goo.gl/idERMO
+  - title: Mecate un proyecto de innovación y emprendimiento
+    ref: El Universal TV, 31 de julio
+    link: http://goo.gl/0oWDgr
+  - title: Innovación para hacer más productivo al Gobierno
+    ref: Excélsior, 2 de agosto
+    link: http://goo.gl/l7iNLq
+  - title: Mecate celebra primera edición de emprendimiento público
+    ref: El Empresario, 4 de agosto
+    link: http://goo.gl/iad3OH
+  - title: Reúne Tec a emprendedores públicos
+    ref: Reforma, 5 de agosto
+    link: http://goo.gl/Lq1yBb
+  - title: Unen con MECATE a emprendedores públicos
+    ref: Regio.com, 5 de agosto
+    link: http://goo.gl/J9vwAz
+  - title: Entrevista con Dr. Edgar Barroso
+    ref: Xponente (Grupo Imagen), 8 de agosto
+    link: http://xponente.mx/#/episodios/episodio-24
+  - title: ¿Qué es el Emprendimiento Püblico?
+    ref: Disruptivo Mx, 21 de septiembre 2015
+    link: http://bit.ly/MECATE

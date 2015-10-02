@@ -64,9 +64,9 @@ lang: es
         <h4>{{ t.publics.title }}</h4>
       </div>
 
-      {% for pub in t.publics.elements %}
-        <div class="col-lg-4 col-lg-offset-4 text-center">
-          <h2 class="mecate-text"><a href="{{ pub.link }}">{{ pub.title }}</a><small>{{ pub.ref }}</small></h2>
+      {% for pub in t.pub-elements %}
+        <div class="col-lg-12 text-center">
+          <h3 class="mecate-text"><a href="{{ pub.link }}">{{ pub.title }}</a> <small>{{ pub.ref }}</small></h3>
         </div>
       {% endfor %}
 
