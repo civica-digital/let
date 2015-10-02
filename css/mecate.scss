@@ -137,6 +137,9 @@ section {
 }
 .mecate-text {
   color: $mecate-primary;
+  a {
+    color: $mecate-primary;
+  }
 }
 #first {
   padding: 55px;
