@@ -296,11 +296,16 @@ section {
   padding: 0px 0px;
 }
 .gallery {
-  position: relative;
-  float: left;
-  width:  100px;
-  height: 100px;
-  background-position: 50% 50%;
-  background-repeat:   no-repeat;
-  background-size:     cover;
+  a {
+    height: 150px;
+    overflow: hidden;
+    img {
+      position: relative;
+      width:  100%;
+      background-position: 50% 50%;
+      background-repeat:   no-repeat;
+      background-size:     cover;
+    }
+  }
+
 }
