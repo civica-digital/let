@@ -519,3 +519,12 @@ span.muted {
   display: inline-block;
   max-width: 70%;
 }
+.dashed-line {
+  stroke: rgba(255,255,255,0.5);
+  stroke-width: 4;
+  stroke-dasharray: 10;
+  stroke-linecap: round;
+}
+.main-line {
+
+}
