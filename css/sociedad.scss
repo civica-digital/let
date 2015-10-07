@@ -185,3 +185,21 @@ section {
   border-width: 2px;
   max-width: 100%;
 }
+.grayhr {
+  width: 100%;
+  color: $theme-gray;
+  border-color: $theme-gray;
+  border-width: 2px;
+  max-width: 100%;
+}
+#participantes {
+  p {
+    font-size: 16px;
+    a {
+      color:$sociedad-primary;
+    }
+  }
+  .grayhr:last-child{
+    display: none;
+  }
+}

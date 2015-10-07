@@ -70,25 +70,69 @@ lang: es
     </div>
   </div>
 </section>
-<section id="convocatoria" class="bg-sociedad">
+<section id="finalistas" class="bg-sociedad">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         {% for content in t.registry.content %}
           <p>{{ content }}</p>
         {% endfor %}
-      </div>
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <h2>{{ t.registry.fin }}</h2>
-        <br>
-        {% for finalist in t.finalists %}
-          <p><strong>{{ finalist.name }}</strong> - {{ finalist.firma }}: {{ finalist.sector }}</p>
-        {% endfor %}
-      </div>
-      <div class="col-lg-12 text-center">
       <hr class="whitehr">
-          <p>{{ t.registry-final }}</p>
       </div>
     </div>
   </div>
 </section>
+
+<section id="participantes">
+  <div class="container">
+    {% for group in t.part %}
+      <div class="row">
+        {% if group.side == "left" %}
+            <div class="col-lg-3 col-md-4">
+              <img src="{{ group.picture }}" class="img-responsive" alt="{{ group.names | slugify }}" />
+            </div> <!-- /.col-lg-3 -->
+            <div class="col-lg-9 col-md-8">
+              <div class="col-lg-3 col-md-4">
+                <img src="{{ group.logo }}" class="img-responsive" alt="logo" />
+              </div>
+              <h3>{{ group.names }}</h3>
+              <br>
+              <p>
+                {{ group.content }} <a href="{{ group.link }}">Conoce más.</a>
+              </p>
+            </div> <!-- /.col-lg-9 -->
+        {% elsif group.side == "right" %}
+        <div class="col-lg-9 col-md-8">
+          <div class="col-lg-3 col-md-4">
+            <img src="{{ group.logo }}" class="img-responsive" alt="logo" />
+          </div>
+          <h3>{{ group.names }}</h3>
+          <br>
+          <p>
+            {{ group.content }} <a href="{{ group.link }}">Conoce más.</a>
+          </p>
+        </div> <!-- /.col-lg-9 -->
+        <div class="col-lg-3 col-md-4">
+          <img src="{{ group.picture }}" class="img-responsive" alt="{{ group.names | slugify }}" />
+        </div> <!-- /.col-lg-3 -->
+
+        {% elsif group.side == "up" %}
+        <div class="col-lg-4 col-md-4">
+          <img src="{{ group.logo }}" class="img-responsive" alt="logo" />
+          <h3>{{ group.names }}</h3>
+        </div> <!-- /.col-lg-3 -->
+        <div class="col-lg-8 col-md-8">
+          <img src="{{ group.picture }}" class="img-responsive" alt="{{ group.names | slugify }}" />
+        </div> <!-- /.col-lg-9 -->
+        <div class="col-lg-12 col-md-12">
+          <p>
+            {{ group.content }} <a href="{{ group.link }}">Conoce más.</a>
+          </p>
+        </div> <!-- /.col-lg-12 -->
+
+        {% endif %}
+      </div> <!-- /.row -->
+      <hr class="grayhr">
+    {% endfor %}
+  </div> <!-- /.container -->
+</section> <!-- /#convocatoria -->
