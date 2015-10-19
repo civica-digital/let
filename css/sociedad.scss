@@ -2,6 +2,7 @@
 ---
 
 @import "variables";
+@import "mixins";
 
 .navbar-default .navbar-header .navbar-brand {
   color: $sociedad-primary;
@@ -121,7 +122,7 @@ section {
   right: 20px;
   p {
     font-size: 1.2em;
-    font-family: 'Merriweather';
+    @include sans-serif-font();
     font-weight: bold;
   }
 }
