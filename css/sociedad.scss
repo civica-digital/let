@@ -187,3 +187,11 @@ section {
   border-width: 2px;
   max-width: 100%;
 }
+#inicio {
+  .container {
+    .row:nth-child(3) {
+      position: relative;
+      bottom: 100px;
+    }
+  }
+}
