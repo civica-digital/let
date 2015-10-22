@@ -9,8 +9,8 @@
     </div>
   </div>
 </section>
-<section class="bg-primary">
-  <div class="containet bg-primary"
+<section class="bg-primary mehtods">
+  <div class="container bg-primary">
     {% for method in include.how_content %}
       {% if method.offset == 1 %}
       <div class="row">
@@ -23,18 +23,22 @@
           </p>
         </div>
         <div class="col-lg-1 text-center">
-          <svg height="210" width="500">
-            <line x1="0" y1="0" x2="200" y2="200" class="dashed-line main-line"/>
-          </svg>
+          <div class="drawing">
+            <svg height="210" width="210">
+              <line x1="0" y1="0" x2="200" y2="200" class="dashed-line main-line"/>
+            </svg>
+          </div>
         </div>
       </div>
 
       {% elsif method.offset == 7 %}
         <div class="row">
           <div class="col-lg-1 col-lg-offset-{{ method.offset - 2 }} text-center">
-            <svg height="210" width="500">
-              <line x1="0" y1="200" x2="200" y2="0" class="dashed-line main-line"/>
-            </svg>
+            <div class="drawing left-shift">
+              <svg height="210" width="210">
+                <line x1="0" y1="200" x2="200" y2="0" class="dashed-line main-line"/>
+              </svg>
+            </div>
           </div>
           <div class="col-lg-4 text-center">
             <h2 class="section-heading">

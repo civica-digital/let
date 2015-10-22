@@ -528,3 +528,36 @@ span.muted {
 .main-line {
 
 }
+.drawing {
+  svg {
+    position: absolute;
+    top: 100px;
+  }
+}
+.left-shift {
+  svg {
+    right: 36px;
+  }
+}
+
+.methods {
+  .container {
+    .row:last-child {
+      .text-center {
+        .drawing{
+          display: none;
+          svg {
+            display: none;
+            .dashed-line {
+              display: none;
+              stroke: rgba(255,255,255,0);
+              stroke-width: 4;
+              stroke-dasharray: 10;
+              stroke-linecap: round;
+            }
+          }
+        }
+      }
+    }
+  }
+}
