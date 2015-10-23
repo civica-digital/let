@@ -1,55 +1,92 @@
-who_content:
-  - "At the Tecnológico de Monterrey Graduate School of Government and Public Transformation, we believe that entrepreneurship is the way to trigger local, regional, and global development through the creation of platforms that lead to opportunities for better living conditions."
+who:
+  content:
+    - |
+     El <span class="text-primary">LABORATORIO DE EMPRENDIMIENTO Y TRANSFORMACIÓN (LET)</span>
+     es una <span class="muted">comunidad</span> activa y <span class="muted">transdisciplinaria</span>
+     que se enfoca en impactar la vida de las personas a través del desarrollo de iniciativas de
+     <span class="muted">emprendimiento público.</span>
+    - "En LET habilitamos ideas y las transformamos en soluciones innovadoras de alto impacto para implementarlas en sociedades y mercados con oportunidades en diversos sectores clave."
+  obj: "El LET tiene los siguientes objetivos:"
+  hist:
+    - content: LET es una iniciativa de la Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey. Nace el 16 de abril del 2015, con la visión de ser el hogar natural de todo emprendedor e innovador social, de México y el mundo, que está verdaderamente comprometido con generar impacto social.
+      img: img/portfolio/team1.png
+  target:
+    - content: Propiciar un ecosistema de emprendimiento dedicado a la transformación pública y contribuir en la construcción de una economía basada en innovación.
+      img: /img/icons/bulb.png
+    - content: Desarrollar iniciativas de alto impacto social que generen propiedad intelectual y transferencia de conocimiento, lideradas por la comunidad de la Escuela.
+      img: /img/icons/book.png
+    - content: Atraer al mejor talento a la Escuela, que incluye comunidad de emprendedores, pensadores académicos, desarrolladores y diseñadores.
+      img: /img/icons/collaborate.png
 
-  - Therefore, on April 2015 we created LET, the Laboratory of Entrepreneurship and Transformation in which students and teachers get guidance, support, platforms, services and connections to help them build and launch successful projects that impact the world.
+  modal:
+    content:
+      - "En el año 2013, después de una importante experiencia en el servicio público, el Dr. Alejandro Poiré fue nombrado Decano de la Escuela de Gobierno y Transformación Pública para darle una nueva visión: contribuir a solucionar los problemas más relevantes de nuestro entorno."
+      - "La idea esencial para lograrlo es que la Escuela de Gobierno sea el espacio donde todos los líderes transformadores, de cualquier ámbito, converjan en la construcción de mejores realidades. Pero más allá de ser los integradores de este ecosistema, la idea crucial fue detonar estas soluciones a través del emprendimiento y la innovación."
+      - "En la Escuela de Gobierno creemos que el emprendimiento es la vía para generar desarrollo local, regional e incluso global. Tenemos la capacidad de generar el conocimiento y formar el capital humano que producirán las propuestas para resolver los problemas más apremiantes que enfrentamos. Queremos que en nuestra Escuela se acerquen y nazcan los emprendedores públicos que desarrollarán las nuevas formas de hacer política, ciudadanía y transformarán la sociedad, a través de la innovación social y la ideación de nuevos modelos de negocio, de vinculación, de colaboración."
+      - "Después de conducir cambios sustanciales en los pilares académicos, educativos y de investigación, a finales del 2014 se concibió el diseño de otro pilar responsable de generar el impacto social deseado: la dirección en Emprendimiento Público"
+      - "Fue así como el Doctor Edgar Barroso, compositor, educador, consultor y emprendedor, especialista además en innovación y colaboración en el ámbito artístico y social, llegó a las filas de la Escuela. Junto con Glenda Michel, mercadóloga con experiencia en sector público y apasionada por el bien social, se propusieron la idea de un laboratorio para originar el emprendimiento público."
+      - "El 16 de abril del 2015, con nombre, imagen y financiamiento para operar, nació el Laboratorio de Emprendimiento y Transformación."
 
-  - "LET has the following objectives:"
-
-who_target:
-  - content: To foster an entrepreneurial ecosystem dedicated to public transformation and to contribute in the building of an innovation-based economy.
-    img: /img/icons/collaboration.png
-
-  - content: Develop initiatives that generate high social impact, intellectual property and knowledge transfer.
-    img: /img/icons/rocket.png
-
-  - content: Attract top talented groups and individuals to the Graduate School of Government, including a community of entrepreneurs, academics, thinkers, developers and designers.
-    img: /img/icons/book.png
+    name: conocemas
 
 how_content:
-  - "The LET community operates under a collaborative model that encourages transdisciplinary interaction with creative and innovative purposes. It believes that the effective union of diverse ideas, cultures, skills and disciplines of people with a common goal is a catalyst for productivity and innovation. It holds this as critical for the future of any country and organization."
+  - title: "APOSTAMOS EN LAS PERSONAS"
+    content: "Reclutamos a las personas más comprometidas y dispuestas a transformar vidas. La innovación y el emprendimiento no son obra de metodologías o espacios físicos, sino de las personas. No criticamos ni juzgamos las ideas de los emprendedores. Los ayudamos a construirlas y es también nuestra responsabilidad que generen el impacto social significativo que buscamos."
+    offset: 1
 
-  - "LET has a <strong>flexible</strong> and <strong>adaptable</strong> work philosophy."
+  - title: "HABILITAMOS"
+    content: "Ponemos a disposición de los emprendedores la mayor cantidad de recursos para que nada limite el potencial de sus iniciativas. Los facultamos para llevar a cabo investigación aplicada y en campo, los unimos con expertos en el área y con makers (diseñadores, programadores, ingenieros, etc.) para desarrollar sus prototipos y productos; los acompañamos en procesos de testeo y validación; los enlazamos con fuentes de financiamiento y generamos alianzas para su escalabilidad (con gobiernos y ONGs), entre otras cosas."
+    offset: 7
 
-  - "In LET, we encourage experimentation and even failure. To be bold and to think big is the prevailing mentality."
+  - title: "COLABORAMOS"
+    content: "Somos una comunidad que colabora. Compartimos conocimientos, experiencias y trabajamos con equipos transdisciplinarios. No funcionamos como mesas de trabajo ni hacemos networking. Hacemos amistades y trabajamos en serio en proyectos a largo plazo hasta hacer real el resultado esperado. Juntos.uscamos."
+    offset: 1
+
+  - title: "EXPERIMENTAMOS"
+    content: "Trabajamos con modelos flexibles y nos enfocamos en intentar y ejecutar, sin miedo a no conseguir el éxito a la primera. Sin embargo, anticipamos riesgos y manejamos el fracaso de una manera segura, cuidando los recursos."
+    offset: 7
+
+  - title: "DEMOSTRAMOS RESULTADOS"
+    content: "Nos enfocamos en proyectos de alto impacto que beneficien a la mayor cantidad de personas posible. Ideamos e implementamos estos proyectos y medimos su impacto. Nuestro trabajo se hace legítimo a través de los resultados, y son éstos los que nos dan a conocer."
+    offset: 1
 
 projects:
-  - title: "Public Entrepreneurship for<br/> Research Professors"
-    content: We contribute to the research projects of teachers in the School of Government and Public Transformation, developing tools for the analysis and dissemination of knowledge that, among other things, result in public enterprise.
-    img: /img/profesores.jpg
-    link:
+  - title: "Sociedad de Emprendedores<br/>Públicos"
+    content: Impulsamos el ecosistema de emprendedores e intraemprendedores públicos. Durante 8 meses los miembros reciben asesoría continua y apoyo para desarrollar prototipos y productos, ejecutar pilotos  y vincularse con fondos, socios o clientes para lanzar el proyecto al mercado.
+    img: /img/portfolio/emprendedor.png
+    link: /sociedad
 
-  - title: "Public Entrepreneurs<br/>Society"
-    content: "We cultivate the ecosystem of public entrepreneurs and intrapreneurs. During a year, students work with a community of mentors and makers to develop prototypes, products, research tools, among others. They receive guidance to execute pilot tests and carry on field experiments, and they’re linked with partners or clients to launch their projects to the market."
-    img: /img/sociedad-emprendedores.jpg
-    link:
-
-  - title: "MECATE<br/>International Public Entrepreneurship Program"
-    content: We bring together talented people and entrepreneurs from around the world so that, within a week, they generate ideas and develop projects aimed at social transformation.
-    img: /img/logos/mecate-prog.png
-    link: /mecate/en
+  - title: "MECATE - International Public Entrepreneurship Program"
+    content: Convocamos a personas talentosas y emprendedores del mundo para que, en el plazo de una semana, generen ideas y desarrollen proyectos encaminados a la transformación social.
+    img: /img/portfolio/teamMecate.png
+    link: /mecate
 
 contacts:
-  - name: Edgar Barroso Merino
-    title: Director
-    email: edgarbarroso@itesm.mx
-    photo: /img/perfil/eb.jpg
+  people:
+    - name: Edgar Barroso Merino
+      title: Director
+      photo: /img/perfil/ebarrosomcircle.png
+      offset: "col-lg-offset-3 col-md-offset-3 col-sm-offset-3"
 
-  - name: Glenda Michel Gutiérrez
-    title: Coordinator
-    email: glenda.michel@itesm.mx
-    photo: /img/perfil/gm.jpg
+    - name: Glenda Michel Gutiérrez
+      title: Coordinadora
+      photo: /img/perfil/gmmcircle.png
+      offset:
+  info:
+    phone: "+52 55 91 77 7708"
+    twitter: "@LETEmprende"
+    emails:
+        - "edgarbarroso@itesm.mx"
+        - "glenda.michel@itesm.mx"
 
 home:
   logo: /img/logos/let-logo-hor-white.png
-  content: "An active community focused on designing, building and implementing new solutions to transform people’s lives through social innovation and public entrepreneurship in key sectors."
-  button: Learn more
+  content: "Una comunidad activa enfocada en idear, construir e implementar nuevas soluciones que transformen la vida de las personas a través de innovación social y emprendimiento público en sectores clave."
+  button: Conoce más
+
+emp:
+  img: "/img/logos/let-iso-gray.png"
+  content:
+    - "￼Aquellas iniciativas de emprendedores e innovadores sociales que hacen del gobierno su aliado natural y que idealmente transforman la política pública, funcionando como palanca para que el gobierno actúe de una manera más eficiente y logre sus objetivos de desarrollo económico y social."
+    - "￼Los emprendedores públicos son personas con el conocimiento, energía, influencia y capacidad de explotar oportunidades para atender problemas sociales, que además promueven sus soluciones a los responsables de la política pública. Es decir, trabajan desde fuera del sistema gubernamental formal para introducir, traducir y poner en práctica ideas innovadoras en la práctica del sector público."
+    - "Buscan también iniciar un cambio dinámico en la política, educando a los públicos que votan sobre cómo participar para asegurar que las entidades y dirigentes públicos trabajen efectivamente por las condiciones de vida que la ciudadanía quiere y debe tener. El emprendimiento público vincula a servidores públicos, ciudadanos, asociaciones civiles, entre otros, para organizarse y co-crear soluciones a retos de gobierno."

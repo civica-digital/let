@@ -21,7 +21,10 @@ hr {
     border-width: 3px;
     max-width: 50px;
 }
-
+hr.wide {
+  max-width: 100%;
+  width:100%;
+}
 hr.light {
     border-color: white;
 }
@@ -64,7 +67,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 aside {
@@ -240,10 +243,11 @@ header {
 
 .section-heading {
     margin-top: 0;
+    text-transform: uppercase;
 }
 
 .service-box {
-    max-width: 400px;
+    max-width: 500px;
     margin: 50px auto 0;
     @media (min-width: 992px) {
         margin: 20px auto 0;
@@ -259,7 +263,7 @@ header {
 .portfolio-box {
     position: relative;
     display: block;
-    max-width: 650px;
+    // max-width: 650px;
     margin: 0 auto;
     .portfolio-box-caption {
         color: white;
@@ -273,8 +277,10 @@ header {
         height: 100%;
         @include transition-all();
         .portfolio-box-caption-content {
+          font-size: 1.5em;
+          text-align: justify;
+          padding: 0px 100px;
             width: 100%;
-            text-align: center;
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
@@ -394,11 +400,9 @@ i {
   margin-bottom: 30px;
 }
 
-
 .bg-grey {
   background-color: #F8F8F8;
 }
-
 
 #mainNav .container-fluid {
   min-height: 65px;
@@ -410,4 +414,150 @@ i {
 
 .mini {
   font-size: 10px !important;
+}
+.contact-circle {
+  max-width: 250px;
+}
+
+.text-caption {
+  text-align: justify;
+  font-style: italic;
+}
+.btn-logo {
+  color: $theme-primary;
+  background-color: rgba(255, 255, 255, 0);
+  text-transform: none;
+  :hover {
+    color: $theme-primary;
+  }
+  .btn-img {
+    max-height: 44px;
+    display: inline-block;
+  }
+}
+.icon-sized {
+  max-height: 50px;
+  display: inline-block;
+}
+.img-gray {
+  filter: gray();
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  :hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+  }
+}
+
+#emprendimiento {
+  background-image: url("/img/logos/let-iso-gray.png");
+  background-position: 100% 40%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.dashed {
+  border: 1px gray dashed;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+#metodologia {
+  padding:20px 0px;
+}
+.portfolio-box + h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+span.text-primary {
+  font-weight: bold;
+  color: $theme-primary;
+}
+span.muted {
+  font-weight: bold;
+  color: $theme-gray;
+}
+.info {
+  padding-top: 129px;
+}
+.modal-body p:last-child {
+  font-weight: bold;
+  color: $theme-primary;
+  text-align: center;
+}
+.container-wide {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  width: 100%;
+}
+.row-wide {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  width: 100%;
+  .col-wide {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    .service-box {
+      max-width: none;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+}
+.section-short {
+  padding: 10px 0;
+}
+.icon-emails {
+  display: inline-block;
+  max-width: 30%;
+  position: relative;
+  top: -15px;
+}
+.emails {
+  display: inline-block;
+  max-width: 70%;
+}
+.dashed-line {
+  stroke: rgba(255,255,255,0.5);
+  stroke-width: 4;
+  stroke-dasharray: 10;
+  stroke-linecap: round;
+}
+.main-line {
+
+}
+.drawing {
+  svg {
+    position: absolute;
+    top: 100px;
+  }
+}
+.left-shift {
+  svg {
+    right: 36px;
+  }
+}
+
+.methods {
+  .container {
+    .row:last-child {
+      .text-center {
+        .drawing{
+          display: none;
+          svg {
+            display: none;
+            .dashed-line {
+              display: none;
+              stroke: rgba(255,255,255,0);
+              stroke-width: 4;
+              stroke-dasharray: 10;
+              stroke-linecap: round;
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,0 +1,4 @@
+{% for target in include.elements %}
+  <img src="{{ target.img }}" class="img-responsive"/>
+  <p class="text-caption text-muted">{{ target.content }}</p>
+{% endfor %}

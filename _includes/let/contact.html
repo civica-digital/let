@@ -1,0 +1,39 @@
+<section class="bg-grey" id="contacto">
+  <div class="container">
+    <div class="row">
+      <hr class="wide">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ include.menu_content }}</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      {% for contact in include.contacts.people %}
+      <div class="col-lg-3 col-md-3 col-sm-3 text-center {% if contact.offset %} {{ contact.offset }} {% endif %}">
+        <div class="service-box">
+          <img class="img-responsive contact-circle img-circle center-block img-gray" src="{{ contact.photo }}" alt="" />
+          <h4>{{ contact.name }}</h4>
+          <p>{{ contact.title }}</p>
+          </div>
+      </div>
+      {% endfor %}
+      <div class="info col-lg-3 col-md-3 col-sm-3">
+          <img src="/img/icons/mail.png" class="img-responsive icon-sized icon-emails"/>
+          <div class="emails">
+            {% for email in include.contacts.info.emails %}
+            <a href="mailto:{{ email }}">{{ email }}</a>
+            {% endfor %}
+          </div>
+        <p>
+          <img src="/img/icons/phone.png" class="img-responsive icon-sized"/>
+          {{ include.contacts.info.phone }}
+        </p>
+        <p>
+          <img src="/img/icons/twitter.png" class="img-responsive icon-sized"/>
+          {{ include.contacts.info.twitter }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

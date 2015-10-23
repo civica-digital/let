@@ -1,0 +1,155 @@
+menu:
+  - content: Inicio
+    link: "/"
+
+  - content: Sociedad
+    link: "#inicio"
+
+  - content: ¿Cómo?
+    link: "#how"
+
+  - content: Finalistas
+    link: "#finalistas"
+
+  - content: Participantes
+    link: "#participantes"
+
+  # - content: English
+  #   link: "/sociedad/en"
+
+logo:
+  link: /img/logos/sociedad.png
+
+
+home:
+  description: La Sociedad de Emprendedores Públicos es el programa de LET que apoya a emprendedores con iniciativas de alto impacto público regional, nacional o global, con el fin de asegurar que transformen la mayor cantidad de vidas posible.
+  how:
+    msg: "¿Cómo apoyamos?"
+    list:
+      - content: Acompañamiento en la investigación de la problemática
+        color: primary
+        float: left
+      - content: Conexión con “makers” para desarrollo de prototipos y productos
+        color:
+        float: right
+      - content: Acompañamiento en ejecución de pilotos y validación
+        color:
+        float: left
+      - content: Guía y consultoría en la definición de la propuesta
+        color: primary
+        float: right
+      - content: Alianzas para la ejecución y operación del proyecto
+        color: primary
+        float: left
+      - content: Financiamiento y vínculo con fondos
+        color:
+        float: right
+    img: "/img/portfolio/semillero.png"
+obj:
+  content: Nuestro objetivo es catalizar el talento, creatividad y visión de los emprendedores para generar la innovación que el sector público necesita para dar respuesta a los problemas más relevantes.
+  img: "/img/portfolio/team2.png"
+plan:
+  content: Junto con los emprendedores públicos, definimos un plan de trabajo con metas específicas a alcanzar a los 8 meses que finaliza el programa. Éste concluye con la presentación de las iniciativas ante stakeholders, inversores y medios con el fin de consolidar alianzas y clientes, y una serie de “TED talks” donde presentan sus propuestas y relevancia en video.
+who:
+  content: La Sociedad de Emprendedores Públicos la conformarán aquellas personas dispuestas a entablar sinergias y construir una relación productiva con los gobiernos, para hacer de sus emprendimientos el motor de la transformación social, el vehículo para escalarlos y llegar a más mercados, más comunidades y más beneficiados.
+registry:
+  title: PRIMERA GENERACIÓN
+  content:
+    - "Estamos muy felices de compartir que después de conocer a emprendedores tan comprometidos y talentosos, no pudimos escoger sólo a 5 de ellos para conformar la primera generación, sino a 8."
+    - "Conoce a estos primeros miembros de la Sociedad de Emprendedores Públicos."
+    - "¡Estamos muy emocionados de empezar a transformar vidas junto a ellos!"
+finalists:
+  - name: Enrique González
+    firma: EATLIMMO
+    sector: Nutrición y Productividad
+  - name: Ernesto Rodriguez Leal
+    firma: AUKERA
+    sector: Salud
+  - name: Fermín Reygadas Robles Gil
+    firma: CÁNTARO AZUL
+    sector: Agua potable
+  - name: Gabriela Rocha
+    firma: LABORATORIA
+    sector: Crecimiento incluyente
+  - name: Javier Armando Lozano Garza
+    firma: CLÍNICAS DEL AZÚCAR
+    sector: Salud
+  - name: Jesús Rodríguez Coreño
+    firma: JOR SOLUTIONS
+    sector: Medio Ambiente
+  - name: Laura Espinosa Rentería
+    firma: DONATELA
+    sector: Medio Ambiente
+  - name: Mario Ramón Hernández López
+    firma: CINELANDIAMX
+    sector: Cultura
+  - name: Rubén Sánchez Tejeda
+    firma: RCI
+    sector: Telecomunicaciones y crecimiento incluyente
+  - name: Sofía Cruz del Río
+    firma: MEXIKATEKATL
+    sector: Crecimiento incluyente
+  - name: Thomas Ricolfi
+    firma: TENOLI
+    sector: Crecimiento incluyente y productividad
+
+part:
+  - picture: /img/photos/sociedad/participantes/AUKERA.jpg
+    side: left
+    logo: /img/photos/sociedad/logos/AUKERA.png
+    names: Ernesto Rodríguez Leal
+    link: "http://www.aukera.mx/"
+    content: |
+     AUKERA una plataforma en línea de innovación abierta y crowdfunding que ofrece diseños de prótesis, órtesis y exoesqueletos sin costo.
+     Los diseños, hechos por una comunidad mundial de hackers y diseñadores, pueden ser descargados de forma gratuita por cualquier usuario con sus instrucciones de fabricación.
+     Además la plataforma permite nominaciones para que cualquier persona con necesidad de una prótesis pueda ser postulada.
+  - picture: /img/photos/sociedad/participantes/CANTARO-AZUL.jpg
+    side: right
+    logo: /img/photos/sociedad/logos/CANTARO-AZUL.jpg
+    names: Fermín Reygadas y Bárbara Salazar
+    link: "http://cantaroazul.org/"
+    content: |
+     CÁNTARO AZUL existe para generar soluciones de agua segura para comunidades rurales.
+     A través de distintos programas integrales de higiene y saneamiento, busca el mejoramiento de la salud y calidad de vida de las personas. NuestrAgua Segura en Escuelas: Un programa fundamentado en la participación social, en un componente pedagógico para fomentar hábitos de consumo de agua, higiene y nutrición, y para sensibilizar en temas de agua y salud.
+  - picture: /img/photos/sociedad/participantes/CLINICAS-DEL-AZUCAR.jpg
+    side: left
+    logo: /img/photos/sociedad/logos/CLINICAS-DEL-AZUCAR.png
+    names: Javier Lozano Garza
+    link: "http://www.clinicasdelazucar.com/"
+    content: |
+     CLÍNICAS DEL AZÚCAR es un modelo revolucionario de "one-stop shops" que ofrece tratamiento de alta calidad, centrado en pacientes, y costo-efectivo para prevenir y tratar la diabetes. Por medio de procesos altamente innovadores, tecnología de la más alta calidad, y planes de pago y financiamiento sofisticados, crearon un modelo efectivo para brindar tratamiento especializado a personas de medios o bajos recursos.
+  - picture: /img/photos/sociedad/participantes/EATLIMMO.jpg
+    side: right
+    logo: /img/photos/sociedad/logos/EATLIMMO.png
+    names: Enrique González y Flavio Siller
+    link: "http://www.eatlimmo.com/"
+    content: |
+     EATLIMMO es una empresa que aprovecha las partes más nutritivas de las frutas, como las semillas y cáscaras, que normalmente se desperdician por no ser comestibles, y las transforman en ingredientes económicos, funcionales y de alto contenido nutritivo (más fibra y menos grasas saturadas y calorías). Así, los productores de alimentos (como panificadoras), pueden ofrecer productos con alto valor nutricional, mayor calidad, menor precio y mismo sabor.
+  - picture: /img/photos/sociedad/participantes/JOR-SOLUTIONS.png
+    side: left
+    logo: /img/photos/sociedad/logos/JOR-SOLUTIONS.jpg
+    names: Juan Pedro Gómez, Jesús Rodríguez y Rubén Velázquez
+    link: "http://www.jorsolutions.com.mx/"
+    content: |
+     JOR SOLUTIONS desarrolla cadenas de valor (extracción, procesamiento y transformación) para la generación de energía eléctrica limpia a través de biomasa, específicamente mediante el uso del lirio acuático. Esto permite la distribución de energía eléctrica a precios competitivos. generen y al mismo tiempo el saneamiento de cuencas hidrológicas.
+  - picture: /img/photos/sociedad/participantes/LABORATORIA.jpg
+    side: up
+    logo: /img/photos/sociedad/logos/LABORATORIA.png
+    names: Gabriela Rocha, Raphaelle Simunek, Macha Bertrand y Raziel Rocha
+    link: "http://laboratoria.la/"
+    content: |
+     LABORATORIA educa y capacita en desarrollo web y especialidades afines, a mujeres jóvenes con limitadas oportunidades de acceder a un empleo formal con el fin de mejorar su empleabilidad y facilitar su inserción laboral. Laboratoria no es solamente un programa de formación sino también de colocación laboral a través de alianzas con diversas empresas.
+  - picture: /img/photos/sociedad/participantes/MEXIKATEKATL.jpg
+    side: left
+    logo: /img/photos/sociedad/logos/MEXIKATEKATL.jpg
+    names: Sofía Cruz del Río
+    link: "http://www.mexikatekatl.mx/"
+    content: |
+     MEXIKATEKATL crea productos 100% artesanales de origen mexicano adaptados para que la industria hospitalaria genere las experiencias deseadas. Además de ser un vínculo entre artesanos y la industria para promover el consumo regional y avivar las tradiciones mexicanas, Sofía pretende revolucionar la forma de trabajo de los artesanos en el país, influir en políticas públicas que reconozcan a la industria artesanal y generar con el gobierno programas de apoyo más asertivos.
+  - picture: /img/photos/sociedad/participantes/TENOLI.jpg
+    side: right
+    logo: /img/photos/sociedad/logos/TENOLI.png
+    names: Thomas Ricolfi, Rodrigo Sánchez y Nicolas Carayon
+    link: "http://tenoli.org/"
+    content: |
+     TENOLI se enfoca en crear ecosistemas viables y favorables para el crecimiento de las tienditas de abarrotes a través de la introducción de centros de atención para los tenderos en comunidades marginadas. Ofrecen 3 pilares: capacitación y educación, equipos y recursos y diversificación del portafolio de productos.

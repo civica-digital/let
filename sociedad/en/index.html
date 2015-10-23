@@ -1,0 +1,96 @@
+---
+layout: sociedad
+lang: es
+---
+
+{% assign t = site.data[page.lang].sociedad %}
+<section id="inicio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2  text-center">
+        <img class="sociedad-logo" src="{{ t.logo.link }}" alt="logo" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h3 id="description">
+          {{ t.home.description }}
+        </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-5 col-lg-offset-7 col-md-6 col-md-offset-5 col-sm-6 co-sm-offset-5 text-justify" id="in-img">
+        <p> {{ t.obj.content }}</p>
+      </div>
+      <div class="col-lg-12">
+        <img src="{{ t.obj.img }}" alt="team" class="img-responsive">
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-5 text-justify">
+        <p>
+          {{ t.who.content }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="how" class="section-short">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="text-center text-sociedad content-header" >
+          {{ t.home.how.msg }}
+        </h2>
+      </div>
+      {% include snippets/arrow_desc.html elements=t.home.how.list size="6" %}
+    </div>
+  </div>
+</section>
+<section class="section-short">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="{{ t.home.how.img }}" alt="plan" class="img-responsive">
+      </div>
+      <div class="col-lg-6 text-justify">
+        <p id="origin">
+          {{ t.plan.content }}
+        </p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center content-header">
+        <h2>
+          {{ t.registry.title }}
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="convocatoria" class="bg-sociedad">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        {% for content in t.registry.content %}
+          <p>{{ content }}</p>
+        {% endfor %}
+        <ul class="text-left">
+          {% for req in t.registry.reqs %}
+            <li>{{ req }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <br>
+      <br>
+      <div class="col-lg-3 col-lg-offset-3 text-center">
+        <a target="_blank" href="/content/Convocatoria-sociedad.pdf" class="btn btn-primary">{{ t.registry.bases }}</a>
+      </div>
+      <div class="col-lg-3 text-center">
+        <a target="_blank" href="https://docs.google.com/forms/d/1BrSn02-J7aOA_i3WLu0jzEQpcy28qEwhYZO0qUggkBk/viewform?c=0&w=1" class="btn btn-primary">{{ t.registry.reg }}</a>
+      </div>
+    </div>
+  </div>
+</section>
