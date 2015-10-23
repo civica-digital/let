@@ -1,0 +1,536 @@
+menu:
+  - content: Inicio
+    link: "/"
+
+  - content: Mecate 2015
+    link: "#inicio2015"
+
+  - content: Proyectos
+    link: "#projects"
+
+  - content: Mecateros
+    link: "#mecateros"
+
+  - content: Galería
+    link: "#gallery"
+
+  - content: Referencias
+    link: "#reference"
+
+  # - content: English
+  #   link: "/mecate/en"
+
+inicio:
+  img: /img/photos/mecate/main.png
+  title: ￼Primera Generación
+
+proj: Éstos son los 12 proyectos que resultaron después de 4 días de trabajo. Conócelos.
+projects:
+  - name: Accord
+    description: Bruno Silva de Brasil, Jotte de Koning de Holanda, Santiago Siri de Argentina y Thomas Lengeling de México diseñaron una plataforma social que permite a personas en diferentes sectores de la sociedad tomar decisiones de manera efectiva a través de la delegación de votos.
+    img: /img/photos/mecate/projects/Accord.png
+  - name: Auxilio
+    description: Laura Talsma de Holanda y David Leal de México presentaron un dispositivo de rastreo accesible y camuflado (en la ropa) para situaciones de secuestro. Este dispositivo emite una señal de auxilio y permite el rastreo de la persona capturada ya sea por la familia, amigos u otros organismos de auxilio.
+    img: /img/photos/mecate/projects/Auxilio.png
+  - name: GCCC
+    description: Kulwant Singh de la India, Nazanin Karimi de Irán y Mike Smith de Costa Rica generaron una plataforma de participación e involucramiento ciudadano con los diversos centros comunitarios de la Ciudad de México para inspirar, respaldar y fortalecer el desarrollo, la interacción, la capacitación, el intercambio y el aprendizaje entre los distintos actores sociales.
+    img: /img/photos/mecate/projects/GCCC.png
+  - name: Inc. Ability
+    description: Loria-Mae Heywood de Guyana Francesa y María Fernanda Galindo de México generaron una plataforma digital que crea un vínculo directo entre las personas con discapacidad visual y los empleadores, con el objetivo final de garantizar su inserción laboral y significativa al desarrollo social y económico de su entorno.
+    img: /img/photos/mecate/projects/IncAbility.png
+  - name: MaKernel
+    description: Rosanna López de Filipinas, David Bustos de México y Tomás de Camino de Chile presentaron un kit móvil que contiene todas las herramientas necesarias para que comunidades e individuos desarrollen proyectos tecnológicos para mejorar su entorno o su forma de vida. El kit contiene Brikos, impresoras 3D, arduinos, componentes electrónicos, y herramientas para madera y metal.
+    img: /img/photos/mecate/projects/MaKernel.png
+  - name: Mavens
+    description: Max Liu de Estados Unidos y Sofía Fernández del Castillo de México diseñaron una plataforma de consultoría que pretende ayudar a pequeños empresarios para que reciban consultoría calificada de manera rápida y accesible.
+    img: /img/photos/mecate/projects/Mavens.png
+  - name: Nuco
+    description: Darienne Hunziker de Suiza-México, Sanju Soman de la India, y Linda Odhiambo de Kenya propusieron la creación de un centro de colaboración entre artesanos y artistas que, bajo un enfoque en cadenas de suministro transparente y sostenible, promueva la innovación y una nueva relación entre los productores y los consumidores de la moda.
+    img: /img/photos/mecate/projects/Nuco.png
+  - name: Puente Digital
+    description: José Molina de Guatemala, Mariana Santos y Antonio Petz, ambos de México, desarrollaron una plataforma de aprendizaje combinado para proporcionar habilidades digitales a las PYMEs y permitirles acceder a las herramientas que internet ofrece para aumentar su productividad utilizando la infraestructura ya existente.
+    img: /img/photos/mecate/projects/PuenteDigital.png
+  - name: Robit
+    description: Diseñado por los mexicanos Ricardo Moncada y Miguel Pérez Xochicale, busca fomentar el interés en los niños por la programación y la robótica. Se trata de un robot de bajo costo que permite a los niños de cualquier contexto interactuar con la tecnología.
+    img: /img/photos/mecate/projects/Robit.png
+  - name: Semillero
+    description: Semillero fue una propuesta presentada por Erika Contreras, Carlos Molina y Abril Sandoval, todos ellos mexicanos, la cual pretende generar una nueva herbolaria mexicana a través de la puesta en marcha de un Laboratorio de Innovación en Herbolaria donde se fusionen la tradición, ciencia e innovación en favor del desarrollo de nuevos productos herbolarios. Las ventas que se generen favorecerán el ingreso familiar de los productores.
+    img: /img/photos/mecate/projects/Semillero.png
+  - name: Soco
+    description: Lucy Antrobus de Reino Unido, Nada Rafik Wahba de Egipto y María Fernanda Galindo de México propusieron el desarrollo de una metodología para la composición de kits de herramientas ad hoc a necesidades específicas de mujeres en comunidades vulnerables para que, de manera autónoma, hagan frente a los desafíos locales y luego los compartan con otras mujeres.
+    img: /img/photos/mecate/projects/Soco.png
+  - name: TimeLayers
+    description: Aylin Yildirim Tschoepe de origen turco-alemán y Alberto Barradas originario de México desarrollaron una plataforma web móvil que busca apoyar la planeación de una ciudad y de la vida urbana desde una perspectiva que recuerda el pasado y mira hacia el futuro a través de entender la diversidad de los espacios que en ella convergen. TIMELAYERS contribuye al diseño de estrategias de planificación participativa incluyente, aumentando la sensibilidad por el patrimonio urbano y cultural mostrando la transformación urbana del espacio público a través del tiempo.
+    img: /img/photos/mecate/projects/TimeLayers.png
+
+meca: MECATEROS 2015
+mecateros:
+  - name: Erika Contreras Licea
+    country: MÉXICO
+    bg: La Fundadora
+    info:
+    - |
+     Erika is CEO and co-founder of La Fundadora, a social enterprise that commercializes adequate, reliable,
+     and affordable technology at the base of the pyramid. By doing so, La Fundadora aims to contribute to the
+     productive efforts of people living in poverty and enhance their resilience. She studied a Master’s Degree in
+     Political Science at the University of Toronto, Canada; and a Master’s Degree in Public Policy and Management at
+     the University of Melbourne, Australia. With more than 10 years of experience in the Mexican Federal Government,
+     serving in Secretariats such as Foreign Affairs, Finance and Social Development, she has a strong commitment to
+     building solid and effective public private partnerships that successfully deal with old social and economic problems.
+     Her hobbies are reading, sports and traveling, whenever and wherever possible.
+    img: /img/photos/mecate/mecateros/Erika-Contreras.jpg
+  - name: Loria-Mae Heywood
+    country: GUYANA
+    bg: Unicef
+    info:
+    - |
+     Loria-Mae Heywood originates from Guyana – the only English-speaking country in South America! She is a
+     proud ambassador of her country and has a Bachelor’s Degree in International Relations from the University
+     of Guyana and a Master’s Degree in Development Studies from the Graduate Institute in Geneva.  Her versatility
+     extends from her ability to play five musical instruments, proficiency in three languages and agility in sports,
+     to her diverse work experience in national and international organisations stationed in Guyana and Switzerland.
+     She is nearing the completion of a consultancy with UNICEF-Guyana and has a history of working/interning with
+     the Guyana Revenue Authority, Canadian High Commission, International Organisation for the Least Developed Countries,
+     and the International Labour Organisation.  Her interest in MECATE stems from her belief that entrepreneurship and
+     innovation are engines of growth in any economy and that if nurtured, could facilitate the social and financial
+     inclusion of vulnerable groups. She is particularly interested in the use of microfinance and microinsurance to
+     stimulate entrepreneurial action and looks forward to exchanging ideas and working together with fellow game
+     changers towards the development and implementation of social impact proposals.
+    img: /img/photos/mecate/mecateros/Loria-Mae-Heywood.jpg
+  - name: Bruno Silva
+    country: BRAZIL
+    bg: Amplify
+    info:
+    - |
+     Bruno Silva is an award-winning Portuguese Brazilian Product Designer. Currently he is earning his MFA in
+     Design for social Innovation at the School of Visual Arts in New York. His extensive design experience
+     includes global brand repositioning, TV series branding, environmental graphics, and all manner of print
+     and digital materials. Most recently, Bruno has been developing digital experiences for the classroom based
+     on the NGSS (Next Generation Science Standards). Bruno is passionate about technology and the role it can
+     play to affect social change. His works have been featured by many prominent design publications and
+     displayed at MOMA and the Cooper Hewitt Museum.
+    img: /img/photos/mecate/mecateros/Bruno-Silva.jpg
+  - name: Michael Smith-Masis
+    country: COSTA RICA
+    bg: Entre Nos Atelier, SAAI, Universidad Veritas
+    info:
+    - |
+     Michael graduated from Veritas School of Architecture (Hons) Costa Rica. Completed MSc in Sustainable Environmental Design at the Architectural Association School of Architecture in 2008 (Commendable), London U.K. Winner of several national and international awards such as CFIA Bienally, ALBAN scholarship for higher education (E.U.) and Archiprix international in (2007). He has worked with major architectural and urban design firms in Costa Rica. In 2009 co-founded SAAI an environmental consultancy firm with projects in Europe, Asia and America (www.saa-i.com). In 2010 co-founded Entre Nos Atelier, a social collective design workshop (www.entrenosatelier.net). In the academy teaches and research in Universidad Veritas, Universidad de Costa Rica and Tecnológico de Monterrey. Since 2013 is Director of Collective Design Atelier at Universidad Veritas. Some relevant publications of his work are Social Housing in Costa Rica’s Warm Humid climate (ISBN-10: 3838374932), Handbook for social and sustainable nursery design for Costa Rica and among several papers. His work has been presented worldwide in events and congress such as Venice biennale, Archiprix International, PLEA, Ecobuild, MOYA Annuale among others. His work seeks to underpin a humanistic social design agenda within community empowerment, environmental awareness, sustainability and hands-on experiences based on inclusive design processes mostly developed upon low-income environments.
+    img: /img/photos/mecate/mecateros/Michael-Smith.jpg
+  - name: Tomás de Camino Beck
+    country: CHILE
+    bg: Innovation and technology consultant
+    info:
+    - |
+     Chilean living in Costa Rica, Tomás is a mathematical Biologist and computer scientist. Currently works as an independent consultant in innovation and technology. Former director and founder of the Center for Research in Innovation at University Veritas, Dr. de Camino has worked as faculty at the Universidad de Costa Rica and the Instituto Tecnológico de Costa Rica. With a Ph.D. in mathematical biology from the University of Alberta, M.Sc. in computer science from the Instituto Tecnológico de Costa Rica, and a B.Sc. in Biological Sciences from Universidad de Costa Rica. He has published more than 20 scientific and technical papers in mathematical biology, computer science and sustainable management, and has participated in many scientific conferences, and a couple of TEDx. He also contributed to the Costa Rica´s national science, technology and innovation plan 2015-2021. He received the Lee Siegel award for his original publication mathematical biology publication in 2006. As a music producer, Tomás received training with Joe Chicarelli in the program Mix with the Masters, and has produced and engineered more than 50 albums in Costa Rica and Central America. He also created the first Costa Rican online record label. His interest go from arts to mathematics.
+    img: /img/photos/mecate/mecateros/Tomas-de-Camino.jpg
+  - name: Miguel Perez-Xochicale
+    country: MÉXICO
+    bg: LibrERobotics
+    info:
+    - |
+     Miguel Perez-Xochicale is currently a doctoral researcher at the University of Birmingham, where he is investigating the variability of human activities using a nonlinear dynamics approach. More generally, his research interest are in the field of Human Activity Recognition and Human-Robot Interaction. Before starting his PhD degree in the UK, he was an assistant professor in Mechatronics in four Universities in Puebla Mexico from 2006 to 2012, and a research assistant at the Robotics Laboratory in INAOE (Instituto Nacional de Astrofísica, Óptica y Electrónica) in 2013. Miguel Perez-Xochicale is originally from Xicohtzinco, Tlaxcala, Mexico where he received his basic education. In 2004 he received a B.Sc. degree in Electronics from Instituto Tecnológico de Puebla, Mexico, and then received his M. Sc. degree in Electronics from INAOE, Mexico in 2006.
+    img: /img/photos/mecate/mecateros/Miguel-Perez-Xochicale.jpg
+  - name: Thomas Sánchez
+    country: MÉXICO
+    bg: Código Generativo
+    info:
+    - |
+     Thomas is from Guanajuato, Mexico and currently is a graduate student at the MIT Media Lab. He is a visual artist, programmer and interactive designer. He incorporates his programming skills into a visual aesthetic context to create live visuals, interactive applications and live performances. His interest derives from his ambition to create seamless interactions between people and digital information, by giving awareness to the digital information of the surrounding environments, is possible to enhance human communication within the digital space. His visual work ranges from organically propagated systems to self-rhythm visuals with new technology. He also teaches workshops on creative coding and audio analysis using open source software and hardware. Furthermore, his creative work and interactive installations has been commissioned by festivals in Germany, Mexico, Italy and Portugal.
+    img: /img/photos/mecate/mecateros/Thomas-Sanchez.jpg
+  - name: Carlos Molina
+    country: MÉXICO
+    bg: Fraunhofer IGB, Stuttgart
+    info:
+    - |
+     Carlos is a Chemical Engineer from Mexico, residing in Germany. He finished his MBA in technology management and entrepreneurship on 2014, and currently is doing his MSc. in Biotechnolgy thesis at the Fraunhofer IGB in Stuttgart. Professionally, he had the opportunity to work on several research projects, most of them related to biotechnology. He is part of a pharmaceutical startup in Mexico, and since last year, an online professor of biotechnological entrepreneurship at the Autonomous University of Yucatan.
+     His main professional interest resides in the study and management on how the innovations from the health and life sciences fields can be implemented through entrepreneurial ventures, and ultimately improve the living conditions of the general population.  Accordingly, he is convinced that the cultural heritage and biodiversity of Mexico hold an enormous potential for low-tech and high-tech biotechnology, pharmaceutical and biomedical innovations. Innovations that with the right business model, might disrupt the Mexican public health services while improving the living conditions of some of the most vulnerable sectors of the Mexican society.
+     He is proud to be a “Mecatero” and be able to help the development of ideas to improve Mexico.
+    img: /img/photos/mecate/mecateros/Carlos-Molina.jpg
+  - name: Jotte De Koning
+    country: Holanda
+    bg: GetGreen Vietnam
+    info:
+    - |
+     For the past 10 years, she has been moving from one country to another, from one design challenge to another. She moved to Italy when she was 18 and back to the Netherlands a year later for her Bachelor’s degree Industrial Design Engineering. Studying design brought her back to Italy, Milan for half a year this time. Her Master’s degree Strategic Product design was kicked off in The Netherlands but she spent the summer on an urban design project in Russia. Soon, she left for an internship at a consultancy in Barcelona. She decided to cycle back to The Netherlands but somewhere halfway France she changed route for another internship in Germany, at the Volkswagen Service Innovation Team. Afterward, it was really time to graduate (and finally leave Europe). So, she graduated on a product innovation center for terra cotta in central Vietnam. Somehow, only one month after she graduated, she was back in Vietnam to conduct the first research for her PhD. Now, for almost 3 years, she has been working on design and sustainable consumption in urban Vietnam.
+    img: /img/photos/mecate/mecateros/Jotte-De-Koning.jpg
+  - name: Linda Odhiambo
+    country: KENYA
+    bg: Twentyfifty
+    info:
+    - |
+     Linda is an expert in social entrepreneurship and business development in both the private and non-profit sectors. Her specific focus is on women empowerment through advocacy for human rights and livelihood development. Her experience includes creating and developing practical approaches to poverty alleviation based on thorough problem analysis, assessments and engagements with stakeholders in order to implement corporate responsibility and sustainable development programmes that create mutual social benefit across multiple sectors.  She recognises the urgent need to create platforms for inclusion of all vulnerable groups when designing programmes and policies. Currently she is working on enterprise development training programmes that will be converted to Ebooks and ECourses. Prior to joining twentyfifty, Linda’s diverse consultancy experience includes conceptualising and managing projects with a range of international development organizations including Plan International, ADD International, Export Promotion Council Kenya, DFID, USAID and DANIDA, Terra Nuova East Africa and Kipenzi. Her versatile expertise also includes development of agriculture and trade in rural areas through mobilising small holders by taking into account the effects of complex value chains and creating access to technical and financial support for the development of income generating activities.
+     Linda is a Kenyan citizen and has lived and worked in Kenya until 2011. She is now based in England and travels frequently to Kenya. She is a Commonwealth Scholar specialising in policies for developing countries, sustainable development, human rights and NGO management. She holds an MSc in Social Policy: NGOs and Development from the London School of Economics and Political Science and a BA (Hons) in Industrial Design from The University of Nairobi – Kenya.
+    img: /img/photos/mecate/mecateros/Linda-Odhiambo.jpg
+  - name: Laura Talsma
+    country: Holanda
+    bg: The User’s Advocate
+    info:
+    - |
+     Laura is an impatient optimist – walking on the edge of technology, business, social science and design. Challenging the status quo with new systems, technology and products. Collaborating with pioneers of promising technology to succeed with the wisdom and insights of their future target market. While working in Indonesia, the idea originated to connect worlds – of different cultures, but also the makers of new products and their end users. The result of it: The User’s Advocate, a company that aims to create social enterprises that are engines of positive impact while creating a profit. Working with a global network of designers, engineers, inventors and end users – TUA has successfully brought user testing and insights into the R&D of both startups and large enterprises.
+     With experience in East and Southern Africa, Angola, Europe, Indonesia, India, South Korea, Colombia, Brazil, and North America, Laura’s boots are in the mud where new innovations are about to change the world.
+     Current topics are subject to new designs: What if providing sanitation services would become a profitable venture? What if everyone could process waste plastics into building materials? What if the use of clean fuel could be easier than charcoal?
+     Laura is an avid sailor, traveler, ice skater, hiker, happiest when joined by groups of free, inspiring thinkers from all over the world, or when challenged with a seemingly impossible, game changing business idea.
+    img: /img/photos/mecate/mecateros/Laura-Talsma.jpg
+  - name: Sofía Fernández del Castillo
+    country: MÉXICO
+    bg: México Conectado
+    info:
+    - |
+     Sofía ha desempeñado diversos cargos en el sector público que incluyen Directora General de Vinculación de la Secretaría de Comunicaciones y Transportes (SCT), en la Secretaría de Hacienda y Crédito Público (SHCP) como Secretaria Particular del Subsecretario de Egresos y en la Presidencia de la República en la Coordinación de Asesores de la Oficina de la Presidencia, así como en la Oficina de Agenda en la Secretaría Particular del Presidente de la República.
+     En 2011, Sofía impulsó el proyecto Perdóname México P(mx), reuniendo a más de 10,000 simpatizantes en las redes sociales. Antes de trabajar en el sector público, Sofía fundó Pinta la Vida, organización que trabaja en la recuperación de espacios públicos y el fortalecimiento del tejido social en zonas marginadas. Su gusto por el tema la llevó a realizar trabajos de investigación en la misma área en Kenia y Jamaica en 2010 y 2011, respectivamente.
+     De 2013 a la fecha, funge como asesora en la SCT para el diseño y ejecución de centros que buscan impulsar la innovación y el uso de las nuevas tecnologías para el desarrollo de habilidades digitales y el emprendimiento en zonas marginadas del país. Además, es asesora para la Presidencia del Consejo Consultivo de UNICEF México.
+     Sofía es licenciada en Economía por la Universidad Iberoamericana y cuenta con una maestría en Administración Pública de la Universidad de Columbia, con especialización en desarrollo económico. Adicionalmente, ha realizado diplomados en la Universidad de Harvard y en el Centro de Investigación y Docencia Económica (CIDE).
+    img: /img/photos/mecate/mecateros/Sofia-Fernandez-del-Castillo.jpg
+  - name: Santiago Siri
+    country: ARGENTINA
+    bg: DemocracyOS
+    info:
+    - |
+     Founder and president of DemocracyOS, a Y Combinator backed non-profit doing the largest global effort to deliver an open source solution to online voting. Founding peer of Partido de la Red (The Net Party), a political party that aims to improve representation with candidates committed to citizens requests online. An advocate for Bitcoin since 2011 helping startups, e-commerce sites and nonprofits to adopt it and a partner of Bitex.la, the largest Bitcoin exchange in Latin America. In 2007 founded Popego, a pioneering big data research lab acquired by Brazilian boo-box in 2011. Co-founded the Argentine Game Developers Association in 2001. Elected as Global Shaper by the World Economic Forum. Contributes in radio and television evangelizing about the virtues of technology. His first book 'Hacktivismo' was published in 2015 by Random House.
+    img: /img/photos/mecate/mecateros/Santiago-Siri.jpg
+  - name: Antonio Petz
+    country: MÉXICO
+    bg: Nunvav Inc
+    info:
+    - |
+     Antonio Petz from Monterrey, México has a graduate degree in Economics from ITESM and is currently pursuing a master's degree in Administration and Public Policy at the Graduate School of Government and Public Transformation. His interests include security and local development topics along with entrepreneurial activities. He has collaborated with the Inter-American Development Bank to compile an academic work related to public spending in Mexico, which is in the process of publication. Recently he has worked on several political campaigns in charge of the quantitative data analysis and the design, operation and analysis of electoral polls. At the moment, Antonio is working on a project to design a system for predictive analysis of crime which received government funding from CONACYT.
+    img: /img/photos/mecate/mecateros/Antonio-Petz.jpg
+  - name: Ricardo Moncada
+    country: MÉXICO
+    bg: Quanax Automotive, Consultant
+    info:
+    - |
+     Ricardo was born in Puebla and raised in Leon, Mexico.  He finished his studies in ITESM Campus Leon and obtained a Degree in Business specialized in Entrepreneurship.  As a professional, he wants to concentrate his career in entrepreneurship by helping other entrepreneurs to grow and better their chances to create a social and economic impact in my country.
+     He has been involved in more than 4 different startups since he finished his studies in Mexico.   He sees a great opportunity in helping and creating an environment full of the appropriate resources and needed by entrepreneurs.  Nowadays he is giving consultancy to projects like Vetelia, www.vetelia.com which is a startup that builds electric vehicles; and Alba Cycling, www.albacycling.com  were wooden bicycles are made by Mexican hands.  He also leds a startup named Quanax  Automotive that aims to build a car for disabled people in Guanajuato. https://www.youtube.com/watch?v=p_XhkUQWDnk.
+    img: /img/photos/mecate/mecateros/Ricardo-Moncada.jpg
+  - name: Rosanna Lopez
+    country: PHILIPPINES
+    bg: Sparkle Lab
+    info:
+    - |
+     Rossan has a BS Foreign Service by Georgetown University, an MFA Digital Art by Universidad Pompeu Fabra and a MA International Educational Development, Teachers College, Columbia University. She is a designer, researcher, technologist and educator, whose interests lie at the intersection of digital media and learning.
+     As a designer, Rosanna is passionate about innovation in user experience, games, and interactive design. She is also interested in designing new learning spaces, both physical and virtual, that support collaboration, peer-to-peer learning, inquiry, experimentation and youth-driven production.
+     As a researcher, Rosanna explores new trends in the fields of education and human-centered design, synthesizing this knowledge with cutting edge technologies that can inform the way we think about learning in the 21st century.
+     As a technologist and educator, Rosanna explores the ways by which mobile and web-based apps, geo-tagged data, social networks, physical computing and games may provide situated learning environments where learners are encouraged to tinker, experiment, problem solve, engage in iterative design and share their work within communities of practice and with the public at large.
+     Most of all, Rosanna loves working with children and communities, helping foster meaningful interactions within and between communities through people and technology. She also loves reading, snorkeling, and playing with her dogs.
+    img: /img/photos/mecate/mecateros/Rosanna-Lopez.jpg
+  - name: Sanju Soman
+    country: INDIA
+    bg: SARSAS
+    info:
+    - |
+     Sanju us a post Graduate student of Climate Change and Sustainability Studies at Tata Institute of Social Sciences, Mumbai. Founder and current working Secretary of ‘SAVE A RUPEE SPREAD A SMILE’ (SARSAS), which works in the areas of education, health and hygiene, nutrition and environment. Hobbies include travelling, photography, martial arts, cooking, reading, converting waste into art and looking out for new ideas. Proven track record of success, including have been involved with several organizations around India working on rain water harvesting projects, health care projects and Passive Solar housing. He acts as a dealer of eco-friendly and organic products and also do upcycling and recycling to promote eco-friendly life style. His goal is to enjoy a stress free life and give his best back to the society that helped him grow and evolve into the person he is today. He aims to bring sustainable changes across the world by helping people, communities and nations understand and adapt eco-friendly and sustainable practice. He wishes to educate children about sustainable living and instill eco-friendly habit in them.
+    img: /img/photos/mecate/mecateros/Sanju-Soman.jpg
+  - name: Nazanin Karimi
+    country: IRAN
+    bg: Kodakane
+    info:
+    - |
+     “I believe in humans, in empowerment and in art; my saviors.”
+     Nazanin has worked as the manager and consultant in some Iranian businesses and institutes after having earned her BS in Industrial Engineering and her MBA from Sharif University of Technology in Iran. However, her main interest was to change the life of children who live under poverty.  Nazanin had worked in NGOs to empower impoverished women and children through entrepreneurship in Iran and Africa.
+     She started her MPA in International Development at Harvard Kennedy School while received the scholarship from the World Bank. Nazanin wrote case studies in Kenya to get funding for youth entrepreneurship project in TechnoServe NGO which fights against poverty via business solutions. Her thesis focused on entrepreneurship policies for African non-profits and governments to reduce poverty.
+     Nazanin have taught and coached students at Harvard Kennedy School in leadership courses. Being founder in a few non-profits, in her startup “Kodakane” she teaches and mentors public entrepreneurs and empower activists to start and enhance their public work.
+     Besides, she enjoys free experimental painting by fingers and other materials using no traditional painting tools as brushes. She has held workshops on free painting for children and adults in deprived communities to enhance creativity and art.
+    img: /img/photos/mecate/mecateros/Nazanin-Karimi.jpg
+  - name: Aylin Tschoepe
+    country: GERMANY - TURKEY
+    bg: Harvard University
+    info:
+    - |
+     Dr. Aylin is an architect, anthropologist and instructor. She is originally from Germany, where she has worked as an architect on public and private projects. Interested in the social agency of architecture and the reciprocal relationship between people and places, she continued her academic career as a Fulbright Fellow at the Harvard GSD and received a degree as Doctor of Design in 2012. She has taught studios and seminars at introductory and advanced levels and held a visiting assistant professorship at the Architecture Department of the Wentworth Institute of Technology (2013-2014). Interested in innovative, sustainable and aesthetic solutions, she engages transdisciplinary theories and methods to satisfy the requirements of complex multilayered (social, cultural, political, economic) and multiscalar (local to global) issues that arise from reality today. To expand and deepen her transdisciplinary research and teaching, she studies in the PhD program in Anthropology and Middle Eastern Studies at Harvard University (2011-2017). She holds a TUBITAK/ EU Fellowship for her current research on labor migration, homescapes and hybrid identities. In her multimedia projects on the "urban palimpsest" she applies ethnography and visual analysis to capture and bring to life the memory of residents and neighborhoods, overwritten through urban transformation.
+    img: /img/photos/mecate/mecateros/Aylin-Tschoepe.jpg
+  - name: José Molina
+    country: MÉXICO
+    bg: HN Limited
+    info:
+    - |
+     Jose Molina is the Founder / CEO of HN Limited, a startup exploring sharing economy models based in the UK. In Latin America, he collaborates with the innovation firm Ideas for Change in the social innovation and smart city arena. Prior to HN, Jose was the Business Development Manager for Shell Foundation where he led the investment and scale up of social impact enterprises in the Energy and Mobility space.
+     Jose led the expansion of Envirofit (clean cookstoves) and D.Light (solar lights) in Latin America and Africa, co-designed mobility initiatives like Autowale (on-demand transport) in India and Rutas Optimo (bus-sharing for corporates) in Mexico.
+     He holds a BA from Tec de Monterrey, MSc in Operations Management by Nottingham University and Postgraduate in Sustainability from Cambridge
+    img: /img/photos/mecate/mecateros/Jose-Molina.jpg
+  - name: Darienne Hunziker
+    country: GERMANY
+    bg: Equality North West and Results UK
+    info:
+    - |
+     Dari was born in the late 80ies in Germany to a Mexican mother and a Belgium raised father, grew up in Mexico, Germany and Switzerland and studied international relations and later her MSc in Globalisation and Development in the UK.
+     Before studying she used to work as a spoken word poet and performance artist, which gave her the opportunity to experience various socio-economic issues and their impact on human development in a creative and economic spectrum. Having worked in such opposing fields she enjoys cross-fertilising knowledge, ideas and visions with people from all disciplines.
+     She has worked and volunteered in the last year as a campaign and group leader for Results UK, a creative lead for vulnerable homeless youth, fundraising and communications assistant for a charity dedicated to street children in Africa, and recently started as a media coordinator and researcher for an Organisation called Equality North West.
+     She has also been involved with Student Stop AIDS, Universities Allied for Essential Medicines, and Stop TTIP. Long story told short, she is interested in poverty, politics and poetry. Other than that she enjoys climbing, making music and going on adventures.
+    img: /img/photos/mecate/mecateros/Darienne-Hunziker.jpg
+  - name: Max Liu
+    country: USA
+    bg: Stanford University
+    info:
+    - |
+     Max is  currently a medical student at Stanford University in the US. He was born and raised in San Francisco and is of Chinese descent. He graduated from Duke University with a degree in Chemistry. During college, he had a chance to conduct research at Yale and New York University, and also studied abroad at Oxford for one year. After college, he took a gap year to work in a research lab at Oakland Children’s Hospital and also worked in Vietnam on different projects the summer before medical school. In medical school, he was a student representative to the Association of American Medical Colleges, managed Stanford’s Arbor Free Clinic, and taught a variety of courses for undergraduate and graduate students. In the future, he hopes to become an orthopedic surgeon and work towards developing access to surgical care in developing areas. He is extremely excited to participate in the MECATE program for the chance to learn public entrepreneurship skills and to meet engaged students from around the world with a strong interest in making a difference.
+    img: /img/photos/mecate/mecateros/Max-Liu.jpg
+  - name: Abril Sandoval
+    country: MÉXICO
+    bg: Mujeres del Pacífico
+    info:
+    - |
+     Abril is an entrepreneur, international business developer and Ayurvedic therapist.  She is a Mexican who arrived to Chile in 2011 to work as an International Trade Analyst for ProMéxico (Agency of the Ministry of Economy of Mexico in charge of promoting attraction of foreign direct investment and exports of goods and services). She also has experience in advertising especially in the regionalization strategies of global brands for Latin American markets like Mattel and Kellogg, working in agencies like Ogilvy & Mather and JWT. She has a B.A in Communication Sciences of the Universidad de las Américas Puebla and also specialized courses in Germany, France and India. Since last year she started her own entrepreneurship focus in the promotion of Chilean products in International Markets. Currently she is part of Mujeres del Pacífico, an organization based in Santiago de Chile who seeks to promote women entrepreneurship in the region.
+    img: /img/photos/mecate/mecateros/Abril-Sandoval.jpg
+  - name: David Leal
+    country: MÉXICO
+    bg: Aalto Design Factory
+    info:
+    - |
+     David is a Mexican, living in Espoo, Finland for the past 7 years. Holds a Master Degree in Space Science and Technology from both the University of Luleå and Helsinki University of Technology (Now Aalto University). At the momen, he is running the electronic prototyping facilities at Aalto Design Factory (adf.fi), a platform focusing on Innovation, co-creation and multidisciplinary education primarily in new product development working closely with industry partners including startups. He is also working towards finalizing his doctoral studies in distributed robotic fleet management taking into account energy constraints at the Automation and Systems Technology department of Aalto University school of Electrical Engineering. Concurrently, he has founded a startup company in space science and technology and enjoys working on “impossible projects” like creating a humanoid robot in 5 weeks, but also some relaxing activities such as fishing, playing golf and playing with his 1 year old son (and marveling at how he manages to learn such complex tasks like grasping, walking and figuring out life).
+    img: /img/photos/mecate/mecateros/David-Leal.jpg
+  - name: Lucy Antrobus
+    country: UNITED KINGDOM
+    bg: IMI plc
+    info:
+    - |
+     Lucy is a Project Manager at IMI plc focusing on international projects for customers in the energy sector. She has worked in 4 countries over the last 2 years and is currently based in Korea as part of IMI’s global leadership program.  Prior to moving to Korea, Lucy led worldwide projects based out of Switzerland, Belgium, and Mexico to improve processes, increase workforce motivation and strengthen international collaboration.
+     Whilst undertaking a fast-track Masters from Edinburgh University, focused on environmental and sustainable chemistry, Lucy completed a range of diverse work experiences.  These included working with ex political prisoners from Myanmar’s (Burma’s) military dictatorship, investigating political complexities of North Korea, and completing a year of renewable energy research as part of her intercalated degree from The University of Hong Kong – from which she co-authored a paper about solar cells in the American Chemical Society.
+     Lucy’s professional interests include energy and the environment, plus people empowerment and international communication. She speaks 3 languages and outside of work enjoys engaging in community projects, Latin dancing and photography. Lucy holds a Masters in Chemistry (MChem) from the University of Edinburgh.
+    img: /img/photos/mecate/mecateros/Lucy-Antrobus.jpg
+  - name: Mariana Santos
+    country: MÉXICO
+    bg: Graduate School of Government and Public Transformation
+    info:
+    - |
+     She is an avid believer that innovation and entrepreneurship are the building blocks for economic development in our generation. As a true millennial, she wishes to dedicate her knowledge and experience towards actions that benefit others, giving a true meaning to her own life. Her interest is especially in social innovation and public policy renovation.  Born and raised in Monterrey, Mexico, she appreciates the importance of the social development of the bottom of the pyramid. Academically, she studied Government at Georgetown University, focusing on decision-making and social psychology and got her master degree in Public Administration and Public Policy at the Graduate School of Government and Public Transformation. As for her professional experience, she works in the State Legislative branch, managing the Independent Legislative group´s operational budget and supervising social commitment budget allocation. Recognizing the importance of entrepreneurship in economic development, she founded The Dress Market, a dress rental store for weddings, proms and other events where she implemented a sharing profit model based on collaborative economy. She has contributed in distinct citizen based groups in the development of government-NGO collaboration plans. She wishes to participate, exchange ideas and learn from leaders around the world in order to revolutionize the way people think about government and citizen participation.
+    img: /img/photos/mecate/mecateros/Mariana-Santos.jpg
+  - name: Nada Rafik
+    country: EGYPT
+    bg: Madad
+    info:
+    - |
+     Graduating in 2010 with a degree in finance, it took her six months working as a financial analyst to realize that she wanted to do something more socially impactful.
+     Her passion for social change was sparked when she started volunteering in 2009, organizing character building camps for girls from an impoverished area in Egypt. A new level of excitement came with the 2011 revolution, which brought with it a utopian like Egypt for a short but memorable time. Even though this utopia was eventually brought to an end, many are still working to bring about social change believing in a bottom up approach.
+     Later, she volunteered with UN Women, working on a project tackling sexual harassment, specializing on market research, which brought her to the job she is most passionate about: Nada currently works in a startup company – Madad – which aims to be the first crowd funding platform for NGOs in Egypt connecting donors to sustainable development projects.
+     The startup scene is booming in Egypt and she believes it is one of the most powerful ways of bringing about change – “I can’t wait to start my MECATE experience and find out how the rest of the participants are approaching social impact!”
+    img: /img/photos/mecate/mecateros/Nada-Rafik.jpg
+
+gallery:
+  title: GALERÍA
+  photos:
+    - title:
+      link: "1opening/01.jpg"
+    - title:
+      link: "1opening/02.jpg"
+    - title:
+      link: "1opening/03.jpg"
+    - title:
+      link: "1opening/04.jpg"
+    - title:
+      link: "1opening/05.jpg"
+    - title:
+      link: "1opening/06.jpg"
+    - title:
+      link: "1opening/07.jpg"
+    - title:
+      link: "1opening/08.jpg"
+    - title:
+      link: "1opening/09.jpg"
+    - title:
+      link: "1opening/10.jpg"
+    - title:
+      link: "1opening/11.jpg"
+    - title:
+      link: "1opening/12.jpg"
+    - title:
+      link: "1opening/13.jpg"
+    - title:
+      link: "1opening/14.jpg"
+    - title:
+      link: "2tour/01.jpg"
+    - title:
+      link: "2tour/02.jpg"
+    - title:
+      link: "2tour/03.jpg"
+    - title:
+      link: "2tour/04.jpg"
+    - title:
+      link: "2tour/05.jpg"
+    - title:
+      link: "2tour/06.jpg"
+    - title:
+      link: "2tour/07.jpg"
+    - title:
+      link: "2tour/08.jpg"
+    - title:
+      link: "2tour/09.jpg"
+    - title:
+      link: "2tour/10.jpg"
+    - title:
+      link: "2tour/11.jpg"
+    - title:
+      link: "2tour/12.jpg"
+    - title:
+      link: "2tour/13.jpg"
+    - title:
+      link: "2tour/14.jpg"
+    - title:
+      link: "3working/01.jpg"
+    - title:
+      link: "3working/02.jpg"
+    - title:
+      link: "3working/03.jpg"
+    - title:
+      link: "3working/04.jpg"
+    - title:
+      link: "3working/05.jpg"
+    - title:
+      link: "3working/06.jpg"
+    - title:
+      link: "3working/07.jpg"
+    - title:
+      link: "3working/08.jpg"
+    - title:
+      link: "3working/09.jpg"
+    - title:
+      link: "3working/10.jpg"
+    - title:
+      link: "3working/11.jpg"
+    - title:
+      link: "3working/12.jpg"
+    - title:
+      link: "3working/13.jpg"
+    - title:
+      link: "3working/14.jpg"
+    - title:
+      link: "3working/15.jpg"
+    - title:
+      link: "3working/16.jpg"
+    - title:
+      link: "3working/17.jpg"
+    - title:
+      link: "3working/18.jpg"
+    - title:
+      link: "3working/19.jpg"
+    - title:
+      link: "3working/20.jpg"
+    - title:
+      link: "3working/21.jpg"
+    - title:
+      link: "3working/22.jpg"
+    - title:
+      link: "3working/23.jpg"
+    - title:
+      link: "3working/24.jpg"
+    - title:
+      link: "3working/25.jpg"
+    - title:
+      link: "3working/26.jpg"
+    - title:
+      link: "3working/27.jpg"
+    - title:
+      link: "3working/28.jpg"
+    - title:
+      link: "3working/29.jpg"
+    - title:
+      link: "3working/30.jpg"
+    - title:
+      link: "3working/31.jpg"
+    - title:
+      link: "3working/32.jpg"
+    - title:
+      link: "3working/33.jpg"
+    - title:
+      link: "3working/34.jpg"
+    - title:
+      link: "3working/35.jpg"
+    - title:
+      link: "3working/36.jpg"
+    - title:
+      link: "3working/37.jpg"
+    - title:
+      link: "3working/38.jpg"
+    - title:
+      link: "3working/39.jpg"
+    - title:
+      link: "3working/40.jpg"
+    - title:
+      link: "3working/41.jpg"
+    - title:
+      link: "3working/42.jpg"
+    - title:
+      link: "3working/43.jpg"
+    - title:
+      link: "3working/44.jpg"
+    - title:
+      link: "4mecatalks/01.jpg"
+    - title:
+      link: "4mecatalks/02.jpg"
+    - title:
+      link: "4mecatalks/03.jpg"
+    - title:
+      link: "4mecatalks/04.jpg"
+    - title:
+      link: "5demoDay/01.jpg"
+    - title:
+      link: "5demoDay/02.jpg"
+    - title:
+      link: "5demoDay/03.jpg"
+    - title:
+      link: "5demoDay/04.jpg"
+    - title:
+      link: "5demoDay/05.jpg"
+    - title:
+      link: "5demoDay/06.jpg"
+    - title:
+      link: "5demoDay/07.jpg"
+    - title:
+      link: "5demoDay/08.jpg"
+    - title:
+      link: "5demoDay/09.jpg"
+    - title:
+      link: "5demoDay/10.jpg"
+    - title:
+      link: "5demoDay/11.jpg"
+    - title:
+      link: "5demoDay/12.jpg"
+    - title:
+      link: "5demoDay/13.jpg"
+    - title:
+      link: "5demoDay/14.jpg"
+    - title:
+      link: "5demoDay/15.jpg"
+    - title:
+      link: "5demoDay/16.jpg"
+    - title:
+      link: "5demoDay/17.jpg"
+    - title:
+      link: "5demoDay/18.jpg"
+    - title:
+      link: "5demoDay/19.jpg"
+
+ref-title: REFERENCIAS
+videos:
+  - title: Videos
+publics:
+  - title: Publicaciones en Medios
+pub-elements:
+  - title: Juntan mentes y propuestas
+    ref: Reforma, 26 de junio
+    link: http://goo.gl/RPGEyp
+  - title: Sector público, nuevo mercado para emprendedores
+    ref: Expansión, 29 de junio
+    link: http://goo.gl/idERMO
+  - title: Mecate un proyecto de innovación y emprendimiento
+    ref: El Universal TV, 31 de julio
+    link: http://goo.gl/0oWDgr
+  - title: Innovación para hacer más productivo al Gobierno
+    ref: Excélsior, 2 de agosto
+    link: http://goo.gl/l7iNLq
+  - title: Mecate celebra primera edición de emprendimiento público
+    ref: El Empresario, 4 de agosto
+    link: http://goo.gl/iad3OH
+  - title: Reúne Tec a emprendedores públicos
+    ref: Reforma, 5 de agosto
+    link: http://goo.gl/Lq1yBb
+  - title: Unen con MECATE a emprendedores públicos
+    ref: Regio.com, 5 de agosto
+    link: http://goo.gl/J9vwAz
+  - title: Entrevista con Dr. Edgar Barroso
+    ref: Xponente (Grupo Imagen), 8 de agosto
+    link: http://xponente.mx/#/episodios/episodio-24
+  - title: ¿Qué es el Emprendimiento Püblico?
+    ref: Disruptivo Mx, 21 de septiembre 2015
+    link: http://bit.ly/MECATE

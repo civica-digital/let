@@ -1,7 +1,8 @@
 ---
-layout: page
-lang: en
+layout: mecate
+lang: es
 ---
+
 
 {% assign t = site.data[page.lang].mecate %}
 <section id="inicio">
@@ -24,18 +25,7 @@ lang: en
     </div>
   </div>
 </section>
-<section class="mecate-primary">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="{{ t.video }}" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="section-short bg-grey">
+<section class="section-short mecate-primary">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -46,16 +36,34 @@ lang: en
     </div>
   </div>
 </section>
-<section id="registro" class="section ">
+
+<section id="first" class="maker-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center maker-box text-justify">
+        <h2 class="text-center">
+          {{ t.first.title }}
+        </h2>
+        {% for text in t.first.text %}
+          <p>{{ text.content }} </p>
+        {% endfor %}
+        <div class="maker-btn">{{t.first.button}}</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 text-center">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mecate-primary section-short">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
-        <h2>
-          {{ t.registry.title }}
-        </h2>
-        {% for content in t.registry.content %}
-          <p class="text-muted">{{ content }} </p>
-        {% endfor %}
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="{{ t.video }}" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
   </div>

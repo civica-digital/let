@@ -1,0 +1,29 @@
+<!-- Button trigger modal -->
+<div class="text-right">
+  <button type="button" class="btn btn-lg btn-logo" data-toggle="modal" data-target="#{{ include.name }}">
+    Conoce m&aacute;s
+    <img class="img-responsive btn-img" src="/img/logos/let-iso.png" />
+  </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="{{ include.name }}" tabindex="-1" role="dialog" aria-labelledby="{{ include.name }}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">¿DE D&Oacute;NDE VIENE LET?</h4>
+      </div>
+      <div class="modal-body text-justify">
+        {% for content in include.modal.content %}
+        <p>
+          {{ content }}
+        </p>
+        {% endfor %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>

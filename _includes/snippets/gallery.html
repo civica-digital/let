@@ -1,0 +1,23 @@
+{% for picture in include.pictures %}
+  <div class="col-lg-3 col-md-4 col-xs-6 text-center no-padding gallery">
+    <button type="button" class="thumbnail" data-toggle="modal" data-target="#{{ picture.link | slugify }}">
+      <img src="/img/photos/mecate/{{ picture.link }}" alt="{{ picture.title }}" class="img-responsive"/>
+    </button>
+  </div>
+{% endfor %}
+
+{% for picture in include.pictures %}
+<!-- Modal -->
+<div class="modal fade" id="{{ picture.link | slugify }}" tabindex="-1" role="dialog" aria-labelledby="{{ picture.link | slugify }}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body text-justify">
+        <img src="/img/photos/mecate/{{ picture.link }}" alt="{{ picture.title }}" class="img-responsive"/>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

@@ -1,0 +1,41 @@
+{% for project in include.projects %}
+
+  <div class="col-md-{{ include.size }} text-center project">
+    <div class="cuadro-pj">
+        <img src="{{ project.img }}" class="img-responsive text-center"/>
+      <div class="caption">
+        <div class="blur"></div>
+        <div class="caption-text">
+        <h4>{{ project.name }}</h4>
+        <p>{{ mecatero.bg }}</p>
+        <button type="button" class="btn btn-small " data-toggle="modal" data-target="#{{ project.name | slugify }}">
+          <span class="glyphicon glyphicon-plus">INFO</span>
+        </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="{{ project.name | slugify }}" tabindex="-1" role="dialog" aria-labelledby="{{ project.name | slugify }}Label">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h2 class="modal-title" id="{{ project.name | slugify }}Label">{{ project.name }}</h2>
+          </div>
+          <div class="modal-body">
+            <p class="text-justify">{{ project.description }}</p>
+            <p></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endfor %}

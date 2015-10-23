@@ -1,12 +1,11 @@
 # Site settings
 title: Laboratorio de Emprendimiento y Transformación
-email: your-email@domain.com
 description: > #
   Una comunidad activa enfocada en idear, construir e implementar
   nuevas soluciones que transformen la vida de las personas a través de
   innovación social y emprendimiento público en sectores clave.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://let-emprendimientopublico.mx/" # the base hostname & protocol for your site
+url: "http://let.albertobarradas.me/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

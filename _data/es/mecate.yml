@@ -5,21 +5,24 @@ menu:
   - content: Mecate
     link: "#inicio"
 
-  - content: Registro
-    link: "#registro"
+  - content: Primera Generación
+    link: "#first"
 
-  - content: English
-    link: "/mecate/en"
+  - content: Galería
+    link: "#galery"
+
+  # - content: English
+  #   link: "/mecate/en"
 
 logo:
   link: /img/logos/mecate-color.png
 
-video: "https://www.youtube.com/embed/9EzDOHrVNyM"
+video: "https://www.youtube.com/embed/AovNZQhJXCI"
 
 home:
-  description: Diseñado por el Laboratorio de Emprendimiento y Transformación (LET) de la Escuela de Gobierno y Transformación Pública, Mecate es un programa internacional de emprendimiento público que convoca a estudiantes de posgrados de distintas universidades de México y del mundo, así como a ciudadanos y emprendedores excepcionales, para realizar propuestas con impacto social en México.
+  description: MECATE es el programa de carácter internacional de LET, que año con año busca unir a emprendedores de todas partes del mundo para que, en el transcurso de una semana, planteen soluciones en diversos ámbitos sociales.
   objectives:
-    msg: "Mecate será una plataforma para:"
+    msg: "MECATE es una plataforma para:"
     list:
       - content: Formar una red internacional permanente de colaboración transdisciplinaria.
         img: /img/icons/collaboration.png
@@ -31,14 +34,22 @@ home:
         img: /img/icons/search.png
 
       - content: Desarrollar propuestas innovadoras de impacto social que se implementen y validen en México.
-        img: /img/icons/bulb.png
+        img: /img/icons/bulb01.png
 
 origin:
   content: Mecate ‘mecatl’, viene del náhuatl, el idioma mexicano. Es una cuerda hecha de muchas fibras del maguey que sirve para sujetar y unir variados objetos. Así, en Mecate vinculamos y tejemos diversas ideas para fabricar soluciones.
+first:
+  title: PRIMERA GENERACIÓN
+  img: "/img/portfolio/makers.png"
+  text:
+    - content: Después de recibir 125 solicitudes de 35 países para ser parte de la primera generación de MECATE, dimos inicio a este programa basado, no en el uso de metodologías específicas, sino en el talento de los emprendedores y en la colaboración transdisciplinaria profunda.
+    - content: Artistas, diseñadores, emprendedores, politólogos, activistas, ambientalistas, arquitectos, ingenieros, entre otros muchos perfiles, conformaron el grupo de 30 “mecateros” que, apoyados por un equipo de 10 desarrolladores, generaron 12 propuestas a distintos retos públicos.
+    - content: Así, la primera generación de MECATE formó los primeros nodos de una red de amigos y colaboradores alrededor del mundo que perdurará para trabajar por el acceso a mejores condiciones de vida para las personas.
+  btn: ￼Conoce más la primera generación de MECATE y sus proyectos
+#
+# gallery:
+#   - img:
+#     title:
 
-registry:
-  title: Convocatoria cerrada
-  content:
-    - "Agradecemos tu interés de formar formar parte de este programa. La convocatoria cerró el 14 de junio."
-    - "Nos alegra anunciar que recibimos más de 110 aplicaciones de 35 países diferentes."
-    - "Los 30 participantes finales se darán a conocer el 29 de junio a más tardar. Le deseamos la mejor de la suerte a todos los candidatos."
+bg:
+  link: "/img/portfolio/mecate.png"
