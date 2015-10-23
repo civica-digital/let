@@ -112,6 +112,24 @@ section {
   background-repeat: no-repeat;
   background-size: 50%;
 }
+.mecate1-bg {
+  background-image: url("/img/portfolio/mecate1.png");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: 20%;
+  p {
+    font-size: 1.7em;
+  }
+}
+.mecate2-bg {
+  background-image: url("/img/portfolio/mecate2.png");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: 20%;
+  p {
+    font-size: 1.7em;
+  }
+}
 .mecatl-bg {
   background-image: url("/img/portfolio/mecatl.jpg");
   background-position: 0 0;
@@ -127,13 +145,20 @@ section {
 .mecatl-bg>.container {
   background-color: transparentize($mecate-primary, .5);
   color:black;
+  p {
+    font-size: 1.7em;
+  }
 }
 .maker-box {
   background-color: transparentize(white, .5);
 }
 .maker-btn {
   background-color: transparentize($mecate-primary, .4);
-  color:black;
+  border-radius: 5px;
+  a {
+    color:black;
+    font-size: 1.3em;
+  }
 }
 .mecate-text {
   color: $mecate-primary;

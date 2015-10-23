@@ -21,11 +21,23 @@ lang: es
           {{ t.home.objectives.msg }}
         </p>
       </div>
-      {% include snippets/icon_description.html elements=t.home.objectives.list size="3" %}
     </div>
   </div>
 </section>
-<section class="section-short mecate-primary">
+
+<section class="mecate1-bg">
+  <div class="container">
+    {% for target in t.home.objectives.list %}
+    <div class="row">
+      <div class="col-lg-4 col-md-6 {% if target.float == 'right' %} col-md-offset-6 col-lg-offset-8 {% endif%}">
+        <p class="text-{{ target.float }} {% if target.color %} text-sep {% endif %}">{{ target.content }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section-short mecate-primary mecatl-bg">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -47,11 +59,11 @@ lang: es
         {% for text in t.first.text %}
           <p>{{ text.content }} </p>
         {% endfor %}
-        <div class="maker-btn">{{t.first.button}}</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 text-center">
+        <div class="col-lg-6 col-md-6 col-lg-offset-6 col-md-offset-6 text-center">
+          <div class="maker-btn">
+            <a href="{{t.first.link}}">{{t.first.btn}}</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>

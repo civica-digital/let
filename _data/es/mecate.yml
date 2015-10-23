@@ -24,17 +24,14 @@ home:
   objectives:
     msg: "MECATE es una plataforma para:"
     list:
-      - content: Formar una red internacional permanente de colaboración transdisciplinaria.
-        img: /img/icons/collaboration.png
-
-      - content: Impulsar el intercambio de conocimiento y mejores prácticas en emprendimiento público.
-        img: /img/icons/rocket.png
-
-      - content: Identificar a emprendedores que transforman su comunidad.
-        img: /img/icons/search.png
-
-      - content: Desarrollar propuestas innovadoras de impacto social que se implementen y validen en México.
-        img: /img/icons/bulb01.png
+      - content: Formar una RED INTERNACIONAL permanente de colaboración transdisciplinaria.
+        float: left
+      - content: Desarrollar PROPUESTAS INNOVADORAS DE IMPACTO SOCIAL en México.
+        float: right
+      - content: Impulsar el INTERCAMBIO DE CONOCIMIENTO y mejores prácticas en emprendimiento público.
+        float: left
+      - content: IDENTIFICAR A EMPRENDEDORES que transforman su comunidad.
+        float: right
 
 origin:
   content: Mecate ‘mecatl’, viene del náhuatl, el idioma mexicano. Es una cuerda hecha de muchas fibras del maguey que sirve para sujetar y unir variados objetos. Así, en Mecate vinculamos y tejemos diversas ideas para fabricar soluciones.
@@ -46,6 +43,7 @@ first:
     - content: Artistas, diseñadores, emprendedores, politólogos, activistas, ambientalistas, arquitectos, ingenieros, entre otros muchos perfiles, conformaron el grupo de 30 “mecateros” que, apoyados por un equipo de 10 desarrolladores, generaron 12 propuestas a distintos retos públicos.
     - content: Así, la primera generación de MECATE formó los primeros nodos de una red de amigos y colaboradores alrededor del mundo que perdurará para trabajar por el acceso a mejores condiciones de vida para las personas.
   btn: ￼Conoce más la primera generación de MECATE y sus proyectos
+  link: /mecate/2015
 #
 # gallery:
 #   - img:
